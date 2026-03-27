@@ -4,7 +4,6 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const isProduction = process.env.NODE_ENV === "production";
-// console.log(`env = ${process.env.NODE_ENV}`);
 
 module.exports = {
   entry: "./src/js/main.js",
