@@ -8,9 +8,12 @@ import "./slider";
 import modals from "./modules/modals";
 import tabs from "./modules/tabs";
 import forms from "./modules/forms";
+import timer from "./modules/timer";
 
 window.addEventListener("DOMContentLoaded", () => {
   "use strict";
+
+  let deadline = "2026-04-09";
   modals();
   tabs(".glazing_slider", ".glazing_block", ".glazing_content", "active");
   tabs(
@@ -27,4 +30,5 @@ window.addEventListener("DOMContentLoaded", () => {
     "inline-block",
   );
   forms();
+  timer(".container1", deadline);
 });
