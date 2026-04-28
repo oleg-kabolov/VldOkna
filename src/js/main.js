@@ -8,24 +8,21 @@ import "./slider";
 import modals from "./modules/modals";
 import tabs from "./modules/tabs";
 import forms from "./modules/forms";
-<<<<<<< HEAD
+
 import timer from "./modules/timer";
-=======
+import gallery from "./modules/gallery";
+
 import changeModalState from "./modules/changeModalState";
-import validateFormData from "./modules/validateFormData";
->>>>>>> es-001
 
 window.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
-<<<<<<< HEAD
-  let deadline = "2026-04-09";
-=======
+  let deadline = "2026-04-18";
+
   let modalState = {};
 
   changeModalState(modalState);
 
->>>>>>> es-001
   modals();
   tabs(".glazing_slider", ".glazing_block", ".glazing_content", "active");
   tabs(
@@ -41,11 +38,10 @@ window.addEventListener("DOMContentLoaded", () => {
     "do_image_more",
     "inline-block",
   );
-<<<<<<< HEAD
+
   forms();
   timer(".container1", deadline);
-=======
-  validateFormData(modalState);
+
   forms(modalState);
->>>>>>> es-001
+  gallery();
 });
