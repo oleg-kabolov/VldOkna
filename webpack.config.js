@@ -76,13 +76,6 @@ module.exports = {
         },
       },
       {
-        test: /\.(css)$/i,
-        type: "asset/resource",
-        generator: {
-          filename: "assets/css/[name].[hash][ext]",
-        },
-      },
-      {
         test: /\.html$/i,
         loader: "html-loader",
       },
