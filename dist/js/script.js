@@ -1,6 +1,123 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/js/modules/forms.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/forms.js ***!
+  \*********************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.symbol.js */ "./node_modules/core-js/modules/es.symbol.js");
+/* harmony import */ var core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.symbol.description.js */ "./node_modules/core-js/modules/es.symbol.description.js");
+/* harmony import */ var core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_object_get_prototype_of_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.object.get-prototype-of.js */ "./node_modules/core-js/modules/es.object.get-prototype-of.js");
+/* harmony import */ var core_js_modules_es_object_get_prototype_of_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_prototype_of_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_object_set_prototype_of_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.object.set-prototype-of.js */ "./node_modules/core-js/modules/es.object.set-prototype-of.js");
+/* harmony import */ var core_js_modules_es_object_set_prototype_of_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_set_prototype_of_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_9__);
+function _regenerator() { /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */ var e, t, r = "function" == typeof Symbol ? Symbol : {}, n = r.iterator || "@@iterator", o = r.toStringTag || "@@toStringTag"; function i(r, n, o, i) { var c = n && n.prototype instanceof Generator ? n : Generator, u = Object.create(c.prototype); return _regeneratorDefine2(u, "_invoke", function (r, n, o) { var i, c, u, f = 0, p = o || [], y = !1, G = { p: 0, n: 0, v: e, a: d, f: d.bind(e, 4), d: function d(t, r) { return i = t, c = 0, u = e, G.n = r, a; } }; function d(r, n) { for (c = r, u = n, t = 0; !y && f && !o && t < p.length; t++) { var o, i = p[t], d = G.p, l = i[2]; r > 3 ? (o = l === n) && (u = i[(c = i[4]) ? 5 : (c = 3, 3)], i[4] = i[5] = e) : i[0] <= d && ((o = r < 2 && d < i[1]) ? (c = 0, G.v = n, G.n = i[1]) : d < l && (o = r < 3 || i[0] > n || n > l) && (i[4] = r, i[5] = n, G.n = l, c = 0)); } if (o || r > 1) return a; throw y = !0, n; } return function (o, p, l) { if (f > 1) throw TypeError("Generator is already running"); for (y && 1 === p && d(p, l), c = p, u = l; (t = c < 2 ? e : u) || !y;) { i || (c ? c < 3 ? (c > 1 && (G.n = -1), d(c, u)) : G.n = u : G.v = u); try { if (f = 2, i) { if (c || (o = "next"), t = i[o]) { if (!(t = t.call(i, u))) throw TypeError("iterator result is not an object"); if (!t.done) return t; u = t.value, c < 2 && (c = 0); } else 1 === c && (t = i.return) && t.call(i), c < 2 && (u = TypeError("The iterator does not provide a '" + o + "' method"), c = 1); i = e; } else if ((t = (y = G.n < 0) ? u : r.call(n, G)) !== a) break; } catch (t) { i = e, c = 1, u = t; } finally { f = 1; } } return { value: t, done: y }; }; }(r, o, i), !0), u; } var a = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} t = Object.getPrototypeOf; var c = [][n] ? t(t([][n]())) : (_regeneratorDefine2(t = {}, n, function () { return this; }), t), u = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(c); function f(e) { return Object.setPrototypeOf ? Object.setPrototypeOf(e, GeneratorFunctionPrototype) : (e.__proto__ = GeneratorFunctionPrototype, _regeneratorDefine2(e, o, "GeneratorFunction")), e.prototype = Object.create(u), e; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, _regeneratorDefine2(u, "constructor", GeneratorFunctionPrototype), _regeneratorDefine2(GeneratorFunctionPrototype, "constructor", GeneratorFunction), GeneratorFunction.displayName = "GeneratorFunction", _regeneratorDefine2(GeneratorFunctionPrototype, o, "GeneratorFunction"), _regeneratorDefine2(u), _regeneratorDefine2(u, o, "Generator"), _regeneratorDefine2(u, n, function () { return this; }), _regeneratorDefine2(u, "toString", function () { return "[object Generator]"; }), (_regenerator = function _regenerator() { return { w: i, m: f }; })(); }
+function _regeneratorDefine2(e, r, n, t) { var i = Object.defineProperty; try { i({}, "", {}); } catch (e) { i = 0; } _regeneratorDefine2 = function _regeneratorDefine(e, r, n, t) { function o(r, n) { _regeneratorDefine2(e, r, function (e) { return this._invoke(r, n, e); }); } r ? i ? i(e, r, { value: n, enumerable: !t, configurable: !t, writable: !t }) : e[r] = n : (o("next", 0), o("throw", 1), o("return", 2)); }, _regeneratorDefine2(e, r, n, t); }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+
+
+
+
+
+
+
+
+
+
+var forms = function forms() {
+  var form = document.querySelectorAll("form");
+  var input = document.querySelectorAll("input");
+  var phoneInputs = document.querySelectorAll('input[name="user_phone"]');
+  phoneInputs.forEach(function (item) {
+    item.addEventListener("input", function () {
+      item.value = item.value.replace(/\D/, "");
+    });
+  });
+  var message = {
+    loading: "Загрузка...",
+    success: "Спасибо! Скоро мы с вами свяжемся",
+    failure: "Что-то пошло не так..."
+  };
+  var postData = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator(/*#__PURE__*/_regenerator().m(function _callee(url, data) {
+      var jsonData, res;
+      return _regenerator().w(function (_context) {
+        while (1) switch (_context.n) {
+          case 0:
+            document.querySelector(".status").textContent = message.loading;
+            jsonData = {};
+            data.forEach(function (value, key) {
+              jsonData[key] = value;
+            });
+            _context.n = 1;
+            return fetch(url, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify(jsonData)
+            });
+          case 1:
+            res = _context.v;
+            _context.n = 2;
+            return res.text();
+          case 2:
+            return _context.a(2, _context.v);
+        }
+      }, _callee);
+    }));
+    return function postData(_x, _x2) {
+      return _ref.apply(this, arguments);
+    };
+  }();
+  var clearInputs = function clearInputs() {
+    input.forEach(function (item) {
+      item.value = "";
+    });
+  };
+  form.forEach(function (item) {
+    item.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var statusMessage = document.createElement("div");
+      statusMessage.classList.add("status");
+      item.appendChild(statusMessage);
+      var formData = new FormData(item);
+      postData("https://1b1f6eff2a76cf15.mokky.dev/inputs", formData).then(function (res) {
+        statusMessage.textContent = message.success;
+      }).catch(function () {
+        statusMessage.textContent = message.failure;
+      }).finally(function () {
+        clearInputs();
+        setTimeout(function () {
+          statusMessage.remove();
+        }, 5000);
+      });
+    });
+  });
+};
+/* harmony default export */ __webpack_exports__["default"] = (forms);
+
+/***/ }),
+
 /***/ "./src/js/modules/modals.js":
 /*!**********************************!*\
   !*** ./src/js/modules/modals.js ***!
@@ -17,25 +134,36 @@ __webpack_require__.r(__webpack_exports__);
 
 var modals = function modals() {
   function bindModal(triggerSelector, modalSelector, closeSelector) {
+    var closeClickOverlay = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : true;
     var trigger = document.querySelectorAll(triggerSelector);
     var modal = document.querySelector(modalSelector);
     var close = document.querySelector(closeSelector);
+    var windows = document.querySelectorAll("[data-modal]");
     trigger.forEach(function (item) {
       item.addEventListener("click", function (e) {
         if (e.target) {
           e.preventDefault();
         }
+        windows.forEach(function (item) {
+          item.style.display = "none";
+        });
         modal.style.display = "block";
         document.body.style.overflow = "hidden";
       });
     });
     close.addEventListener("click", function () {
+      windows.forEach(function (item) {
+        item.style.display = "none";
+      });
       modal.style.display = "none";
       document.body.style.overflow = "";
       document.body.classList.remove("modal-open");
     });
     modal.addEventListener("click", function (e) {
-      if (e.target === modal) {
+      if (e.target === modal && closeClickOverlay) {
+        windows.forEach(function (item) {
+          item.style.display = "none";
+        });
         modal.style.display = "none";
         document.body.style.overflow = "";
         document.body.classList.remove("modal-open");
@@ -50,6 +178,9 @@ var modals = function modals() {
   }
   bindModal(".popup_engineer_btn", ".popup_engineer", ".popup_engineer .popup_close");
   bindModal(".phone_link", ".popup", ".popup .popup_close");
+  bindModal(".popup_calc_btn", ".popup_calc", ".popup_calc_close");
+  bindModal(".popup_calc_button", ".popup_calc_profile", ".popup_calc_profile_close", false);
+  bindModal(".popup_calc_profile_button", ".popup_calc_end", ".popup_calc_end_close", false);
   showModalByTimer(".popup", 60000);
 };
 /* harmony default export */ __webpack_exports__["default"] = (modals);
@@ -77,6 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var tabs = function tabs(headerSelector, tabSelector, contentSelector, activeClass) {
+  var display = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : "block";
   var header = document.querySelector(headerSelector);
   var tab = document.querySelectorAll(tabSelector);
   var content = document.querySelectorAll(contentSelector);
@@ -90,7 +222,7 @@ var tabs = function tabs(headerSelector, tabSelector, contentSelector, activeCla
   }
   function showTabContent() {
     var i = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-    content[i].style.display = "block";
+    content[i].style.display = display;
     tab[i].classList.add(activeClass);
   }
   hideTabContent();
@@ -298,7 +430,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
 var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_9___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/*Fonts Family*/\n/*Colors*/\n/*Basic settings*/\nhtml {\n  /* overflow-x: hidden; */\n  font-size: 10px;\n}\n\nbody {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.status {\n  display: block;\n  color: red;\n}\n\na:hover {\n  text-decoration: none;\n}\n\na:focus,\nbutton:focus,\ninput:focus,\ntextarea:focus {\n  outline: none;\n}\n\n.no-padding {\n  padding: 0 !important;\n}\n\n.form {\n  /*margin-top: 2rem;*/\n  padding: 2rem 5rem;\n  text-align: center;\n  border-radius: 1rem;\n  background-color: #ffffff;\n}\n\n.form h2 {\n  margin-bottom: 3rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  line-height: 1.5;\n}\n\n.form h2 span {\n  font-size: 2.4rem;\n  text-transform: uppercase;\n}\n\n.form_input {\n  height: 5.8rem;\n  padding: 0;\n  margin-bottom: 2rem;\n  text-align: center;\n  border-radius: 1rem;\n  -moz-box-sizing: border-box;\n}\n\n.form_input::-webkit-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input::-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-ms-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:focus::-webkit-input-placeholder {\n  color: transparent;\n}\n\n.form_input:focus::-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-ms-input-placeholder {\n  color: transparent;\n}\n\n.form_notice {\n  margin-top: 1rem;\n  margin-bottom: 2rem;\n  font-size: 1.1rem;\n  color: #666;\n}\n\n.button {\n  padding: 2.5rem 0rem;\n  font-size: 1.7rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  border: 1px solid #ffc600;\n  border-radius: 1rem;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ffed26),\n    to(#ffb400)\n  );\n  background: linear-gradient(180deg, #ffed26 0%, #ffb400 100%);\n  -webkit-box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n  box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n}\n\n.button:hover {\n  cursor: pointer;\n}\n\n.section_header {\n  margin-bottom: 8rem;\n  text-align: center;\n  text-transform: uppercase;\n}\n\n.section_header h2 {\n  font-size: 3rem;\n  line-height: 1.4;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.section_header_sub {\n  margin-top: 2rem;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 17rem;\n  height: 0.2rem;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") 0 0 no-repeat;\n}\n\n.arrow {\n  position: absolute;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  transform: translateY(-50%);\n  z-index: 99;\n  width: 2rem;\n  height: 2rem;\n  border: none;\n}\n\n.prev {\n  left: 0;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") center no-repeat;\n  background-size: 70%;\n}\n\n.next {\n  right: 0;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") center no-repeat;\n  background-size: 70%;\n}\n\n/*Header*/\n.header {\n  height: 10rem;\n  background-color: #ffffff;\n  /*border: 1px solid red;*/\n}\n\n.header .logo {\n  height: 10rem;\n  display: table;\n}\n\n.header .logo_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .logo_img img {\n  margin-right: 2rem;\n}\n\n.header .logo p {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.2;\n  font-size: 1.4rem;\n  color: #0089cd;\n}\n\n.header_btn {\n  background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") 1rem center no-repeat;\n  padding: 1rem 1rem 1rem 5rem;\n  border: 2px solid #55a831;\n  border-radius: 1rem;\n  background-color: #ffffff;\n  font-size: 1.4rem;\n  line-height: 1.2;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #55a831;\n  /*p {\n\t\t\t\tdisplay: inline-block;\n\t\t\tvertical-align: top;\n\t\t\t\tfont-size: 1.4rem;\n\t\t\t\tline-height: 1.2;\n\t\t\t\t.bold();\n\t\t\t\tcolor: @green;\n\t\t\t}*/\n}\n\n.header_btn_wrap {\n  display: table;\n  width: 100%;\n  height: 10rem;\n}\n\n.header_btn_wrap_block {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header_btn_wrap_block img {\n  margin-right: 0.7rem;\n}\n\n.header_btn:hover {\n  cursor: pointer;\n}\n\n.header .working_hours {\n  height: 10rem;\n  display: table;\n  /*text-align: right;*/\n}\n\n.header .working_hours_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .working_hours_img img {\n  margin-right: 2rem;\n}\n\n.header .working_hours p {\n  display: table-cell;\n  vertical-align: middle;\n  font-size: 1.4rem;\n  color: #333333;\n}\n\n.header .working_hours p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  font-size: 1.8rem;\n}\n\n.header .contact_us {\n  height: 10rem;\n  display: table;\n  text-align: right;\n}\n\n.header .contact_us_wrap {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.7;\n}\n\n.header .contact_us_wrap a {\n  display: block;\n  font-size: 2.3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  /*border: 1px solid blue;*/\n}\n\n.header .contact_us_wrap a img {\n  margin-right: 1rem;\n}\n\n.header .contact_us_wrap .phone_link {\n  font-size: 1.5rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Main*/\n.main {\n  padding: 10rem 0;\n  background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") 0 0 no-repeat;\n}\n\n.main h1 {\n  margin: 0;\n  /*margin-top: -4rem;*/\n  font-size: 5.5rem;\n  line-height: 1.5;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.main h1 span {\n  font-size: 2.6rem;\n}\n\n.main_features {\n  padding: 0;\n  margin-top: 13rem;\n}\n\n.main_features_block {\n  text-align: center;\n}\n\n.main_features_block .small_img {\n  margin-top: 1rem;\n}\n\n.main_features_block p {\n  margin-top: -6rem;\n  font-size: 1.3rem;\n  line-height: 1.3;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffffff;\n}\n\n.main_form {\n  margin-top: 2rem;\n}\n\n/*glazing*/\n.glazing {\n  padding: 8rem 0;\n}\n\n.glazing_block {\n  display: inline-block;\n}\n\n.glazing_block img {\n  display: block;\n  margin: 0 auto;\n  margin-bottom: 2rem;\n}\n\n.glazing_block a {\n  font-size: 1.8rem;\n  font-weight: 600;\n  text-decoration: underline;\n  /*&:focus {\n\t\t\t\ttext-decoration: none;\n\t\t\t\tcolor: #454545;\n\t\t\t}*/\n}\n\n.glazing_block a:hover {\n  cursor: pointer;\n}\n\n.glazing_cold {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-left-radius: 5px;\n  border-top-left-radius: 5px;\n  border-top: 0.5rem solid #0089cd;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#c7dce9),\n    color-stop(0%, #c7dce9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #c7dce9 0%,\n    #c7dce9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_cold h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.glazing_warm {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-right-radius: 5px;\n  border-top-right-radius: 5px;\n  border-top: 0.5rem solid #ffb903;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#f7eac9),\n    color-stop(0%, #f7eac9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #f7eac9 0%,\n    #f7eac9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_warm h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffb903;\n}\n\n.glazing ul {\n  margin-top: 3.7rem;\n  padding: 0 6rem;\n  font-size: 1.4rem;\n  font-weight: 400;\n  list-style: none;\n  line-height: 2.1;\n  text-align: left;\n}\n\n.glazing ul li:before {\n  content: \"\";\n  display: inline-block;\n  margin-right: 1.7rem;\n  width: 2.5rem;\n  height: 2.5rem;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ") no-repeat center;\n  background-size: 100%;\n  vertical-align: middle;\n}\n\n.glazing_price {\n  padding: 0 6rem;\n}\n\n.glazing_price p {\n  display: inline-block;\n  margin-right: 3rem;\n  vertical-align: middle;\n  font-size: 2rem;\n  line-height: 1.7;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n}\n\n.glazing_price p span {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.glazing_price_btn {\n  padding: 2rem 2rem;\n}\n\n.glazing .aluminum,\n.glazing .plastic,\n.glazing .french,\n.glazing .rise {\n  display: none;\n}\n\n.glazing a.active {\n  text-decoration: none;\n  color: #454545;\n}\n\n/*Decoration*/\n.decoration {\n  padding: 8rem 0;\n  background-color: #f7f7f7;\n}\n\n.decoration_item {\n  text-align: center;\n}\n\n.decoration_item a {\n  font-size: 2rem;\n  font-weight: 600;\n  color: #000000;\n  text-transform: uppercase;\n  border-bottom: 1px dotted #000000;\n}\n\n.decoration_item a:hover {\n  cursor: pointer;\n}\n\n.decoration_item a:focus {\n  border: none;\n  text-decoration: none;\n  color: #0089cd;\n  /*border-top: 1rem solid @blue;\n\t\t\t\theight: 8rem;\n\t\t\t\tpadding: 2rem 1rem;\n\t\t\t\tbackground: -webkit-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -moz-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -o-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -ms-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);*/\n}\n\n.decoration_item .no_click {\n  /*border: 1px solid red;*/\n  height: 8rem;\n  padding: 2rem 0;\n  border-top: 1rem solid #f7f7f7;\n}\n\n.decoration_item .after_click {\n  border-top: 1rem solid #0089cd;\n  height: 8rem;\n  padding: 2rem 0;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ebebeb),\n    color-stop(0%, #ebebeb),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #ebebeb 0%,\n    #ebebeb 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.decoration_content {\n  margin-top: 8rem;\n}\n\n.decoration_content_material img {\n  margin-top: 2.5rem;\n}\n\n.decoration_content_material h3 {\n  font-size: 1.4rem;\n  font-weight: 600;\n  line-height: 1.4;\n  min-height: 4rem;\n}\n\n.decoration_content_material p {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #0089cd;\n}\n\n.decoration_content_material p span {\n  display: block;\n  font-size: 1.2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.decoration .external,\n.decoration .rising,\n.decoration .roof {\n  display: none;\n}\n\n/*Our works*/\n.works {\n  padding: 5rem 0;\n}\n\n.works img {\n  margin-bottom: 3rem;\n}\n\n.works a[data-fancybox=\"gallery\"] .lupa {\n  /* position: ; */\n  top: 0;\n  left: 0;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  top: 40%;\n  opacity: 0;\n  -webkit-transition: ease 0.2s;\n  transition: ease 0.2s;\n}\n\n.works a[data-fancybox=\"gallery\"]:hover .lupa {\n  opacity: 1;\n}\n\n/*Guarantees*/\n.guarantees {\n  padding: 6rem 0 1rem;\n  background-color: #0089cd;\n}\n\n.guarantees_header h2 {\n  color: #ffffff;\n}\n\n.guarantees_header_sub {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ") 0 0 no-repeat;\n}\n\n.guarantees h3 {\n  margin-top: 3rem;\n  margin-bottom: 8rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  line-height: 1.4;\n  color: #ffffff;\n}\n\n.guarantees img {\n  min-height: 7rem;\n}\n\n.guarantees_block:hover {\n  -webkit-box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n  box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n/*Payment*/\n.payment {\n  padding: 6rem 0;\n}\n\n.payment_header {\n  text-transform: none;\n}\n\n.payment_item h3 {\n  display: inline-block;\n  font-size: 2rem;\n}\n\n.payment_img {\n  display: inline-block;\n}\n\n.payment_img img {\n  margin-right: 2rem;\n}\n\n/*Sale*/\n.sale {\n  padding: 8rem 0;\n  background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ") center center no-repeat;\n}\n\n.sale_title {\n  margin-bottom: 8rem;\n  font-size: 4.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.sale_subtitle {\n  margin-bottom: 8rem;\n  font-size: 2.4rem;\n  line-height: 1.6;\n}\n\n/* Timer */\n.timer1 {\n  padding: 10px;\n  border: 1px solid grey;\n  background-color: white;\n  color: black;\n  border-radius: 10px;\n  text-align: center;\n  width: 360px;\n  height: 150px;\n}\n\n.container1 {\n  display: inline-block;\n}\n.numbers1 {\n  display: block;\n  float: left;\n  color: white;\n  font-size: 40px;\n  margin-right: 10px;\n}\n\n.timer1 span {\n  margin-right: 2px;\n  background-color: #575757;\n  border-radius: 7px;\n  padding: 4px;\n}\n.description1 {\n  font-size: 18px;\n  text-align: center;\n  color: black;\n}\n\n/*Contacts*/\n.contacts {\n  padding: 6rem 0;\n}\n\n.contacts_info {\n  margin-top: -3rem;\n}\n\n.contacts_info h3 {\n  margin-bottom: 1.8rem;\n  font-size: 1.5rem;\n  font-weight: 600;\n  color: #0089cd;\n}\n\n.contacts_info p {\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n}\n\n.contacts_info p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.contacts_info a {\n  display: block;\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  color: #000000;\n  text-decoration: underline;\n}\n\n.contacts .map {\n  width: 100%;\n}\n\n/*Feedback*/\n.feedback {\n  padding: 6rem 0;\n  background-color: #0089cd;\n}\n\n.feedback_block h3 {\n  display: inline-block;\n  margin-right: 4rem;\n  font-size: 3rem;\n  color: #ffffff;\n}\n\n.feedback_block a {\n  font-size: 3rem;\n  font-weight: 600;\n  color: #ffffff;\n  text-decoration: underline;\n}\n\n.footer {\n  padding: 4rem 0;\n}\n\n.footer .copyright p {\n  font-size: 1.5rem;\n  line-height: 1.6;\n}\n\n.footer .logo {\n  text-align: center;\n}\n\n.footer .contacts {\n  padding: 0;\n  margin: auto;\n  /*border: 1px solid red;*/\n  text-align: right;\n}\n\n.footer .contacts a {\n  /*border: 1px solid blue;*/\n  display: block;\n}\n\n.footer .contacts .phone {\n  font-size: 1.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.footer .contacts .email {\n  font-size: 1.4rem;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Modals*/\n.popup,\n.popup_engineer,\n.popup_calc_end {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.myimage {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 500px;\n  height: 500px;\n  z-index: 10;\n}\n\n.overlay {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.7);\n  opacity: 1;\n}\n\n.popup_content,\n.popup_engineer_content,\n.popup_calc_end_content {\n  /* display: none; */\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  background-color: #ffffff;\n}\n\n.popup_close,\n.popup_engineer_close,\n.popup_calc_end_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_content {\n  position: fixed;\n  top: 2%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 44rem;\n  padding: 1rem 0.5rem 4rem;\n  background-color: #ffffff;\n}\n\n.popup_calc_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_content h3 {\n  font-size: 2rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_content .balcon_icons {\n  margin-bottom: 1rem;\n}\n\n.popup_calc_content .big_img img {\n  display: none;\n  margin-bottom: 3rem;\n  width: 30rem;\n}\n\n.popup_calc_content #type1 {\n  display: inline-block;\n}\n\n.do_image_more img {\n  width: 110px;\n  height: 70px;\n  cursor: pointer;\n}\n\n.popup_calc_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc input {\n  display: inline-block;\n  margin-bottom: 3rem;\n  width: 10rem;\n  margin-right: 0.3rem;\n}\n\n.popup_calc label {\n  color: #999;\n}\n\n.popup_calc .multiplication {\n  display: inline-block;\n  font-size: 2rem;\n  color: #323131;\n  margin: 0 1rem;\n}\n\n.popup_calc_button {\n  padding: 1rem 5rem;\n}\n\n.popup_calc_profile {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_profile_content {\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  padding: 1rem 5rem 4rem;\n  background-color: #ffffff;\n  /*\tlabel {\n\t\t\tmargin-bottom: 1rem;\n\t\t\tfont-size: 1.5rem;\n\t\t\t.regular();\n\t\t}*/\n}\n\n.popup_calc_profile_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_profile_content h3 {\n  font-size: 1.8rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_profile_content select {\n  margin-bottom: 1rem;\n  outline: none;\n}\n\n.popup_calc_profile_content .checkbox {\n  display: none;\n}\n\n.popup_calc_profile_content .checkbox-custom {\n  position: relative;\n  width: 22px;\n  height: 22px;\n  border: 2px solid #ccc;\n  border-radius: 3px;\n}\n\n.popup_calc_profile_content .checkbox-custom,\n.popup_calc_profile_content .label {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.popup_calc_profile_content .checkbox:checked + .checkbox-custom::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.checkbox-custom[id=\"cold\"]::before {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ") center center no-repeat;\n}\n\n.no-background {\n}\n\n.checkbox-custom[id=\"warm\"]::before {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ") center center no-repeat;\n}\n\n.popup_calc_profile_content .label {\n  padding: 1.3rem 2rem;\n  z-index: 18rem;\n  color: #000000;\n  font-size: 1.5rem;\n  font-weight: 500;\n}\n\n.popup_calc_profile_content img {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n\n.popup_calc_profile_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc_profile_button {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  margin-top: 1rem;\n  padding: 1rem 5rem;\n}\n\n/*Media*/\n@media (max-width: 1400px) {\n  .main {\n    background-position: -30rem 0;\n  }\n}\n\n@media (max-width: 1199px) {\n  .header_btn {\n    padding: 1rem 1rem 1rem 5rem;\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 2rem;\n  }\n\n  .glazing_cold img {\n    width: 90%;\n  }\n\n  .glazing_warm img {\n    width: 90%;\n  }\n\n  .glazing ul {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price p {\n    margin-right: 2rem;\n  }\n\n  .decoration_item a {\n    font-size: 1.8rem;\n  }\n\n  /*Payment*/\n  .payment_img img {\n    margin-right: 1rem;\n  }\n}\n\n@media (max-width: 991px) {\n  .section_header h2 {\n    font-size: 2.8rem;\n  }\n\n  .header {\n    height: 12rem;\n  }\n\n  .header .logo {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header .logo p {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header_btn_wrap {\n    height: 12rem;\n  }\n\n  .header .working_hours {\n    height: 12rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    display: block;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us {\n    height: 12rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.15rem;\n  }\n\n  .main {\n    background-size: cover;\n    padding: 5rem 0;\n    padding-bottom: 7rem;\n  }\n\n  .main h1 {\n    text-align: center;\n    font-size: 5rem;\n  }\n\n  .main_features {\n    margin-top: 5rem;\n    margin-bottom: 7rem;\n    text-align: center;\n  }\n\n  .glazing_cold img {\n    width: 80%;\n  }\n\n  .glazing_warm img {\n    width: 80%;\n  }\n\n  .glazing ul {\n    display: inline-block;\n    padding: 0;\n  }\n\n  .glazing_price {\n    padding: 0;\n    text-align: center;\n  }\n\n  .glazing_price p {\n    margin-right: 10rem;\n  }\n\n  .decoration_img img {\n    width: 100%;\n  }\n\n  .decoration_content {\n    margin-top: 1rem;\n  }\n\n  .decoration_content_material img {\n    margin-top: 2rem;\n  }\n\n  .decoration_content_material h3 {\n    min-height: auto;\n  }\n\n  .decoration_form {\n    margin-top: 3rem;\n  }\n\n  .payment_item {\n    text-align: center;\n  }\n\n  .payment_item h3 {\n    display: block;\n  }\n\n  .payment_img {\n    min-height: 7rem;\n  }\n\n  .sale {\n    padding: 5rem 0;\n    background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ") right center no-repeat;\n    background-size: cover;\n  }\n\n  .sale_title {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .sale_subtitle {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .contacts_info {\n    margin-top: 3rem;\n  }\n\n  .feedback_block h3 {\n    display: block;\n    margin-right: 0;\n    margin-bottom: 2rem;\n  }\n}\n\n@media (max-width: 767px) {\n  .section_header h2 {\n    font-size: 2.5rem;\n  }\n\n  .header {\n    height: auto;\n    padding: 2rem 0;\n  }\n\n  .header .logo {\n    height: auto;\n    margin-top: 0;\n    display: block;\n    text-align: center;\n  }\n\n  .header .logo_img {\n    display: block;\n  }\n\n  .header_btn_wrap {\n    margin-top: 1rem;\n    margin-bottom: 2rem;\n    display: block;\n    height: auto;\n    text-align: center;\n  }\n\n  .header_btn_wrap_block {\n    width: 10%;\n  }\n\n  .header .working_hours {\n    display: block;\n    height: auto;\n  }\n\n  .header .contact_us {\n    display: block;\n    height: auto;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing_cold img {\n    width: 70%;\n  }\n\n  .glazing_warm img {\n    width: 70%;\n  }\n\n  .glazing_price p {\n    margin-right: 3rem;\n  }\n\n  .decoration_content h3 {\n    min-height: 3.7rem;\n  }\n\n  .guarantees {\n    padding: 3rem 0 1rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 5rem;\n    font-size: 1.5rem;\n  }\n\n  .guarantees img {\n    min-height: 7rem;\n  }\n\n  .payment {\n    padding-bottom: 2rem;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .contacts_info h3 {\n    margin-bottom: 1rem;\n  }\n\n  .contacts_info p {\n    font-size: 1.5rem;\n  }\n\n  .contacts_info a {\n    font-size: 1.5rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2.5rem;\n  }\n\n  .feedback_block a {\n    font-size: 2.5rem;\n  }\n\n  .footer .copyright {\n    text-align: center;\n  }\n\n  .footer .copyright p {\n    line-height: 1.2;\n  }\n\n  .footer .logo {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .footer .contacts {\n    padding: 0;\n    margin: auto;\n    /*border: 1px solid red;*/\n    text-align: center;\n  }\n\n  .footer .contacts a {\n    /*border: 1px solid blue;*/\n    display: block;\n  }\n\n  .footer .contacts .phone {\n    font-size: 1.8rem;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    color: #333333;\n  }\n\n  .footer .contacts .email {\n    font-size: 1.4rem;\n    color: #0089cd;\n    text-decoration: underline;\n  }\n}\n\n@media (max-width: 530px) {\n  .form {\n    margin-top: 2rem;\n    padding: 1.5rem 2rem;\n    padding-bottom: 3rem;\n  }\n\n  .form h2 {\n    margin-bottom: 1rem;\n    font-size: 1.4rem;\n  }\n\n  .form h2 span {\n    font-size: 2rem;\n  }\n\n  .form_input {\n    padding: 2rem 3rem;\n    margin-bottom: 2rem;\n  }\n\n  .form_input::-webkit-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input::-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-ms-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:focus::-webkit-input-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus::-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-ms-input-placeholder {\n    color: transparent;\n  }\n\n  .form_notice {\n    font-size: 1rem;\n  }\n\n  .button {\n    padding: 1.7rem 0rem;\n    font-size: 1.5rem;\n  }\n\n  .section_header {\n    text-align: center;\n    margin-bottom: 4rem;\n  }\n\n  .section_header h2 {\n    font-size: 2rem;\n  }\n\n  .section_header_sub {\n    margin-top: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours p span {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.2rem;\n  }\n\n  .header .contact_us_wrap a img {\n    margin-right: 0.5rem;\n    /*width: 10%;*/\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.2rem;\n  }\n\n  .main {\n    padding: 3rem 0;\n    padding-bottom: 5rem;\n    background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") 0 0 no-repeat;\n    background-size: cover;\n  }\n\n  .main h1 {\n    font-size: 3rem;\n    line-height: 1.5;\n  }\n\n  .main h1 span {\n    font-size: 1.5rem;\n  }\n\n  .main_features {\n    margin-top: 3rem;\n    margin-bottom: 0;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing {\n    padding: 3rem 0;\n  }\n\n  .glazing_cold {\n    margin-top: 2rem;\n  }\n\n  .glazing_warm {\n    margin-top: 4rem;\n  }\n\n  .glazing_price {\n    padding: 0 1rem;\n  }\n\n  .glazing_price p {\n    display: block;\n    margin-right: 0rem;\n    margin-bottom: 2rem;\n    font-size: 2rem;\n    line-height: 1.2;\n  }\n\n  .glazing_price p span {\n    font-size: 1.4rem;\n  }\n\n  .glazing_price_btn {\n    font-size: 1.4rem;\n    padding: 2rem 2rem;\n  }\n\n  .glazing ul {\n    margin-top: 2rem;\n    margin-bottom: 0;\n    padding: 0 1rem;\n    font-size: 1.2rem;\n  }\n\n  .glazing ul li:before {\n    margin-right: 1rem;\n  }\n\n  .decoration {\n    padding: 3rem 0;\n  }\n\n  .decoration_item a {\n    font-size: 1.5rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 4rem;\n    font-size: 1.2rem;\n  }\n\n  .payment {\n    padding-top: 3rem;\n    padding-bottom: 0;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 4rem;\n    font-size: 1.5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .sale {\n    padding: 3rem 0 5rem;\n  }\n\n  .sale_title {\n    font-size: 3rem;\n  }\n\n  .sale_subtitle {\n    font-size: 1.8rem;\n    line-height: 1.4;\n  }\n\n  .sale .eTimer {\n    font-size: 1rem;\n  }\n\n  .contacts {\n    padding: 3rem 0;\n  }\n\n  .feedback {\n    padding: 3rem 0 4rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2rem;\n  }\n\n  .feedback_block a {\n    font-size: 1.5rem;\n  }\n\n  .popup_content,\n  .popup_engineer_content,\n  .popup_calc_end_content {\n    width: 31rem;\n  }\n\n  .popup_close,\n  .popup_engineer_close,\n  .popup_calc_end_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_content {\n    width: 42rem;\n  }\n\n  .popup_calc_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_content .balcon_icons {\n    margin-bottom: 1rem;\n  }\n\n  .popup_calc_content .balcon_icons img {\n    width: 20%;\n  }\n\n  .popup_calc_content .big_img img {\n    margin-bottom: 2rem;\n    width: 25rem;\n  }\n\n  .popup_calc_content #type1 {\n    display: inline-block;\n  }\n\n  .popup_calc_button {\n    padding: 1rem 5rem;\n  }\n\n  .popup_calc_profile_content {\n    width: 31rem;\n    padding: 1rem 1rem 4rem;\n  }\n\n  .popup_calc_profile_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_profile_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_profile_content select {\n    margin-bottom: 1rem;\n    outline: none;\n  }\n\n  .popup_calc_profile_content img {\n    width: 20%;\n  }\n\n  .popup_calc_profile_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_profile_button {\n    padding: 1rem 5rem;\n  }\n}\n\n/* small devices, tablets */\n@media only screen and (max-width: 768px) {\n  .animated {\n    /*css transitions*/\n    -webkit-transition-property: none !important;\n    transition-property: none !important;\n    /*css transforms*/\n    -webkit-transform: none !important;\n    transform: none !important;\n    /*css animations*/\n    -webkit-animation: none !important;\n    animation: none !important;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"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","sourcesContent":["/*Fonts Family*/\n/*Colors*/\n/*Basic settings*/\nhtml {\n  /* overflow-x: hidden; */\n  font-size: 10px;\n}\n\nbody {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.status {\n  display: block;\n  color: red;\n}\n\na:hover {\n  text-decoration: none;\n}\n\na:focus,\nbutton:focus,\ninput:focus,\ntextarea:focus {\n  outline: none;\n}\n\n.no-padding {\n  padding: 0 !important;\n}\n\n.form {\n  /*margin-top: 2rem;*/\n  padding: 2rem 5rem;\n  text-align: center;\n  border-radius: 1rem;\n  background-color: #ffffff;\n}\n\n.form h2 {\n  margin-bottom: 3rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  line-height: 1.5;\n}\n\n.form h2 span {\n  font-size: 2.4rem;\n  text-transform: uppercase;\n}\n\n.form_input {\n  height: 5.8rem;\n  padding: 0;\n  margin-bottom: 2rem;\n  text-align: center;\n  border-radius: 1rem;\n  -moz-box-sizing: border-box;\n}\n\n.form_input::-webkit-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input::-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-ms-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:focus::-webkit-input-placeholder {\n  color: transparent;\n}\n\n.form_input:focus::-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-ms-input-placeholder {\n  color: transparent;\n}\n\n.form_notice {\n  margin-top: 1rem;\n  margin-bottom: 2rem;\n  font-size: 1.1rem;\n  color: #666;\n}\n\n.button {\n  padding: 2.5rem 0rem;\n  font-size: 1.7rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  border: 1px solid #ffc600;\n  border-radius: 1rem;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ffed26),\n    to(#ffb400)\n  );\n  background: linear-gradient(180deg, #ffed26 0%, #ffb400 100%);\n  -webkit-box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n  box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n}\n\n.button:hover {\n  cursor: pointer;\n}\n\n.section_header {\n  margin-bottom: 8rem;\n  text-align: center;\n  text-transform: uppercase;\n}\n\n.section_header h2 {\n  font-size: 3rem;\n  line-height: 1.4;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.section_header_sub {\n  margin-top: 2rem;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 17rem;\n  height: 0.2rem;\n  background: url(../img/glazing/line.png) 0 0 no-repeat;\n}\n\n.arrow {\n  position: absolute;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  transform: translateY(-50%);\n  z-index: 99;\n  width: 2rem;\n  height: 2rem;\n  border: none;\n}\n\n.prev {\n  left: 0;\n  background: url(../img/glazing/left_arrow.png) center no-repeat;\n  background-size: 70%;\n}\n\n.next {\n  right: 0;\n  background: url(../img/glazing/right_arrow.png) center no-repeat;\n  background-size: 70%;\n}\n\n/*Header*/\n.header {\n  height: 10rem;\n  background-color: #ffffff;\n  /*border: 1px solid red;*/\n}\n\n.header .logo {\n  height: 10rem;\n  display: table;\n}\n\n.header .logo_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .logo_img img {\n  margin-right: 2rem;\n}\n\n.header .logo p {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.2;\n  font-size: 1.4rem;\n  color: #0089cd;\n}\n\n.header_btn {\n  background: #ffffff url(../img/header/edit.png) 1rem center no-repeat;\n  padding: 1rem 1rem 1rem 5rem;\n  border: 2px solid #55a831;\n  border-radius: 1rem;\n  background-color: #ffffff;\n  font-size: 1.4rem;\n  line-height: 1.2;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #55a831;\n  /*p {\n\t\t\t\tdisplay: inline-block;\n\t\t\tvertical-align: top;\n\t\t\t\tfont-size: 1.4rem;\n\t\t\t\tline-height: 1.2;\n\t\t\t\t.bold();\n\t\t\t\tcolor: @green;\n\t\t\t}*/\n}\n\n.header_btn_wrap {\n  display: table;\n  width: 100%;\n  height: 10rem;\n}\n\n.header_btn_wrap_block {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header_btn_wrap_block img {\n  margin-right: 0.7rem;\n}\n\n.header_btn:hover {\n  cursor: pointer;\n}\n\n.header .working_hours {\n  height: 10rem;\n  display: table;\n  /*text-align: right;*/\n}\n\n.header .working_hours_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .working_hours_img img {\n  margin-right: 2rem;\n}\n\n.header .working_hours p {\n  display: table-cell;\n  vertical-align: middle;\n  font-size: 1.4rem;\n  color: #333333;\n}\n\n.header .working_hours p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  font-size: 1.8rem;\n}\n\n.header .contact_us {\n  height: 10rem;\n  display: table;\n  text-align: right;\n}\n\n.header .contact_us_wrap {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.7;\n}\n\n.header .contact_us_wrap a {\n  display: block;\n  font-size: 2.3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  /*border: 1px solid blue;*/\n}\n\n.header .contact_us_wrap a img {\n  margin-right: 1rem;\n}\n\n.header .contact_us_wrap .phone_link {\n  font-size: 1.5rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Main*/\n.main {\n  padding: 10rem 0;\n  background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;\n}\n\n.main h1 {\n  margin: 0;\n  /*margin-top: -4rem;*/\n  font-size: 5.5rem;\n  line-height: 1.5;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.main h1 span {\n  font-size: 2.6rem;\n}\n\n.main_features {\n  padding: 0;\n  margin-top: 13rem;\n}\n\n.main_features_block {\n  text-align: center;\n}\n\n.main_features_block .small_img {\n  margin-top: 1rem;\n}\n\n.main_features_block p {\n  margin-top: -6rem;\n  font-size: 1.3rem;\n  line-height: 1.3;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffffff;\n}\n\n.main_form {\n  margin-top: 2rem;\n}\n\n/*glazing*/\n.glazing {\n  padding: 8rem 0;\n}\n\n.glazing_block {\n  display: inline-block;\n}\n\n.glazing_block img {\n  display: block;\n  margin: 0 auto;\n  margin-bottom: 2rem;\n}\n\n.glazing_block a {\n  font-size: 1.8rem;\n  font-weight: 600;\n  text-decoration: underline;\n  /*&:focus {\n\t\t\t\ttext-decoration: none;\n\t\t\t\tcolor: #454545;\n\t\t\t}*/\n}\n\n.glazing_block a:hover {\n  cursor: pointer;\n}\n\n.glazing_cold {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-left-radius: 5px;\n  border-top-left-radius: 5px;\n  border-top: 0.5rem solid #0089cd;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#c7dce9),\n    color-stop(0%, #c7dce9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #c7dce9 0%,\n    #c7dce9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_cold h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.glazing_warm {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-right-radius: 5px;\n  border-top-right-radius: 5px;\n  border-top: 0.5rem solid #ffb903;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#f7eac9),\n    color-stop(0%, #f7eac9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #f7eac9 0%,\n    #f7eac9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_warm h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffb903;\n}\n\n.glazing ul {\n  margin-top: 3.7rem;\n  padding: 0 6rem;\n  font-size: 1.4rem;\n  font-weight: 400;\n  list-style: none;\n  line-height: 2.1;\n  text-align: left;\n}\n\n.glazing ul li:before {\n  content: \"\";\n  display: inline-block;\n  margin-right: 1.7rem;\n  width: 2.5rem;\n  height: 2.5rem;\n  background: url(../img/glazing/check.png) no-repeat center;\n  background-size: 100%;\n  vertical-align: middle;\n}\n\n.glazing_price {\n  padding: 0 6rem;\n}\n\n.glazing_price p {\n  display: inline-block;\n  margin-right: 3rem;\n  vertical-align: middle;\n  font-size: 2rem;\n  line-height: 1.7;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n}\n\n.glazing_price p span {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.glazing_price_btn {\n  padding: 2rem 2rem;\n}\n\n.glazing .aluminum,\n.glazing .plastic,\n.glazing .french,\n.glazing .rise {\n  display: none;\n}\n\n.glazing a.active {\n  text-decoration: none;\n  color: #454545;\n}\n\n/*Decoration*/\n.decoration {\n  padding: 8rem 0;\n  background-color: #f7f7f7;\n}\n\n.decoration_item {\n  text-align: center;\n}\n\n.decoration_item a {\n  font-size: 2rem;\n  font-weight: 600;\n  color: #000000;\n  text-transform: uppercase;\n  border-bottom: 1px dotted #000000;\n}\n\n.decoration_item a:hover {\n  cursor: pointer;\n}\n\n.decoration_item a:focus {\n  border: none;\n  text-decoration: none;\n  color: #0089cd;\n  /*border-top: 1rem solid @blue;\n\t\t\t\theight: 8rem;\n\t\t\t\tpadding: 2rem 1rem;\n\t\t\t\tbackground: -webkit-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -moz-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -o-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -ms-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);*/\n}\n\n.decoration_item .no_click {\n  /*border: 1px solid red;*/\n  height: 8rem;\n  padding: 2rem 0;\n  border-top: 1rem solid #f7f7f7;\n}\n\n.decoration_item .after_click {\n  border-top: 1rem solid #0089cd;\n  height: 8rem;\n  padding: 2rem 0;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ebebeb),\n    color-stop(0%, #ebebeb),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #ebebeb 0%,\n    #ebebeb 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.decoration_content {\n  margin-top: 8rem;\n}\n\n.decoration_content_material img {\n  margin-top: 2.5rem;\n}\n\n.decoration_content_material h3 {\n  font-size: 1.4rem;\n  font-weight: 600;\n  line-height: 1.4;\n  min-height: 4rem;\n}\n\n.decoration_content_material p {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #0089cd;\n}\n\n.decoration_content_material p span {\n  display: block;\n  font-size: 1.2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.decoration .external,\n.decoration .rising,\n.decoration .roof {\n  display: none;\n}\n\n/*Our works*/\n.works {\n  padding: 5rem 0;\n}\n\n.works img {\n  margin-bottom: 3rem;\n}\n\n.works a[data-fancybox=\"gallery\"] .lupa {\n  /* position: ; */\n  top: 0;\n  left: 0;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  top: 40%;\n  opacity: 0;\n  -webkit-transition: ease 0.2s;\n  transition: ease 0.2s;\n}\n\n.works a[data-fancybox=\"gallery\"]:hover .lupa {\n  opacity: 1;\n}\n\n/*Guarantees*/\n.guarantees {\n  padding: 6rem 0 1rem;\n  background-color: #0089cd;\n}\n\n.guarantees_header h2 {\n  color: #ffffff;\n}\n\n.guarantees_header_sub {\n  background: url(../img/guarantees/header_sub.png) 0 0 no-repeat;\n}\n\n.guarantees h3 {\n  margin-top: 3rem;\n  margin-bottom: 8rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  line-height: 1.4;\n  color: #ffffff;\n}\n\n.guarantees img {\n  min-height: 7rem;\n}\n\n.guarantees_block:hover {\n  -webkit-box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n  box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n/*Payment*/\n.payment {\n  padding: 6rem 0;\n}\n\n.payment_header {\n  text-transform: none;\n}\n\n.payment_item h3 {\n  display: inline-block;\n  font-size: 2rem;\n}\n\n.payment_img {\n  display: inline-block;\n}\n\n.payment_img img {\n  margin-right: 2rem;\n}\n\n/*Sale*/\n.sale {\n  padding: 8rem 0;\n  background: #ffffff url(../img/sale/bg.jpg) center center no-repeat;\n}\n\n.sale_title {\n  margin-bottom: 8rem;\n  font-size: 4.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.sale_subtitle {\n  margin-bottom: 8rem;\n  font-size: 2.4rem;\n  line-height: 1.6;\n}\n\n/* Timer */\n.timer1 {\n  padding: 10px;\n  border: 1px solid grey;\n  background-color: white;\n  color: black;\n  border-radius: 10px;\n  text-align: center;\n  width: 360px;\n  height: 150px;\n}\n\n.container1 {\n  display: inline-block;\n}\n.numbers1 {\n  display: block;\n  float: left;\n  color: white;\n  font-size: 40px;\n  margin-right: 10px;\n}\n\n.timer1 span {\n  margin-right: 2px;\n  background-color: #575757;\n  border-radius: 7px;\n  padding: 4px;\n}\n.description1 {\n  font-size: 18px;\n  text-align: center;\n  color: black;\n}\n\n/*Contacts*/\n.contacts {\n  padding: 6rem 0;\n}\n\n.contacts_info {\n  margin-top: -3rem;\n}\n\n.contacts_info h3 {\n  margin-bottom: 1.8rem;\n  font-size: 1.5rem;\n  font-weight: 600;\n  color: #0089cd;\n}\n\n.contacts_info p {\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n}\n\n.contacts_info p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.contacts_info a {\n  display: block;\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  color: #000000;\n  text-decoration: underline;\n}\n\n.contacts .map {\n  width: 100%;\n}\n\n/*Feedback*/\n.feedback {\n  padding: 6rem 0;\n  background-color: #0089cd;\n}\n\n.feedback_block h3 {\n  display: inline-block;\n  margin-right: 4rem;\n  font-size: 3rem;\n  color: #ffffff;\n}\n\n.feedback_block a {\n  font-size: 3rem;\n  font-weight: 600;\n  color: #ffffff;\n  text-decoration: underline;\n}\n\n.footer {\n  padding: 4rem 0;\n}\n\n.footer .copyright p {\n  font-size: 1.5rem;\n  line-height: 1.6;\n}\n\n.footer .logo {\n  text-align: center;\n}\n\n.footer .contacts {\n  padding: 0;\n  margin: auto;\n  /*border: 1px solid red;*/\n  text-align: right;\n}\n\n.footer .contacts a {\n  /*border: 1px solid blue;*/\n  display: block;\n}\n\n.footer .contacts .phone {\n  font-size: 1.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.footer .contacts .email {\n  font-size: 1.4rem;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Modals*/\n.popup,\n.popup_engineer,\n.popup_calc_end {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.myimage {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 500px;\n  height: 500px;\n  z-index: 10;\n}\n\n.overlay {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.7);\n  opacity: 1;\n}\n\n.popup_content,\n.popup_engineer_content,\n.popup_calc_end_content {\n  /* display: none; */\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  background-color: #ffffff;\n}\n\n.popup_close,\n.popup_engineer_close,\n.popup_calc_end_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_content {\n  position: fixed;\n  top: 2%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 44rem;\n  padding: 1rem 0.5rem 4rem;\n  background-color: #ffffff;\n}\n\n.popup_calc_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_content h3 {\n  font-size: 2rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_content .balcon_icons {\n  margin-bottom: 1rem;\n}\n\n.popup_calc_content .big_img img {\n  display: none;\n  margin-bottom: 3rem;\n  width: 30rem;\n}\n\n.popup_calc_content #type1 {\n  display: inline-block;\n}\n\n.do_image_more img {\n  width: 110px;\n  height: 70px;\n  cursor: pointer;\n}\n\n.popup_calc_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc input {\n  display: inline-block;\n  margin-bottom: 3rem;\n  width: 10rem;\n  margin-right: 0.3rem;\n}\n\n.popup_calc label {\n  color: #999;\n}\n\n.popup_calc .multiplication {\n  display: inline-block;\n  font-size: 2rem;\n  color: #323131;\n  margin: 0 1rem;\n}\n\n.popup_calc_button {\n  padding: 1rem 5rem;\n}\n\n.popup_calc_profile {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_profile_content {\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  padding: 1rem 5rem 4rem;\n  background-color: #ffffff;\n  /*\tlabel {\n\t\t\tmargin-bottom: 1rem;\n\t\t\tfont-size: 1.5rem;\n\t\t\t.regular();\n\t\t}*/\n}\n\n.popup_calc_profile_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_profile_content h3 {\n  font-size: 1.8rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_profile_content select {\n  margin-bottom: 1rem;\n  outline: none;\n}\n\n.popup_calc_profile_content .checkbox {\n  display: none;\n}\n\n.popup_calc_profile_content .checkbox-custom {\n  position: relative;\n  width: 22px;\n  height: 22px;\n  border: 2px solid #ccc;\n  border-radius: 3px;\n}\n\n.popup_calc_profile_content .checkbox-custom,\n.popup_calc_profile_content .label {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.popup_calc_profile_content .checkbox:checked + .checkbox-custom::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.checkbox-custom[id=\"cold\"]::before {\n  background: url(../img/modal_calc/check.png) center center no-repeat;\n}\n\n.no-background {\n}\n\n.checkbox-custom[id=\"warm\"]::before {\n  background: url(../img/modal_calc/check_warm.png) center center no-repeat;\n}\n\n.popup_calc_profile_content .label {\n  padding: 1.3rem 2rem;\n  z-index: 18rem;\n  color: #000000;\n  font-size: 1.5rem;\n  font-weight: 500;\n}\n\n.popup_calc_profile_content img {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n\n.popup_calc_profile_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc_profile_button {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  margin-top: 1rem;\n  padding: 1rem 5rem;\n}\n\n/*Media*/\n@media (max-width: 1400px) {\n  .main {\n    background-position: -30rem 0;\n  }\n}\n\n@media (max-width: 1199px) {\n  .header_btn {\n    padding: 1rem 1rem 1rem 5rem;\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 2rem;\n  }\n\n  .glazing_cold img {\n    width: 90%;\n  }\n\n  .glazing_warm img {\n    width: 90%;\n  }\n\n  .glazing ul {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price p {\n    margin-right: 2rem;\n  }\n\n  .decoration_item a {\n    font-size: 1.8rem;\n  }\n\n  /*Payment*/\n  .payment_img img {\n    margin-right: 1rem;\n  }\n}\n\n@media (max-width: 991px) {\n  .section_header h2 {\n    font-size: 2.8rem;\n  }\n\n  .header {\n    height: 12rem;\n  }\n\n  .header .logo {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header .logo p {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header_btn_wrap {\n    height: 12rem;\n  }\n\n  .header .working_hours {\n    height: 12rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    display: block;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us {\n    height: 12rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.15rem;\n  }\n\n  .main {\n    background-size: cover;\n    padding: 5rem 0;\n    padding-bottom: 7rem;\n  }\n\n  .main h1 {\n    text-align: center;\n    font-size: 5rem;\n  }\n\n  .main_features {\n    margin-top: 5rem;\n    margin-bottom: 7rem;\n    text-align: center;\n  }\n\n  .glazing_cold img {\n    width: 80%;\n  }\n\n  .glazing_warm img {\n    width: 80%;\n  }\n\n  .glazing ul {\n    display: inline-block;\n    padding: 0;\n  }\n\n  .glazing_price {\n    padding: 0;\n    text-align: center;\n  }\n\n  .glazing_price p {\n    margin-right: 10rem;\n  }\n\n  .decoration_img img {\n    width: 100%;\n  }\n\n  .decoration_content {\n    margin-top: 1rem;\n  }\n\n  .decoration_content_material img {\n    margin-top: 2rem;\n  }\n\n  .decoration_content_material h3 {\n    min-height: auto;\n  }\n\n  .decoration_form {\n    margin-top: 3rem;\n  }\n\n  .payment_item {\n    text-align: center;\n  }\n\n  .payment_item h3 {\n    display: block;\n  }\n\n  .payment_img {\n    min-height: 7rem;\n  }\n\n  .sale {\n    padding: 5rem 0;\n    background: #ffffff url(../img/sale/bg.jpg) right center no-repeat;\n    background-size: cover;\n  }\n\n  .sale_title {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .sale_subtitle {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .contacts_info {\n    margin-top: 3rem;\n  }\n\n  .feedback_block h3 {\n    display: block;\n    margin-right: 0;\n    margin-bottom: 2rem;\n  }\n}\n\n@media (max-width: 767px) {\n  .section_header h2 {\n    font-size: 2.5rem;\n  }\n\n  .header {\n    height: auto;\n    padding: 2rem 0;\n  }\n\n  .header .logo {\n    height: auto;\n    margin-top: 0;\n    display: block;\n    text-align: center;\n  }\n\n  .header .logo_img {\n    display: block;\n  }\n\n  .header_btn_wrap {\n    margin-top: 1rem;\n    margin-bottom: 2rem;\n    display: block;\n    height: auto;\n    text-align: center;\n  }\n\n  .header_btn_wrap_block {\n    width: 10%;\n  }\n\n  .header .working_hours {\n    display: block;\n    height: auto;\n  }\n\n  .header .contact_us {\n    display: block;\n    height: auto;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing_cold img {\n    width: 70%;\n  }\n\n  .glazing_warm img {\n    width: 70%;\n  }\n\n  .glazing_price p {\n    margin-right: 3rem;\n  }\n\n  .decoration_content h3 {\n    min-height: 3.7rem;\n  }\n\n  .guarantees {\n    padding: 3rem 0 1rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 5rem;\n    font-size: 1.5rem;\n  }\n\n  .guarantees img {\n    min-height: 7rem;\n  }\n\n  .payment {\n    padding-bottom: 2rem;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .contacts_info h3 {\n    margin-bottom: 1rem;\n  }\n\n  .contacts_info p {\n    font-size: 1.5rem;\n  }\n\n  .contacts_info a {\n    font-size: 1.5rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2.5rem;\n  }\n\n  .feedback_block a {\n    font-size: 2.5rem;\n  }\n\n  .footer .copyright {\n    text-align: center;\n  }\n\n  .footer .copyright p {\n    line-height: 1.2;\n  }\n\n  .footer .logo {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .footer .contacts {\n    padding: 0;\n    margin: auto;\n    /*border: 1px solid red;*/\n    text-align: center;\n  }\n\n  .footer .contacts a {\n    /*border: 1px solid blue;*/\n    display: block;\n  }\n\n  .footer .contacts .phone {\n    font-size: 1.8rem;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    color: #333333;\n  }\n\n  .footer .contacts .email {\n    font-size: 1.4rem;\n    color: #0089cd;\n    text-decoration: underline;\n  }\n}\n\n@media (max-width: 530px) {\n  .form {\n    margin-top: 2rem;\n    padding: 1.5rem 2rem;\n    padding-bottom: 3rem;\n  }\n\n  .form h2 {\n    margin-bottom: 1rem;\n    font-size: 1.4rem;\n  }\n\n  .form h2 span {\n    font-size: 2rem;\n  }\n\n  .form_input {\n    padding: 2rem 3rem;\n    margin-bottom: 2rem;\n  }\n\n  .form_input::-webkit-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input::-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-ms-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:focus::-webkit-input-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus::-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-ms-input-placeholder {\n    color: transparent;\n  }\n\n  .form_notice {\n    font-size: 1rem;\n  }\n\n  .button {\n    padding: 1.7rem 0rem;\n    font-size: 1.5rem;\n  }\n\n  .section_header {\n    text-align: center;\n    margin-bottom: 4rem;\n  }\n\n  .section_header h2 {\n    font-size: 2rem;\n  }\n\n  .section_header_sub {\n    margin-top: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours p span {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.2rem;\n  }\n\n  .header .contact_us_wrap a img {\n    margin-right: 0.5rem;\n    /*width: 10%;*/\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.2rem;\n  }\n\n  .main {\n    padding: 3rem 0;\n    padding-bottom: 5rem;\n    background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;\n    background-size: cover;\n  }\n\n  .main h1 {\n    font-size: 3rem;\n    line-height: 1.5;\n  }\n\n  .main h1 span {\n    font-size: 1.5rem;\n  }\n\n  .main_features {\n    margin-top: 3rem;\n    margin-bottom: 0;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing {\n    padding: 3rem 0;\n  }\n\n  .glazing_cold {\n    margin-top: 2rem;\n  }\n\n  .glazing_warm {\n    margin-top: 4rem;\n  }\n\n  .glazing_price {\n    padding: 0 1rem;\n  }\n\n  .glazing_price p {\n    display: block;\n    margin-right: 0rem;\n    margin-bottom: 2rem;\n    font-size: 2rem;\n    line-height: 1.2;\n  }\n\n  .glazing_price p span {\n    font-size: 1.4rem;\n  }\n\n  .glazing_price_btn {\n    font-size: 1.4rem;\n    padding: 2rem 2rem;\n  }\n\n  .glazing ul {\n    margin-top: 2rem;\n    margin-bottom: 0;\n    padding: 0 1rem;\n    font-size: 1.2rem;\n  }\n\n  .glazing ul li:before {\n    margin-right: 1rem;\n  }\n\n  .decoration {\n    padding: 3rem 0;\n  }\n\n  .decoration_item a {\n    font-size: 1.5rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 4rem;\n    font-size: 1.2rem;\n  }\n\n  .payment {\n    padding-top: 3rem;\n    padding-bottom: 0;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 4rem;\n    font-size: 1.5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .sale {\n    padding: 3rem 0 5rem;\n  }\n\n  .sale_title {\n    font-size: 3rem;\n  }\n\n  .sale_subtitle {\n    font-size: 1.8rem;\n    line-height: 1.4;\n  }\n\n  .sale .eTimer {\n    font-size: 1rem;\n  }\n\n  .contacts {\n    padding: 3rem 0;\n  }\n\n  .feedback {\n    padding: 3rem 0 4rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2rem;\n  }\n\n  .feedback_block a {\n    font-size: 1.5rem;\n  }\n\n  .popup_content,\n  .popup_engineer_content,\n  .popup_calc_end_content {\n    width: 31rem;\n  }\n\n  .popup_close,\n  .popup_engineer_close,\n  .popup_calc_end_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_content {\n    width: 42rem;\n  }\n\n  .popup_calc_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_content .balcon_icons {\n    margin-bottom: 1rem;\n  }\n\n  .popup_calc_content .balcon_icons img {\n    width: 20%;\n  }\n\n  .popup_calc_content .big_img img {\n    margin-bottom: 2rem;\n    width: 25rem;\n  }\n\n  .popup_calc_content #type1 {\n    display: inline-block;\n  }\n\n  .popup_calc_button {\n    padding: 1rem 5rem;\n  }\n\n  .popup_calc_profile_content {\n    width: 31rem;\n    padding: 1rem 1rem 4rem;\n  }\n\n  .popup_calc_profile_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_profile_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_profile_content select {\n    margin-bottom: 1rem;\n    outline: none;\n  }\n\n  .popup_calc_profile_content img {\n    width: 20%;\n  }\n\n  .popup_calc_profile_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_profile_button {\n    padding: 1rem 5rem;\n  }\n}\n\n/* small devices, tablets */\n@media only screen and (max-width: 768px) {\n  .animated {\n    /*css transitions*/\n    -webkit-transition-property: none !important;\n    transition-property: none !important;\n    /*css transforms*/\n    -webkit-transform: none !important;\n    transform: none !important;\n    /*css animations*/\n    -webkit-animation: none !important;\n    animation: none !important;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/*Fonts Family*/\n/*Colors*/\n/*Basic settings*/\nhtml {\n  /* overflow-x: hidden; */\n  font-size: 10px;\n}\n\nbody {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.status {\n  display: block;\n  color: red;\n}\n\na:hover {\n  text-decoration: none;\n}\n\na:focus,\nbutton:focus,\ninput:focus,\ntextarea:focus {\n  outline: none;\n}\n\n.no-padding {\n  padding: 0 !important;\n}\n\n.form {\n  /*margin-top: 2rem;*/\n  padding: 2rem 5rem;\n  text-align: center;\n  border-radius: 1rem;\n  background-color: #ffffff;\n}\n\n.form h2 {\n  margin-bottom: 3rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  line-height: 1.5;\n}\n\n.form h2 span {\n  font-size: 2.4rem;\n  text-transform: uppercase;\n}\n\n.form_input {\n  height: 5.8rem;\n  padding: 0;\n  margin-bottom: 2rem;\n  text-align: center;\n  border-radius: 1rem;\n  -moz-box-sizing: border-box;\n}\n\n.form_input::-webkit-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input::-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-ms-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:focus::-webkit-input-placeholder {\n  color: transparent;\n}\n\n.form_input:focus::-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-ms-input-placeholder {\n  color: transparent;\n}\n\n.form_notice {\n  margin-top: 1rem;\n  margin-bottom: 2rem;\n  font-size: 1.1rem;\n  color: #666;\n}\n\n.button {\n  padding: 2.5rem 0rem;\n  font-size: 1.7rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  border: 1px solid #ffc600;\n  border-radius: 1rem;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ffed26),\n    to(#ffb400)\n  );\n  background: linear-gradient(180deg, #ffed26 0%, #ffb400 100%);\n  -webkit-box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n  box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n}\n\n.button:hover {\n  cursor: pointer;\n}\n\n.section_header {\n  margin-bottom: 8rem;\n  text-align: center;\n  text-transform: uppercase;\n}\n\n.section_header h2 {\n  font-size: 3rem;\n  line-height: 1.4;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.section_header_sub {\n  margin-top: 2rem;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 17rem;\n  height: 0.2rem;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") 0 0 no-repeat;\n}\n\n.arrow {\n  position: absolute;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  transform: translateY(-50%);\n  z-index: 99;\n  width: 2rem;\n  height: 2rem;\n  border: none;\n}\n\n.prev {\n  left: 0;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") center no-repeat;\n  background-size: 70%;\n}\n\n.next {\n  right: 0;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") center no-repeat;\n  background-size: 70%;\n}\n\n/*Header*/\n.header {\n  height: 10rem;\n  background-color: #ffffff;\n  /*border: 1px solid red;*/\n}\n\n.header .logo {\n  height: 10rem;\n  display: table;\n}\n\n.header .logo_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .logo_img img {\n  margin-right: 2rem;\n}\n\n.header .logo p {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.2;\n  font-size: 1.4rem;\n  color: #0089cd;\n}\n\n.header_btn {\n  background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") 1rem center no-repeat;\n  padding: 1rem 1rem 1rem 5rem;\n  border: 2px solid #55a831;\n  border-radius: 1rem;\n  background-color: #ffffff;\n  font-size: 1.4rem;\n  line-height: 1.2;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #55a831;\n  /*p {\n\t\t\t\tdisplay: inline-block;\n\t\t\tvertical-align: top;\n\t\t\t\tfont-size: 1.4rem;\n\t\t\t\tline-height: 1.2;\n\t\t\t\t.bold();\n\t\t\t\tcolor: @green;\n\t\t\t}*/\n}\n\n.header_btn_wrap {\n  display: table;\n  width: 100%;\n  height: 10rem;\n}\n\n.header_btn_wrap_block {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header_btn_wrap_block img {\n  margin-right: 0.7rem;\n}\n\n.header_btn:hover {\n  cursor: pointer;\n}\n\n.header .working_hours {\n  height: 10rem;\n  display: table;\n  /*text-align: right;*/\n}\n\n.header .working_hours_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .working_hours_img img {\n  margin-right: 2rem;\n}\n\n.header .working_hours p {\n  display: table-cell;\n  vertical-align: middle;\n  font-size: 1.4rem;\n  color: #333333;\n}\n\n.header .working_hours p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  font-size: 1.8rem;\n}\n\n.header .contact_us {\n  height: 10rem;\n  display: table;\n  text-align: right;\n}\n\n.header .contact_us_wrap {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.7;\n}\n\n.header .contact_us_wrap a {\n  display: block;\n  font-size: 2.3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  /*border: 1px solid blue;*/\n}\n\n.header .contact_us_wrap a img {\n  margin-right: 1rem;\n}\n\n.header .contact_us_wrap .phone_link {\n  font-size: 1.5rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Main*/\n.main {\n  padding: 10rem 0;\n  background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") 0 0 no-repeat;\n}\n\n.main h1 {\n  margin: 0;\n  /*margin-top: -4rem;*/\n  font-size: 5.5rem;\n  line-height: 1.5;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.main h1 span {\n  font-size: 2.6rem;\n}\n\n.main_features {\n  padding: 0;\n  margin-top: 13rem;\n}\n\n.main_features_block {\n  text-align: center;\n}\n\n.main_features_block .small_img {\n  margin-top: 1rem;\n}\n\n.main_features_block p {\n  margin-top: -6rem;\n  font-size: 1.3rem;\n  line-height: 1.3;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffffff;\n}\n\n.main_form {\n  margin-top: 2rem;\n}\n\n/*glazing*/\n.glazing {\n  padding: 8rem 0;\n}\n\n.glazing_block {\n  display: inline-block;\n}\n\n.glazing_block img {\n  display: block;\n  margin: 0 auto;\n  margin-bottom: 2rem;\n}\n\n.glazing_block a {\n  font-size: 1.8rem;\n  font-weight: 600;\n  text-decoration: underline;\n  /*&:focus {\n\t\t\t\ttext-decoration: none;\n\t\t\t\tcolor: #454545;\n\t\t\t}*/\n}\n\n.glazing_block a:hover {\n  cursor: pointer;\n}\n\n.glazing_cold {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-left-radius: 5px;\n  border-top-left-radius: 5px;\n  border-top: 0.5rem solid #0089cd;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#c7dce9),\n    color-stop(0%, #c7dce9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #c7dce9 0%,\n    #c7dce9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_cold h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.glazing_warm {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-right-radius: 5px;\n  border-top-right-radius: 5px;\n  border-top: 0.5rem solid #ffb903;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#f7eac9),\n    color-stop(0%, #f7eac9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #f7eac9 0%,\n    #f7eac9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_warm h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffb903;\n}\n\n.glazing ul {\n  margin-top: 3.7rem;\n  padding: 0 6rem;\n  font-size: 1.4rem;\n  font-weight: 400;\n  list-style: none;\n  line-height: 2.1;\n  text-align: left;\n}\n\n.glazing ul li:before {\n  content: \"\";\n  display: inline-block;\n  margin-right: 1.7rem;\n  width: 2.5rem;\n  height: 2.5rem;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ") no-repeat center;\n  background-size: 100%;\n  vertical-align: middle;\n}\n\n.glazing_price {\n  padding: 0 6rem;\n}\n\n.glazing_price p {\n  display: inline-block;\n  margin-right: 3rem;\n  vertical-align: middle;\n  font-size: 2rem;\n  line-height: 1.7;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n}\n\n.glazing_price p span {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.glazing_price_btn {\n  padding: 2rem 2rem;\n}\n\n.glazing .aluminum,\n.glazing .plastic,\n.glazing .french,\n.glazing .rise {\n  display: none;\n}\n\n.glazing a.active {\n  text-decoration: none;\n  color: #454545;\n}\n\n/*Decoration*/\n.decoration {\n  padding: 8rem 0;\n  background-color: #f7f7f7;\n}\n\n.decoration_item {\n  text-align: center;\n}\n\n.decoration_item a {\n  font-size: 2rem;\n  font-weight: 600;\n  color: #000000;\n  text-transform: uppercase;\n  border-bottom: 1px dotted #000000;\n}\n\n.decoration_item a:hover {\n  cursor: pointer;\n}\n\n.decoration_item a:focus {\n  border: none;\n  text-decoration: none;\n  color: #0089cd;\n  /*border-top: 1rem solid @blue;\n\t\t\t\theight: 8rem;\n\t\t\t\tpadding: 2rem 1rem;\n\t\t\t\tbackground: -webkit-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -moz-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -o-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -ms-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);*/\n}\n\n.decoration_item .no_click {\n  /*border: 1px solid red;*/\n  height: 8rem;\n  padding: 2rem 0;\n  border-top: 1rem solid #f7f7f7;\n}\n\n.decoration_item .after_click {\n  border-top: 1rem solid #0089cd;\n  height: 8rem;\n  padding: 2rem 0;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ebebeb),\n    color-stop(0%, #ebebeb),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #ebebeb 0%,\n    #ebebeb 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.decoration_content {\n  margin-top: 8rem;\n}\n\n.decoration_content_material img {\n  margin-top: 2.5rem;\n}\n\n.decoration_content_material h3 {\n  font-size: 1.4rem;\n  font-weight: 600;\n  line-height: 1.4;\n  min-height: 4rem;\n}\n\n.decoration_content_material p {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #0089cd;\n}\n\n.decoration_content_material p span {\n  display: block;\n  font-size: 1.2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.decoration .external,\n.decoration .rising,\n.decoration .roof {\n  display: none;\n}\n\n/*Our works*/\n.works {\n  padding: 5rem 0;\n}\n\n.works img {\n  margin-bottom: 3rem;\n}\n\n.works a[data-fancybox=\"gallery\"] .lupa {\n  /* position: ; */\n  top: 0;\n  left: 0;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  top: 40%;\n  opacity: 0;\n  -webkit-transition: ease 0.2s;\n  transition: ease 0.2s;\n}\n\n.works a[data-fancybox=\"gallery\"]:hover .lupa {\n  opacity: 1;\n}\n\n/*Guarantees*/\n.guarantees {\n  padding: 6rem 0 1rem;\n  background-color: #0089cd;\n}\n\n.guarantees_header h2 {\n  color: #ffffff;\n}\n\n.guarantees_header_sub {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ") 0 0 no-repeat;\n}\n\n.guarantees h3 {\n  margin-top: 3rem;\n  margin-bottom: 8rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  line-height: 1.4;\n  color: #ffffff;\n}\n\n.guarantees img {\n  min-height: 7rem;\n}\n\n.guarantees_block:hover {\n  -webkit-box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n  box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n/*Payment*/\n.payment {\n  padding: 6rem 0;\n}\n\n.payment_header {\n  text-transform: none;\n}\n\n.payment_item h3 {\n  display: inline-block;\n  font-size: 2rem;\n}\n\n.payment_img {\n  display: inline-block;\n}\n\n.payment_img img {\n  margin-right: 2rem;\n}\n\n/*Sale*/\n.sale {\n  padding: 8rem 0;\n  background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ") center center no-repeat;\n}\n\n.sale_title {\n  margin-bottom: 8rem;\n  font-size: 4.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.sale_subtitle {\n  margin-bottom: 8rem;\n  font-size: 2.4rem;\n  line-height: 1.6;\n}\n\n/* Timer */\n.timer1 {\n  padding: 10px;\n  border: 1px solid grey;\n  background-color: white;\n  color: black;\n  border-radius: 10px;\n  text-align: center;\n  width: 360px;\n  height: 150px;\n}\n\n.container1 {\n  display: inline-block;\n}\n.numbers1 {\n  display: block;\n  float: left;\n  color: white;\n  font-size: 40px;\n  margin-right: 10px;\n}\n\n.timer1 span {\n  margin-right: 2px;\n  background-color: #575757;\n  border-radius: 7px;\n  padding: 4px;\n}\n.description1 {\n  font-size: 18px;\n  text-align: center;\n  color: black;\n}\n\n/*Contacts*/\n.contacts {\n  padding: 6rem 0;\n}\n\n.contacts_info {\n  margin-top: -3rem;\n}\n\n.contacts_info h3 {\n  margin-bottom: 1.8rem;\n  font-size: 1.5rem;\n  font-weight: 600;\n  color: #0089cd;\n}\n\n.contacts_info p {\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n}\n\n.contacts_info p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.contacts_info a {\n  display: block;\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  color: #000000;\n  text-decoration: underline;\n}\n\n.contacts .map {\n  width: 100%;\n}\n\n/*Feedback*/\n.feedback {\n  padding: 6rem 0;\n  background-color: #0089cd;\n}\n\n.feedback_block h3 {\n  display: inline-block;\n  margin-right: 4rem;\n  font-size: 3rem;\n  color: #ffffff;\n}\n\n.feedback_block a {\n  font-size: 3rem;\n  font-weight: 600;\n  color: #ffffff;\n  text-decoration: underline;\n}\n\n.footer {\n  padding: 4rem 0;\n}\n\n.footer .copyright p {\n  font-size: 1.5rem;\n  line-height: 1.6;\n}\n\n.footer .logo {\n  text-align: center;\n}\n\n.footer .contacts {\n  padding: 0;\n  margin: auto;\n  /*border: 1px solid red;*/\n  text-align: right;\n}\n\n.footer .contacts a {\n  /*border: 1px solid blue;*/\n  display: block;\n}\n\n.footer .contacts .phone {\n  font-size: 1.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.footer .contacts .email {\n  font-size: 1.4rem;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Modals*/\n.popup,\n.popup_engineer,\n.popup_calc_end {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.myimage {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 500px;\n  height: 500px;\n  z-index: 10;\n}\n\n.overlay {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.7);\n  opacity: 1;\n}\n\n.popup_content,\n.popup_engineer_content,\n.popup_calc_end_content {\n  /* display: none; */\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  background-color: #ffffff;\n}\n\n.popup_close,\n.popup_engineer_close,\n.popup_calc_end_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_content {\n  position: fixed;\n  top: 2%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 44rem;\n  padding: 1rem 0.5rem 4rem;\n  background-color: #ffffff;\n}\n\n.popup_calc_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_content h3 {\n  font-size: 2rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_content .balcon_icons {\n  margin-bottom: 1rem;\n}\n\n.popup_calc_content .big_img img {\n  display: none;\n  margin-bottom: 3rem;\n  width: 30rem;\n}\n\n.popup_calc_content #type1 {\n  display: inline-block;\n}\n\n.do_image_more img {\n  width: 110px;\n  height: 70px;\n  cursor: pointer;\n}\n\n.popup_calc_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc input {\n  display: inline-block;\n  margin-bottom: 3rem;\n  width: 10rem;\n  margin-right: 0.3rem;\n}\n\n.popup_calc label {\n  color: #999;\n}\n\n.popup_calc .multiplication {\n  display: inline-block;\n  font-size: 2rem;\n  color: #323131;\n  margin: 0 1rem;\n}\n\n.popup_calc_button {\n  padding: 1rem 5rem;\n}\n\n.popup_calc_profile {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_profile_content {\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  padding: 1rem 5rem 4rem;\n  background-color: #ffffff;\n  /*\tlabel {\n\t\t\tmargin-bottom: 1rem;\n\t\t\tfont-size: 1.5rem;\n\t\t\t.regular();\n\t\t}*/\n}\n\n.popup_calc_profile_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_profile_content h3 {\n  font-size: 1.8rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_profile_content select {\n  margin-bottom: 1rem;\n  outline: none;\n}\n\n.popup_calc_profile_content .checkbox {\n  display: none;\n}\n\n.popup_calc_profile_content .checkbox-custom {\n  position: relative;\n  width: 22px;\n  height: 22px;\n  border: 2px solid #ccc;\n  border-radius: 3px;\n}\n\n.popup_calc_profile_content .checkbox-custom,\n.popup_calc_profile_content .label {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.popup_calc_profile_content .checkbox:checked + .checkbox-custom::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.checkbox-custom[id=\"cold\"]::before {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ") center center no-repeat;\n}\n\n.checkbox-custom[id=\"warm\"]::before {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ") center center no-repeat;\n}\n\n.popup_calc_profile_content .label {\n  padding: 1.3rem 2rem;\n  z-index: 18rem;\n  color: #000000;\n  font-size: 1.5rem;\n  font-weight: 500;\n}\n\n.popup_calc_profile_content img {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n\n.popup_calc_profile_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc_profile_button {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  margin-top: 1rem;\n  padding: 1rem 5rem;\n}\n\n/*Media*/\n@media (max-width: 1400px) {\n  .main {\n    background-position: -30rem 0;\n  }\n}\n\n@media (max-width: 1199px) {\n  .header_btn {\n    padding: 1rem 1rem 1rem 5rem;\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 2rem;\n  }\n\n  .glazing_cold img {\n    width: 90%;\n  }\n\n  .glazing_warm img {\n    width: 90%;\n  }\n\n  .glazing ul {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price p {\n    margin-right: 2rem;\n  }\n\n  .decoration_item a {\n    font-size: 1.8rem;\n  }\n\n  /*Payment*/\n  .payment_img img {\n    margin-right: 1rem;\n  }\n}\n\n@media (max-width: 991px) {\n  .section_header h2 {\n    font-size: 2.8rem;\n  }\n\n  .header {\n    height: 12rem;\n  }\n\n  .header .logo {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header .logo p {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header_btn_wrap {\n    height: 12rem;\n  }\n\n  .header .working_hours {\n    height: 12rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    display: block;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us {\n    height: 12rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.15rem;\n  }\n\n  .main {\n    background-size: cover;\n    padding: 5rem 0;\n    padding-bottom: 7rem;\n  }\n\n  .main h1 {\n    text-align: center;\n    font-size: 5rem;\n  }\n\n  .main_features {\n    margin-top: 5rem;\n    margin-bottom: 7rem;\n    text-align: center;\n  }\n\n  .glazing_cold img {\n    width: 80%;\n  }\n\n  .glazing_warm img {\n    width: 80%;\n  }\n\n  .glazing ul {\n    display: inline-block;\n    padding: 0;\n  }\n\n  .glazing_price {\n    padding: 0;\n    text-align: center;\n  }\n\n  .glazing_price p {\n    margin-right: 10rem;\n  }\n\n  .decoration_img img {\n    width: 100%;\n  }\n\n  .decoration_content {\n    margin-top: 1rem;\n  }\n\n  .decoration_content_material img {\n    margin-top: 2rem;\n  }\n\n  .decoration_content_material h3 {\n    min-height: auto;\n  }\n\n  .decoration_form {\n    margin-top: 3rem;\n  }\n\n  .payment_item {\n    text-align: center;\n  }\n\n  .payment_item h3 {\n    display: block;\n  }\n\n  .payment_img {\n    min-height: 7rem;\n  }\n\n  .sale {\n    padding: 5rem 0;\n    background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ") right center no-repeat;\n    background-size: cover;\n  }\n\n  .sale_title {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .sale_subtitle {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .contacts_info {\n    margin-top: 3rem;\n  }\n\n  .feedback_block h3 {\n    display: block;\n    margin-right: 0;\n    margin-bottom: 2rem;\n  }\n}\n\n@media (max-width: 767px) {\n  .section_header h2 {\n    font-size: 2.5rem;\n  }\n\n  .header {\n    height: auto;\n    padding: 2rem 0;\n  }\n\n  .header .logo {\n    height: auto;\n    margin-top: 0;\n    display: block;\n    text-align: center;\n  }\n\n  .header .logo_img {\n    display: block;\n  }\n\n  .header_btn_wrap {\n    margin-top: 1rem;\n    margin-bottom: 2rem;\n    display: block;\n    height: auto;\n    text-align: center;\n  }\n\n  .header_btn_wrap_block {\n    width: 10%;\n  }\n\n  .header .working_hours {\n    display: block;\n    height: auto;\n  }\n\n  .header .contact_us {\n    display: block;\n    height: auto;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing_cold img {\n    width: 70%;\n  }\n\n  .glazing_warm img {\n    width: 70%;\n  }\n\n  .glazing_price p {\n    margin-right: 3rem;\n  }\n\n  .decoration_content h3 {\n    min-height: 3.7rem;\n  }\n\n  .guarantees {\n    padding: 3rem 0 1rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 5rem;\n    font-size: 1.5rem;\n  }\n\n  .guarantees img {\n    min-height: 7rem;\n  }\n\n  .payment {\n    padding-bottom: 2rem;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .contacts_info h3 {\n    margin-bottom: 1rem;\n  }\n\n  .contacts_info p {\n    font-size: 1.5rem;\n  }\n\n  .contacts_info a {\n    font-size: 1.5rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2.5rem;\n  }\n\n  .feedback_block a {\n    font-size: 2.5rem;\n  }\n\n  .footer .copyright {\n    text-align: center;\n  }\n\n  .footer .copyright p {\n    line-height: 1.2;\n  }\n\n  .footer .logo {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .footer .contacts {\n    padding: 0;\n    margin: auto;\n    /*border: 1px solid red;*/\n    text-align: center;\n  }\n\n  .footer .contacts a {\n    /*border: 1px solid blue;*/\n    display: block;\n  }\n\n  .footer .contacts .phone {\n    font-size: 1.8rem;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    color: #333333;\n  }\n\n  .footer .contacts .email {\n    font-size: 1.4rem;\n    color: #0089cd;\n    text-decoration: underline;\n  }\n}\n\n@media (max-width: 530px) {\n  .form {\n    margin-top: 2rem;\n    padding: 1.5rem 2rem;\n    padding-bottom: 3rem;\n  }\n\n  .form h2 {\n    margin-bottom: 1rem;\n    font-size: 1.4rem;\n  }\n\n  .form h2 span {\n    font-size: 2rem;\n  }\n\n  .form_input {\n    padding: 2rem 3rem;\n    margin-bottom: 2rem;\n  }\n\n  .form_input::-webkit-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input::-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-ms-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:focus::-webkit-input-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus::-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-ms-input-placeholder {\n    color: transparent;\n  }\n\n  .form_notice {\n    font-size: 1rem;\n  }\n\n  .button {\n    padding: 1.7rem 0rem;\n    font-size: 1.5rem;\n  }\n\n  .section_header {\n    text-align: center;\n    margin-bottom: 4rem;\n  }\n\n  .section_header h2 {\n    font-size: 2rem;\n  }\n\n  .section_header_sub {\n    margin-top: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours p span {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.2rem;\n  }\n\n  .header .contact_us_wrap a img {\n    margin-right: 0.5rem;\n    /*width: 10%;*/\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.2rem;\n  }\n\n  .main {\n    padding: 3rem 0;\n    padding-bottom: 5rem;\n    background: #ffffff url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") 0 0 no-repeat;\n    background-size: cover;\n  }\n\n  .main h1 {\n    font-size: 3rem;\n    line-height: 1.5;\n  }\n\n  .main h1 span {\n    font-size: 1.5rem;\n  }\n\n  .main_features {\n    margin-top: 3rem;\n    margin-bottom: 0;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing {\n    padding: 3rem 0;\n  }\n\n  .glazing_cold {\n    margin-top: 2rem;\n  }\n\n  .glazing_warm {\n    margin-top: 4rem;\n  }\n\n  .glazing_price {\n    padding: 0 1rem;\n  }\n\n  .glazing_price p {\n    display: block;\n    margin-right: 0rem;\n    margin-bottom: 2rem;\n    font-size: 2rem;\n    line-height: 1.2;\n  }\n\n  .glazing_price p span {\n    font-size: 1.4rem;\n  }\n\n  .glazing_price_btn {\n    font-size: 1.4rem;\n    padding: 2rem 2rem;\n  }\n\n  .glazing ul {\n    margin-top: 2rem;\n    margin-bottom: 0;\n    padding: 0 1rem;\n    font-size: 1.2rem;\n  }\n\n  .glazing ul li:before {\n    margin-right: 1rem;\n  }\n\n  .decoration {\n    padding: 3rem 0;\n  }\n\n  .decoration_item a {\n    font-size: 1.5rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 4rem;\n    font-size: 1.2rem;\n  }\n\n  .payment {\n    padding-top: 3rem;\n    padding-bottom: 0;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 4rem;\n    font-size: 1.5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .sale {\n    padding: 3rem 0 5rem;\n  }\n\n  .sale_title {\n    font-size: 3rem;\n  }\n\n  .sale_subtitle {\n    font-size: 1.8rem;\n    line-height: 1.4;\n  }\n\n  .sale .eTimer {\n    font-size: 1rem;\n  }\n\n  .contacts {\n    padding: 3rem 0;\n  }\n\n  .feedback {\n    padding: 3rem 0 4rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2rem;\n  }\n\n  .feedback_block a {\n    font-size: 1.5rem;\n  }\n\n  .popup_content,\n  .popup_engineer_content,\n  .popup_calc_end_content {\n    width: 31rem;\n  }\n\n  .popup_close,\n  .popup_engineer_close,\n  .popup_calc_end_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_content {\n    width: 42rem;\n  }\n\n  .popup_calc_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_content .balcon_icons {\n    margin-bottom: 1rem;\n  }\n\n  .popup_calc_content .balcon_icons img {\n    width: 20%;\n  }\n\n  .popup_calc_content .big_img img {\n    margin-bottom: 2rem;\n    width: 25rem;\n  }\n\n  .popup_calc_content #type1 {\n    display: inline-block;\n  }\n\n  .popup_calc_button {\n    padding: 1rem 5rem;\n  }\n\n  .popup_calc_profile_content {\n    width: 31rem;\n    padding: 1rem 1rem 4rem;\n  }\n\n  .popup_calc_profile_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_profile_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_profile_content select {\n    margin-bottom: 1rem;\n    outline: none;\n  }\n\n  .popup_calc_profile_content img {\n    width: 20%;\n  }\n\n  .popup_calc_profile_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_profile_button {\n    padding: 1rem 5rem;\n  }\n}\n\n/* small devices, tablets */\n@media only screen and (max-width: 768px) {\n  .animated {\n    /*css transitions*/\n    -webkit-transition-property: none !important;\n    transition-property: none !important;\n    /*css transforms*/\n    -webkit-transform: none !important;\n    transform: none !important;\n    /*css animations*/\n    -webkit-animation: none !important;\n    animation: none !important;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"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","sourcesContent":["/*Fonts Family*/\n/*Colors*/\n/*Basic settings*/\nhtml {\n  /* overflow-x: hidden; */\n  font-size: 10px;\n}\n\nbody {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.status {\n  display: block;\n  color: red;\n}\n\na:hover {\n  text-decoration: none;\n}\n\na:focus,\nbutton:focus,\ninput:focus,\ntextarea:focus {\n  outline: none;\n}\n\n.no-padding {\n  padding: 0 !important;\n}\n\n.form {\n  /*margin-top: 2rem;*/\n  padding: 2rem 5rem;\n  text-align: center;\n  border-radius: 1rem;\n  background-color: #ffffff;\n}\n\n.form h2 {\n  margin-bottom: 3rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  line-height: 1.5;\n}\n\n.form h2 span {\n  font-size: 2.4rem;\n  text-transform: uppercase;\n}\n\n.form_input {\n  height: 5.8rem;\n  padding: 0;\n  margin-bottom: 2rem;\n  text-align: center;\n  border-radius: 1rem;\n  -moz-box-sizing: border-box;\n}\n\n.form_input::-webkit-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input::-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-moz-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:-ms-input-placeholder {\n  color: #999;\n  opacity: 1;\n  font-size: 1.5rem;\n}\n\n.form_input:focus::-webkit-input-placeholder {\n  color: transparent;\n}\n\n.form_input:focus::-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-moz-placeholder {\n  color: transparent;\n}\n\n.form_input:focus:-ms-input-placeholder {\n  color: transparent;\n}\n\n.form_notice {\n  margin-top: 1rem;\n  margin-bottom: 2rem;\n  font-size: 1.1rem;\n  color: #666;\n}\n\n.button {\n  padding: 2.5rem 0rem;\n  font-size: 1.7rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  border: 1px solid #ffc600;\n  border-radius: 1rem;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ffed26),\n    to(#ffb400)\n  );\n  background: linear-gradient(180deg, #ffed26 0%, #ffb400 100%);\n  -webkit-box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n  box-shadow: 1px 2px 20px 0px rgba(255, 153, 0, 0.4);\n}\n\n.button:hover {\n  cursor: pointer;\n}\n\n.section_header {\n  margin-bottom: 8rem;\n  text-align: center;\n  text-transform: uppercase;\n}\n\n.section_header h2 {\n  font-size: 3rem;\n  line-height: 1.4;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.section_header_sub {\n  margin-top: 2rem;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 17rem;\n  height: 0.2rem;\n  background: url(../img/glazing/line.png) 0 0 no-repeat;\n}\n\n.arrow {\n  position: absolute;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  transform: translateY(-50%);\n  z-index: 99;\n  width: 2rem;\n  height: 2rem;\n  border: none;\n}\n\n.prev {\n  left: 0;\n  background: url(../img/glazing/left_arrow.png) center no-repeat;\n  background-size: 70%;\n}\n\n.next {\n  right: 0;\n  background: url(../img/glazing/right_arrow.png) center no-repeat;\n  background-size: 70%;\n}\n\n/*Header*/\n.header {\n  height: 10rem;\n  background-color: #ffffff;\n  /*border: 1px solid red;*/\n}\n\n.header .logo {\n  height: 10rem;\n  display: table;\n}\n\n.header .logo_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .logo_img img {\n  margin-right: 2rem;\n}\n\n.header .logo p {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.2;\n  font-size: 1.4rem;\n  color: #0089cd;\n}\n\n.header_btn {\n  background: #ffffff url(../img/header/edit.png) 1rem center no-repeat;\n  padding: 1rem 1rem 1rem 5rem;\n  border: 2px solid #55a831;\n  border-radius: 1rem;\n  background-color: #ffffff;\n  font-size: 1.4rem;\n  line-height: 1.2;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #55a831;\n  /*p {\n\t\t\t\tdisplay: inline-block;\n\t\t\tvertical-align: top;\n\t\t\t\tfont-size: 1.4rem;\n\t\t\t\tline-height: 1.2;\n\t\t\t\t.bold();\n\t\t\t\tcolor: @green;\n\t\t\t}*/\n}\n\n.header_btn_wrap {\n  display: table;\n  width: 100%;\n  height: 10rem;\n}\n\n.header_btn_wrap_block {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header_btn_wrap_block img {\n  margin-right: 0.7rem;\n}\n\n.header_btn:hover {\n  cursor: pointer;\n}\n\n.header .working_hours {\n  height: 10rem;\n  display: table;\n  /*text-align: right;*/\n}\n\n.header .working_hours_img {\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.header .working_hours_img img {\n  margin-right: 2rem;\n}\n\n.header .working_hours p {\n  display: table-cell;\n  vertical-align: middle;\n  font-size: 1.4rem;\n  color: #333333;\n}\n\n.header .working_hours p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  font-size: 1.8rem;\n}\n\n.header .contact_us {\n  height: 10rem;\n  display: table;\n  text-align: right;\n}\n\n.header .contact_us_wrap {\n  display: table-cell;\n  vertical-align: middle;\n  line-height: 1.7;\n}\n\n.header .contact_us_wrap a {\n  display: block;\n  font-size: 2.3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n  /*border: 1px solid blue;*/\n}\n\n.header .contact_us_wrap a img {\n  margin-right: 1rem;\n}\n\n.header .contact_us_wrap .phone_link {\n  font-size: 1.5rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Main*/\n.main {\n  padding: 10rem 0;\n  background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;\n}\n\n.main h1 {\n  margin: 0;\n  /*margin-top: -4rem;*/\n  font-size: 5.5rem;\n  line-height: 1.5;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.main h1 span {\n  font-size: 2.6rem;\n}\n\n.main_features {\n  padding: 0;\n  margin-top: 13rem;\n}\n\n.main_features_block {\n  text-align: center;\n}\n\n.main_features_block .small_img {\n  margin-top: 1rem;\n}\n\n.main_features_block p {\n  margin-top: -6rem;\n  font-size: 1.3rem;\n  line-height: 1.3;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffffff;\n}\n\n.main_form {\n  margin-top: 2rem;\n}\n\n/*glazing*/\n.glazing {\n  padding: 8rem 0;\n}\n\n.glazing_block {\n  display: inline-block;\n}\n\n.glazing_block img {\n  display: block;\n  margin: 0 auto;\n  margin-bottom: 2rem;\n}\n\n.glazing_block a {\n  font-size: 1.8rem;\n  font-weight: 600;\n  text-decoration: underline;\n  /*&:focus {\n\t\t\t\ttext-decoration: none;\n\t\t\t\tcolor: #454545;\n\t\t\t}*/\n}\n\n.glazing_block a:hover {\n  cursor: pointer;\n}\n\n.glazing_cold {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-left-radius: 5px;\n  border-top-left-radius: 5px;\n  border-top: 0.5rem solid #0089cd;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#c7dce9),\n    color-stop(0%, #c7dce9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #c7dce9 0%,\n    #c7dce9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_cold h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.glazing_warm {\n  margin-top: 4rem;\n  padding: 2.5rem 0;\n  text-align: center;\n  border-bottom-right-radius: 5px;\n  border-top-right-radius: 5px;\n  border-top: 0.5rem solid #ffb903;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#f7eac9),\n    color-stop(0%, #f7eac9),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #f7eac9 0%,\n    #f7eac9 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.glazing_warm h3 {\n  margin-bottom: 2.5rem;\n  font-size: 2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #ffb903;\n}\n\n.glazing ul {\n  margin-top: 3.7rem;\n  padding: 0 6rem;\n  font-size: 1.4rem;\n  font-weight: 400;\n  list-style: none;\n  line-height: 2.1;\n  text-align: left;\n}\n\n.glazing ul li:before {\n  content: \"\";\n  display: inline-block;\n  margin-right: 1.7rem;\n  width: 2.5rem;\n  height: 2.5rem;\n  background: url(../img/glazing/check.png) no-repeat center;\n  background-size: 100%;\n  vertical-align: middle;\n}\n\n.glazing_price {\n  padding: 0 6rem;\n}\n\n.glazing_price p {\n  display: inline-block;\n  margin-right: 3rem;\n  vertical-align: middle;\n  font-size: 2rem;\n  line-height: 1.7;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n}\n\n.glazing_price p span {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.glazing_price_btn {\n  padding: 2rem 2rem;\n}\n\n.glazing .aluminum,\n.glazing .plastic,\n.glazing .french,\n.glazing .rise {\n  display: none;\n}\n\n.glazing a.active {\n  text-decoration: none;\n  color: #454545;\n}\n\n/*Decoration*/\n.decoration {\n  padding: 8rem 0;\n  background-color: #f7f7f7;\n}\n\n.decoration_item {\n  text-align: center;\n}\n\n.decoration_item a {\n  font-size: 2rem;\n  font-weight: 600;\n  color: #000000;\n  text-transform: uppercase;\n  border-bottom: 1px dotted #000000;\n}\n\n.decoration_item a:hover {\n  cursor: pointer;\n}\n\n.decoration_item a:focus {\n  border: none;\n  text-decoration: none;\n  color: #0089cd;\n  /*border-top: 1rem solid @blue;\n\t\t\t\theight: 8rem;\n\t\t\t\tpadding: 2rem 1rem;\n\t\t\t\tbackground: -webkit-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -moz-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -o-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: -ms-linear-gradient(-90deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);\n\t\t\t\tbackground: linear-gradient(180deg, #ebebeb 0%, #ebebeb 0%, rgba(255, 255, 255, 0) 100%);*/\n}\n\n.decoration_item .no_click {\n  /*border: 1px solid red;*/\n  height: 8rem;\n  padding: 2rem 0;\n  border-top: 1rem solid #f7f7f7;\n}\n\n.decoration_item .after_click {\n  border-top: 1rem solid #0089cd;\n  height: 8rem;\n  padding: 2rem 0;\n  background: -webkit-gradient(\n    linear,\n    left top,\n    left bottom,\n    from(#ebebeb),\n    color-stop(0%, #ebebeb),\n    to(rgba(255, 255, 255, 0))\n  );\n  background: linear-gradient(\n    180deg,\n    #ebebeb 0%,\n    #ebebeb 0%,\n    rgba(255, 255, 255, 0) 100%\n  );\n}\n\n.decoration_content {\n  margin-top: 8rem;\n}\n\n.decoration_content_material img {\n  margin-top: 2.5rem;\n}\n\n.decoration_content_material h3 {\n  font-size: 1.4rem;\n  font-weight: 600;\n  line-height: 1.4;\n  min-height: 4rem;\n}\n\n.decoration_content_material p {\n  font-size: 1.4rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #0089cd;\n}\n\n.decoration_content_material p span {\n  display: block;\n  font-size: 1.2rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n  color: #000000;\n}\n\n.decoration .external,\n.decoration .rising,\n.decoration .roof {\n  display: none;\n}\n\n/*Our works*/\n.works {\n  padding: 5rem 0;\n}\n\n.works img {\n  margin-bottom: 3rem;\n}\n\n.works a[data-fancybox=\"gallery\"] .lupa {\n  /* position: ; */\n  top: 0;\n  left: 0;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  top: 40%;\n  opacity: 0;\n  -webkit-transition: ease 0.2s;\n  transition: ease 0.2s;\n}\n\n.works a[data-fancybox=\"gallery\"]:hover .lupa {\n  opacity: 1;\n}\n\n/*Guarantees*/\n.guarantees {\n  padding: 6rem 0 1rem;\n  background-color: #0089cd;\n}\n\n.guarantees_header h2 {\n  color: #ffffff;\n}\n\n.guarantees_header_sub {\n  background: url(../img/guarantees/header_sub.png) 0 0 no-repeat;\n}\n\n.guarantees h3 {\n  margin-top: 3rem;\n  margin-bottom: 8rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  line-height: 1.4;\n  color: #ffffff;\n}\n\n.guarantees img {\n  min-height: 7rem;\n}\n\n.guarantees_block:hover {\n  -webkit-box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n  box-shadow:\n    0 14px 28px rgba(0, 0, 0, 0.25),\n    0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n/*Payment*/\n.payment {\n  padding: 6rem 0;\n}\n\n.payment_header {\n  text-transform: none;\n}\n\n.payment_item h3 {\n  display: inline-block;\n  font-size: 2rem;\n}\n\n.payment_img {\n  display: inline-block;\n}\n\n.payment_img img {\n  margin-right: 2rem;\n}\n\n/*Sale*/\n.sale {\n  padding: 8rem 0;\n  background: #ffffff url(../img/sale/bg.jpg) center center no-repeat;\n}\n\n.sale_title {\n  margin-bottom: 8rem;\n  font-size: 4.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  text-transform: uppercase;\n  color: #0089cd;\n}\n\n.sale_subtitle {\n  margin-bottom: 8rem;\n  font-size: 2.4rem;\n  line-height: 1.6;\n}\n\n/* Timer */\n.timer1 {\n  padding: 10px;\n  border: 1px solid grey;\n  background-color: white;\n  color: black;\n  border-radius: 10px;\n  text-align: center;\n  width: 360px;\n  height: 150px;\n}\n\n.container1 {\n  display: inline-block;\n}\n.numbers1 {\n  display: block;\n  float: left;\n  color: white;\n  font-size: 40px;\n  margin-right: 10px;\n}\n\n.timer1 span {\n  margin-right: 2px;\n  background-color: #575757;\n  border-radius: 7px;\n  padding: 4px;\n}\n.description1 {\n  font-size: 18px;\n  text-align: center;\n  color: black;\n}\n\n/*Contacts*/\n.contacts {\n  padding: 6rem 0;\n}\n\n.contacts_info {\n  margin-top: -3rem;\n}\n\n.contacts_info h3 {\n  margin-bottom: 1.8rem;\n  font-size: 1.5rem;\n  font-weight: 600;\n  color: #0089cd;\n}\n\n.contacts_info p {\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n}\n\n.contacts_info p span {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.contacts_info a {\n  display: block;\n  margin-bottom: 3rem;\n  font-size: 1.8rem;\n  font-weight: 600;\n  color: #000000;\n  text-decoration: underline;\n}\n\n.contacts .map {\n  width: 100%;\n}\n\n/*Feedback*/\n.feedback {\n  padding: 6rem 0;\n  background-color: #0089cd;\n}\n\n.feedback_block h3 {\n  display: inline-block;\n  margin-right: 4rem;\n  font-size: 3rem;\n  color: #ffffff;\n}\n\n.feedback_block a {\n  font-size: 3rem;\n  font-weight: 600;\n  color: #ffffff;\n  text-decoration: underline;\n}\n\n.footer {\n  padding: 4rem 0;\n}\n\n.footer .copyright p {\n  font-size: 1.5rem;\n  line-height: 1.6;\n}\n\n.footer .logo {\n  text-align: center;\n}\n\n.footer .contacts {\n  padding: 0;\n  margin: auto;\n  /*border: 1px solid red;*/\n  text-align: right;\n}\n\n.footer .contacts a {\n  /*border: 1px solid blue;*/\n  display: block;\n}\n\n.footer .contacts .phone {\n  font-size: 1.8rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.footer .contacts .email {\n  font-size: 1.4rem;\n  color: #0089cd;\n  text-decoration: underline;\n}\n\n/*Modals*/\n.popup,\n.popup_engineer,\n.popup_calc_end {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.myimage {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 500px;\n  height: 500px;\n  z-index: 10;\n}\n\n.overlay {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.7);\n  opacity: 1;\n}\n\n.popup_content,\n.popup_engineer_content,\n.popup_calc_end_content {\n  /* display: none; */\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  background-color: #ffffff;\n}\n\n.popup_close,\n.popup_engineer_close,\n.popup_calc_end_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_content {\n  position: fixed;\n  top: 2%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 44rem;\n  padding: 1rem 0.5rem 4rem;\n  background-color: #ffffff;\n}\n\n.popup_calc_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_content h3 {\n  font-size: 2rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_content .balcon_icons {\n  margin-bottom: 1rem;\n}\n\n.popup_calc_content .big_img img {\n  display: none;\n  margin-bottom: 3rem;\n  width: 30rem;\n}\n\n.popup_calc_content #type1 {\n  display: inline-block;\n}\n\n.do_image_more img {\n  width: 110px;\n  height: 70px;\n  cursor: pointer;\n}\n\n.popup_calc_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc input {\n  display: inline-block;\n  margin-bottom: 3rem;\n  width: 10rem;\n  margin-right: 0.3rem;\n}\n\n.popup_calc label {\n  color: #999;\n}\n\n.popup_calc .multiplication {\n  display: inline-block;\n  font-size: 2rem;\n  color: #323131;\n  margin: 0 1rem;\n}\n\n.popup_calc_button {\n  padding: 1rem 5rem;\n}\n\n.popup_calc_profile {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 9;\n  background-color: rgba(0, 0, 0, 0.5);\n}\n\n.popup_calc_profile_content {\n  position: fixed;\n  top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  width: 40rem;\n  padding: 1rem 5rem 4rem;\n  background-color: #ffffff;\n  /*\tlabel {\n\t\t\tmargin-bottom: 1rem;\n\t\t\tfont-size: 1.5rem;\n\t\t\t.regular();\n\t\t}*/\n}\n\n.popup_calc_profile_content h2 {\n  margin-bottom: 3rem;\n  font-size: 3rem;\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: 700;\n  font-style: normal;\n  color: #333333;\n}\n\n.popup_calc_profile_content h3 {\n  font-size: 1.8rem;\n  margin-bottom: 3rem;\n}\n\n.popup_calc_profile_content select {\n  margin-bottom: 1rem;\n  outline: none;\n}\n\n.popup_calc_profile_content .checkbox {\n  display: none;\n}\n\n.popup_calc_profile_content .checkbox-custom {\n  position: relative;\n  width: 22px;\n  height: 22px;\n  border: 2px solid #ccc;\n  border-radius: 3px;\n}\n\n.popup_calc_profile_content .checkbox-custom,\n.popup_calc_profile_content .label {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.popup_calc_profile_content .checkbox:checked + .checkbox-custom::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.checkbox-custom[id=\"cold\"]::before {\n  background: url(../img/modal_calc/check.png) center center no-repeat;\n}\n\n.checkbox-custom[id=\"warm\"]::before {\n  background: url(../img/modal_calc/check_warm.png) center center no-repeat;\n}\n\n.popup_calc_profile_content .label {\n  padding: 1.3rem 2rem;\n  z-index: 18rem;\n  color: #000000;\n  font-size: 1.5rem;\n  font-weight: 500;\n}\n\n.popup_calc_profile_content img {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n\n.popup_calc_profile_close {\n  position: absolute;\n  top: -2.2rem;\n  right: -5rem;\n  font-size: 4rem;\n  color: #ffffff;\n  border: none;\n  background: transparent;\n}\n\n.popup_calc_profile_button {\n  display: block;\n  margin-left: 50%;\n  -webkit-transform: translateX(-50%);\n  transform: translateX(-50%);\n  margin-top: 1rem;\n  padding: 1rem 5rem;\n}\n\n/*Media*/\n@media (max-width: 1400px) {\n  .main {\n    background-position: -30rem 0;\n  }\n}\n\n@media (max-width: 1199px) {\n  .header_btn {\n    padding: 1rem 1rem 1rem 5rem;\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 2rem;\n  }\n\n  .glazing_cold img {\n    width: 90%;\n  }\n\n  .glazing_warm img {\n    width: 90%;\n  }\n\n  .glazing ul {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price {\n    padding: 0 2.5rem;\n    padding-right: 0;\n  }\n\n  .glazing_price p {\n    margin-right: 2rem;\n  }\n\n  .decoration_item a {\n    font-size: 1.8rem;\n  }\n\n  /*Payment*/\n  .payment_img img {\n    margin-right: 1rem;\n  }\n}\n\n@media (max-width: 991px) {\n  .section_header h2 {\n    font-size: 2.8rem;\n  }\n\n  .header {\n    height: 12rem;\n  }\n\n  .header .logo {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header .logo p {\n    margin-top: 1rem;\n    display: block;\n  }\n\n  .header_btn_wrap {\n    height: 12rem;\n  }\n\n  .header .working_hours {\n    height: 12rem;\n  }\n\n  .header .working_hours_img img {\n    margin-right: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.3rem;\n  }\n\n  .header .working_hours p span {\n    display: block;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    font-size: 1.6rem;\n  }\n\n  .header .contact_us {\n    height: 12rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.15rem;\n  }\n\n  .main {\n    background-size: cover;\n    padding: 5rem 0;\n    padding-bottom: 7rem;\n  }\n\n  .main h1 {\n    text-align: center;\n    font-size: 5rem;\n  }\n\n  .main_features {\n    margin-top: 5rem;\n    margin-bottom: 7rem;\n    text-align: center;\n  }\n\n  .glazing_cold img {\n    width: 80%;\n  }\n\n  .glazing_warm img {\n    width: 80%;\n  }\n\n  .glazing ul {\n    display: inline-block;\n    padding: 0;\n  }\n\n  .glazing_price {\n    padding: 0;\n    text-align: center;\n  }\n\n  .glazing_price p {\n    margin-right: 10rem;\n  }\n\n  .decoration_img img {\n    width: 100%;\n  }\n\n  .decoration_content {\n    margin-top: 1rem;\n  }\n\n  .decoration_content_material img {\n    margin-top: 2rem;\n  }\n\n  .decoration_content_material h3 {\n    min-height: auto;\n  }\n\n  .decoration_form {\n    margin-top: 3rem;\n  }\n\n  .payment_item {\n    text-align: center;\n  }\n\n  .payment_item h3 {\n    display: block;\n  }\n\n  .payment_img {\n    min-height: 7rem;\n  }\n\n  .sale {\n    padding: 5rem 0;\n    background: #ffffff url(../img/sale/bg.jpg) right center no-repeat;\n    background-size: cover;\n  }\n\n  .sale_title {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .sale_subtitle {\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .contacts_info {\n    margin-top: 3rem;\n  }\n\n  .feedback_block h3 {\n    display: block;\n    margin-right: 0;\n    margin-bottom: 2rem;\n  }\n}\n\n@media (max-width: 767px) {\n  .section_header h2 {\n    font-size: 2.5rem;\n  }\n\n  .header {\n    height: auto;\n    padding: 2rem 0;\n  }\n\n  .header .logo {\n    height: auto;\n    margin-top: 0;\n    display: block;\n    text-align: center;\n  }\n\n  .header .logo_img {\n    display: block;\n  }\n\n  .header_btn_wrap {\n    margin-top: 1rem;\n    margin-bottom: 2rem;\n    display: block;\n    height: auto;\n    text-align: center;\n  }\n\n  .header_btn_wrap_block {\n    width: 10%;\n  }\n\n  .header .working_hours {\n    display: block;\n    height: auto;\n  }\n\n  .header .contact_us {\n    display: block;\n    height: auto;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing_cold img {\n    width: 70%;\n  }\n\n  .glazing_warm img {\n    width: 70%;\n  }\n\n  .glazing_price p {\n    margin-right: 3rem;\n  }\n\n  .decoration_content h3 {\n    min-height: 3.7rem;\n  }\n\n  .guarantees {\n    padding: 3rem 0 1rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 5rem;\n    font-size: 1.5rem;\n  }\n\n  .guarantees img {\n    min-height: 7rem;\n  }\n\n  .payment {\n    padding-bottom: 2rem;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .contacts_info h3 {\n    margin-bottom: 1rem;\n  }\n\n  .contacts_info p {\n    font-size: 1.5rem;\n  }\n\n  .contacts_info a {\n    font-size: 1.5rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2.5rem;\n  }\n\n  .feedback_block a {\n    font-size: 2.5rem;\n  }\n\n  .footer .copyright {\n    text-align: center;\n  }\n\n  .footer .copyright p {\n    line-height: 1.2;\n  }\n\n  .footer .logo {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n    text-align: center;\n  }\n\n  .footer .contacts {\n    padding: 0;\n    margin: auto;\n    /*border: 1px solid red;*/\n    text-align: center;\n  }\n\n  .footer .contacts a {\n    /*border: 1px solid blue;*/\n    display: block;\n  }\n\n  .footer .contacts .phone {\n    font-size: 1.8rem;\n    font-family: \"Open Sans\", sans-serif;\n    font-weight: 700;\n    font-style: normal;\n    color: #333333;\n  }\n\n  .footer .contacts .email {\n    font-size: 1.4rem;\n    color: #0089cd;\n    text-decoration: underline;\n  }\n}\n\n@media (max-width: 530px) {\n  .form {\n    margin-top: 2rem;\n    padding: 1.5rem 2rem;\n    padding-bottom: 3rem;\n  }\n\n  .form h2 {\n    margin-bottom: 1rem;\n    font-size: 1.4rem;\n  }\n\n  .form h2 span {\n    font-size: 2rem;\n  }\n\n  .form_input {\n    padding: 2rem 3rem;\n    margin-bottom: 2rem;\n  }\n\n  .form_input::-webkit-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input::-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-moz-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:-ms-input-placeholder {\n    color: #999;\n    opacity: 1;\n    font-size: 1.3rem;\n  }\n\n  .form_input:focus::-webkit-input-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus::-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-moz-placeholder {\n    color: transparent;\n  }\n\n  .form_input:focus:-ms-input-placeholder {\n    color: transparent;\n  }\n\n  .form_notice {\n    font-size: 1rem;\n  }\n\n  .button {\n    padding: 1.7rem 0rem;\n    font-size: 1.5rem;\n  }\n\n  .section_header {\n    text-align: center;\n    margin-bottom: 4rem;\n  }\n\n  .section_header h2 {\n    font-size: 2rem;\n  }\n\n  .section_header_sub {\n    margin-top: 1rem;\n  }\n\n  .header .working_hours p {\n    font-size: 1.2rem;\n  }\n\n  .header .working_hours p span {\n    font-size: 1.4rem;\n  }\n\n  .header .contact_us_wrap a {\n    font-size: 1.2rem;\n  }\n\n  .header .contact_us_wrap a img {\n    margin-right: 0.5rem;\n    /*width: 10%;*/\n  }\n\n  .header .contact_us_wrap .phone_link {\n    font-size: 1.2rem;\n  }\n\n  .main {\n    padding: 3rem 0;\n    padding-bottom: 5rem;\n    background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;\n    background-size: cover;\n  }\n\n  .main h1 {\n    font-size: 3rem;\n    line-height: 1.5;\n  }\n\n  .main h1 span {\n    font-size: 1.5rem;\n  }\n\n  .main_features {\n    margin-top: 3rem;\n    margin-bottom: 0;\n  }\n\n  .main_features_block {\n    margin-bottom: 4rem;\n  }\n\n  .glazing {\n    padding: 3rem 0;\n  }\n\n  .glazing_cold {\n    margin-top: 2rem;\n  }\n\n  .glazing_warm {\n    margin-top: 4rem;\n  }\n\n  .glazing_price {\n    padding: 0 1rem;\n  }\n\n  .glazing_price p {\n    display: block;\n    margin-right: 0rem;\n    margin-bottom: 2rem;\n    font-size: 2rem;\n    line-height: 1.2;\n  }\n\n  .glazing_price p span {\n    font-size: 1.4rem;\n  }\n\n  .glazing_price_btn {\n    font-size: 1.4rem;\n    padding: 2rem 2rem;\n  }\n\n  .glazing ul {\n    margin-top: 2rem;\n    margin-bottom: 0;\n    padding: 0 1rem;\n    font-size: 1.2rem;\n  }\n\n  .glazing ul li:before {\n    margin-right: 1rem;\n  }\n\n  .decoration {\n    padding: 3rem 0;\n  }\n\n  .decoration_item a {\n    font-size: 1.5rem;\n  }\n\n  .guarantees h3 {\n    margin-top: 2rem;\n    margin-bottom: 4rem;\n    font-size: 1.2rem;\n  }\n\n  .payment {\n    padding-top: 3rem;\n    padding-bottom: 0;\n  }\n\n  .payment_item h3 {\n    margin-top: 1rem;\n    margin-bottom: 4rem;\n    font-size: 1.5rem;\n  }\n\n  .payment_img {\n    min-height: auto;\n  }\n\n  .sale {\n    padding: 3rem 0 5rem;\n  }\n\n  .sale_title {\n    font-size: 3rem;\n  }\n\n  .sale_subtitle {\n    font-size: 1.8rem;\n    line-height: 1.4;\n  }\n\n  .sale .eTimer {\n    font-size: 1rem;\n  }\n\n  .contacts {\n    padding: 3rem 0;\n  }\n\n  .feedback {\n    padding: 3rem 0 4rem;\n  }\n\n  .feedback_block h3 {\n    font-size: 2rem;\n  }\n\n  .feedback_block a {\n    font-size: 1.5rem;\n  }\n\n  .popup_content,\n  .popup_engineer_content,\n  .popup_calc_end_content {\n    width: 31rem;\n  }\n\n  .popup_close,\n  .popup_engineer_close,\n  .popup_calc_end_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_content {\n    width: 42rem;\n  }\n\n  .popup_calc_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_content .balcon_icons {\n    margin-bottom: 1rem;\n  }\n\n  .popup_calc_content .balcon_icons img {\n    width: 20%;\n  }\n\n  .popup_calc_content .big_img img {\n    margin-bottom: 2rem;\n    width: 25rem;\n  }\n\n  .popup_calc_content #type1 {\n    display: inline-block;\n  }\n\n  .popup_calc_button {\n    padding: 1rem 5rem;\n  }\n\n  .popup_calc_profile_content {\n    width: 31rem;\n    padding: 1rem 1rem 4rem;\n  }\n\n  .popup_calc_profile_content h2 {\n    margin-bottom: 2rem;\n    font-size: 2rem;\n  }\n\n  .popup_calc_profile_content h3 {\n    font-size: 1.7rem;\n    margin-bottom: 2rem;\n  }\n\n  .popup_calc_profile_content select {\n    margin-bottom: 1rem;\n    outline: none;\n  }\n\n  .popup_calc_profile_content img {\n    width: 20%;\n  }\n\n  .popup_calc_profile_close {\n    position: absolute;\n    top: -1rem;\n    right: 1rem;\n    font-size: 4rem;\n    color: #000000;\n    border: none;\n    background: transparent;\n  }\n\n  .popup_calc_profile_button {\n    padding: 1rem 5rem;\n  }\n}\n\n/* small devices, tablets */\n@media only screen and (max-width: 768px) {\n  .animated {\n    /*css transitions*/\n    -webkit-transition-property: none !important;\n    transition-property: none !important;\n    /*css transforms*/\n    -webkit-transform: none !important;\n    transform: none !important;\n    /*css animations*/\n    -webkit-animation: none !important;\n    animation: none !important;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -14929,6 +15061,49 @@ module.exports = function (argument) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/a-constructor.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/a-constructor.js ***!
+  \*********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var isConstructor = __webpack_require__(/*! ../internals/is-constructor */ "./node_modules/core-js/internals/is-constructor.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
+
+var $TypeError = TypeError;
+
+// `Assert: IsConstructor(argument) is true`
+module.exports = function (argument) {
+  if (isConstructor(argument)) return argument;
+  throw new $TypeError(tryToString(argument) + ' is not a constructor');
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/a-possible-prototype.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/a-possible-prototype.js ***!
+  \****************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var isPossiblePrototype = __webpack_require__(/*! ../internals/is-possible-prototype */ "./node_modules/core-js/internals/is-possible-prototype.js");
+
+var $String = String;
+var $TypeError = TypeError;
+
+module.exports = function (argument) {
+  if (isPossiblePrototype(argument)) return argument;
+  throw new $TypeError("Can't set " + $String(argument) + ' as a prototype');
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/advance-string-index.js":
 /*!****************************************************************!*\
   !*** ./node_modules/core-js/internals/advance-string-index.js ***!
@@ -14943,6 +15118,26 @@ var charAt = (__webpack_require__(/*! ../internals/string-multibyte */ "./node_m
 // https://tc39.es/ecma262/#sec-advancestringindex
 module.exports = function (S, index, unicode) {
   return index + (unicode ? charAt(S, index).length : 1);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/an-instance.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/an-instance.js ***!
+  \*******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var isPrototypeOf = __webpack_require__(/*! ../internals/object-is-prototype-of */ "./node_modules/core-js/internals/object-is-prototype-of.js");
+
+var $TypeError = TypeError;
+
+module.exports = function (it, Prototype) {
+  if (isPrototypeOf(Prototype, it)) return it;
+  throw new $TypeError('Incorrect invocation');
 };
 
 
@@ -15142,6 +15337,21 @@ module.exports = function (METHOD_NAME, argument) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/array-slice.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/array-slice.js ***!
+  \*******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+
+module.exports = uncurryThis([].slice);
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/array-species-constructor.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/core-js/internals/array-species-constructor.js ***!
@@ -15190,6 +15400,60 @@ var arraySpeciesConstructor = __webpack_require__(/*! ../internals/array-species
 // https://tc39.es/ecma262/#sec-arrayspeciescreate
 module.exports = function (originalArray, length) {
   return new (arraySpeciesConstructor(originalArray))(length === 0 ? 0 : length);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/check-correctness-of-iteration.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/core-js/internals/check-correctness-of-iteration.js ***!
+  \**************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var ITERATOR = wellKnownSymbol('iterator');
+var SAFE_CLOSING = false;
+
+try {
+  var called = 0;
+  var iteratorWithReturn = {
+    next: function () {
+      return { done: !!called++ };
+    },
+    'return': function () {
+      SAFE_CLOSING = true;
+    }
+  };
+  // eslint-disable-next-line unicorn/no-immediate-mutation -- ES3 syntax limitation
+  iteratorWithReturn[ITERATOR] = function () {
+    return this;
+  };
+  // eslint-disable-next-line es/no-array-from, no-throw-literal -- required for testing
+  Array.from(iteratorWithReturn, function () { throw 2; });
+} catch (error) { /* empty */ }
+
+module.exports = function (exec, SKIP_CLOSING) {
+  try {
+    if (!SKIP_CLOSING && !SAFE_CLOSING) return false;
+  } catch (error) { return false; } // workaround of old WebKit + `eval` bug
+  var ITERATION_SUPPORT = false;
+  try {
+    var object = {};
+    // eslint-disable-next-line unicorn/no-immediate-mutation -- ES3 syntax limitation
+    object[ITERATOR] = function () {
+      return {
+        next: function () {
+          return { done: ITERATION_SUPPORT = true };
+        }
+      };
+    };
+    exec(object);
+  } catch (error) { /* empty */ }
+  return ITERATION_SUPPORT;
 };
 
 
@@ -15284,6 +15548,26 @@ module.exports = function (target, source, exceptions) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/correct-prototype-getter.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/internals/correct-prototype-getter.js ***!
+  \********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+
+module.exports = !fails(function () {
+  function F() { /* empty */ }
+  F.prototype.constructor = null;
+  // eslint-disable-next-line es/no-object-getprototypeof -- required for testing
+  return Object.getPrototypeOf(new F()) !== F.prototype;
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/create-non-enumerable-property.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/core-js/internals/create-non-enumerable-property.js ***!
@@ -15341,6 +15625,26 @@ var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-prope
 module.exports = function (object, key, value) {
   if (DESCRIPTORS) definePropertyModule.f(object, key, createPropertyDescriptor(0, value));
   else object[key] = value;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/define-built-in-accessor.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/internals/define-built-in-accessor.js ***!
+  \********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var makeBuiltIn = __webpack_require__(/*! ../internals/make-built-in */ "./node_modules/core-js/internals/make-built-in.js");
+var defineProperty = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
+
+module.exports = function (target, name, descriptor) {
+  if (descriptor.get) makeBuiltIn(descriptor.get, name, { getter: true });
+  if (descriptor.set) makeBuiltIn(descriptor.set, name, { setter: true });
+  return defineProperty.f(target, name, descriptor);
 };
 
 
@@ -15538,6 +15842,67 @@ module.exports = [
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/environment-is-ios-pebble.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/internals/environment-is-ios-pebble.js ***!
+  \*********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var userAgent = __webpack_require__(/*! ../internals/environment-user-agent */ "./node_modules/core-js/internals/environment-user-agent.js");
+
+module.exports = /ipad|iphone|ipod/i.test(userAgent) && typeof Pebble != 'undefined';
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/environment-is-ios.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/internals/environment-is-ios.js ***!
+  \**************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var userAgent = __webpack_require__(/*! ../internals/environment-user-agent */ "./node_modules/core-js/internals/environment-user-agent.js");
+
+// eslint-disable-next-line redos/no-vulnerable -- safe
+module.exports = /(?:ipad|iphone|ipod).*applewebkit/i.test(userAgent);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/environment-is-node.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/internals/environment-is-node.js ***!
+  \***************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var ENVIRONMENT = __webpack_require__(/*! ../internals/environment */ "./node_modules/core-js/internals/environment.js");
+
+module.exports = ENVIRONMENT === 'NODE';
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/environment-is-webos-webkit.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/internals/environment-is-webos-webkit.js ***!
+  \***********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var userAgent = __webpack_require__(/*! ../internals/environment-user-agent */ "./node_modules/core-js/internals/environment-user-agent.js");
+
+module.exports = /web0s(?!.*chrome)/i.test(userAgent);
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/environment-user-agent.js":
 /*!******************************************************************!*\
   !*** ./node_modules/core-js/internals/environment-user-agent.js ***!
@@ -15591,6 +15956,38 @@ if (!version && userAgent) {
 }
 
 module.exports = version;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/environment.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/environment.js ***!
+  \*******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+/* global Bun, Deno -- detection */
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var userAgent = __webpack_require__(/*! ../internals/environment-user-agent */ "./node_modules/core-js/internals/environment-user-agent.js");
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+
+var userAgentStartsWith = function (string) {
+  return userAgent.slice(0, string.length) === string;
+};
+
+module.exports = (function () {
+  if (userAgentStartsWith('Bun/')) return 'BUN';
+  if (userAgentStartsWith('Cloudflare-Workers')) return 'CLOUDFLARE';
+  if (userAgentStartsWith('Deno/')) return 'DENO';
+  if (userAgentStartsWith('Node.js/')) return 'NODE';
+  if (globalThis.Bun && typeof Bun.version == 'string') return 'BUN';
+  if (globalThis.Deno && typeof Deno.version == 'object') return 'DENO';
+  if (classof(globalThis.process) === 'process') return 'NODE';
+  if (globalThis.window && globalThis.document) return 'BROWSER';
+  return 'REST';
+})();
 
 
 /***/ }),
@@ -15884,6 +16281,27 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/function-uncurry-this-accessor.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/core-js/internals/function-uncurry-this-accessor.js ***!
+  \**************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+
+module.exports = function (object, key, method) {
+  try {
+    // eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+    return uncurryThis(aCallable(Object.getOwnPropertyDescriptor(object, key)[method]));
+  } catch (error) { /* empty */ }
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/function-uncurry-this-clause.js":
 /*!************************************************************************!*\
   !*** ./node_modules/core-js/internals/function-uncurry-this-clause.js ***!
@@ -15946,6 +16364,56 @@ var aFunction = function (argument) {
 
 module.exports = function (namespace, method) {
   return arguments.length < 2 ? aFunction(globalThis[namespace]) : globalThis[namespace] && globalThis[namespace][method];
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/get-iterator-method.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/internals/get-iterator-method.js ***!
+  \***************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var classof = __webpack_require__(/*! ../internals/classof */ "./node_modules/core-js/internals/classof.js");
+var getMethod = __webpack_require__(/*! ../internals/get-method */ "./node_modules/core-js/internals/get-method.js");
+var isNullOrUndefined = __webpack_require__(/*! ../internals/is-null-or-undefined */ "./node_modules/core-js/internals/is-null-or-undefined.js");
+var Iterators = __webpack_require__(/*! ../internals/iterators */ "./node_modules/core-js/internals/iterators.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var ITERATOR = wellKnownSymbol('iterator');
+
+module.exports = function (it) {
+  if (!isNullOrUndefined(it)) return getMethod(it, ITERATOR)
+    || getMethod(it, '@@iterator')
+    || Iterators[classof(it)];
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/get-iterator.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/internals/get-iterator.js ***!
+  \********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
+var getIteratorMethod = __webpack_require__(/*! ../internals/get-iterator-method */ "./node_modules/core-js/internals/get-iterator-method.js");
+
+var $TypeError = TypeError;
+
+module.exports = function (argument, usingIterator) {
+  var iteratorMethod = arguments.length < 2 ? getIteratorMethod(argument) : usingIterator;
+  if (aCallable(iteratorMethod)) return anObject(call(iteratorMethod, argument));
+  throw new $TypeError(tryToString(argument) + ' is not iterable');
 };
 
 
@@ -16088,6 +16556,24 @@ module.exports = Object.hasOwn || function hasOwn(it, key) {
 "use strict";
 
 module.exports = {};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/host-report-errors.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/internals/host-report-errors.js ***!
+  \**************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+module.exports = function (a, b) {
+  try {
+    // eslint-disable-next-line no-console -- safe
+    arguments.length === 1 ? console.error(a) : console.error(a, b);
+  } catch (error) { /* empty */ }
+};
 
 
 /***/ }),
@@ -16260,6 +16746,28 @@ module.exports = {
   has: has,
   enforce: enforce,
   getterFor: getterFor
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/is-array-iterator-method.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/internals/is-array-iterator-method.js ***!
+  \********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var Iterators = __webpack_require__(/*! ../internals/iterators */ "./node_modules/core-js/internals/iterators.js");
+
+var ITERATOR = wellKnownSymbol('iterator');
+var ArrayPrototype = Array.prototype;
+
+// check on default Array iterator
+module.exports = function (it) {
+  return it !== undefined && (Iterators.Array === it || ArrayPrototype[ITERATOR] === it);
 };
 
 
@@ -16439,6 +16947,23 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/is-possible-prototype.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/internals/is-possible-prototype.js ***!
+  \*****************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+
+module.exports = function (argument) {
+  return isObject(argument) || argument === null;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/is-pure.js":
 /*!***************************************************!*\
   !*** ./node_modules/core-js/internals/is-pure.js ***!
@@ -16448,6 +16973,26 @@ module.exports = function (it) {
 "use strict";
 
 module.exports = false;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/is-raw-json.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/is-raw-json.js ***!
+  \*******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var getInternalState = (__webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js").get);
+
+module.exports = function isRawJSON(O) {
+  if (!isObject(O)) return false;
+  var state = getInternalState(O);
+  return !!state && state.type === 'RawJSON';
+};
 
 
 /***/ }),
@@ -16473,6 +17018,134 @@ module.exports = USE_SYMBOL_AS_UID ? function (it) {
   var $Symbol = getBuiltIn('Symbol');
   return isCallable($Symbol) && isPrototypeOf($Symbol.prototype, $Object(it));
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/iterate.js":
+/*!***************************************************!*\
+  !*** ./node_modules/core-js/internals/iterate.js ***!
+  \***************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var bind = __webpack_require__(/*! ../internals/function-bind-context */ "./node_modules/core-js/internals/function-bind-context.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
+var isArrayIteratorMethod = __webpack_require__(/*! ../internals/is-array-iterator-method */ "./node_modules/core-js/internals/is-array-iterator-method.js");
+var lengthOfArrayLike = __webpack_require__(/*! ../internals/length-of-array-like */ "./node_modules/core-js/internals/length-of-array-like.js");
+var isPrototypeOf = __webpack_require__(/*! ../internals/object-is-prototype-of */ "./node_modules/core-js/internals/object-is-prototype-of.js");
+var getIterator = __webpack_require__(/*! ../internals/get-iterator */ "./node_modules/core-js/internals/get-iterator.js");
+var getIteratorMethod = __webpack_require__(/*! ../internals/get-iterator-method */ "./node_modules/core-js/internals/get-iterator-method.js");
+var iteratorClose = __webpack_require__(/*! ../internals/iterator-close */ "./node_modules/core-js/internals/iterator-close.js");
+
+var $TypeError = TypeError;
+
+var Result = function (stopped, result) {
+  this.stopped = stopped;
+  this.result = result;
+};
+
+var ResultPrototype = Result.prototype;
+
+module.exports = function (iterable, unboundFunction, options) {
+  var that = options && options.that;
+  var AS_ENTRIES = !!(options && options.AS_ENTRIES);
+  var IS_RECORD = !!(options && options.IS_RECORD);
+  var IS_ITERATOR = !!(options && options.IS_ITERATOR);
+  var INTERRUPTED = !!(options && options.INTERRUPTED);
+  var fn = bind(unboundFunction, that);
+  var iterator, iterFn, index, length, result, next, step;
+
+  var stop = function (condition) {
+    if (iterator) iteratorClose(iterator, 'normal');
+    return new Result(true, condition);
+  };
+
+  var callFn = function (value) {
+    if (AS_ENTRIES) {
+      anObject(value);
+      return INTERRUPTED ? fn(value[0], value[1], stop) : fn(value[0], value[1]);
+    } return INTERRUPTED ? fn(value, stop) : fn(value);
+  };
+
+  if (IS_RECORD) {
+    iterator = iterable.iterator;
+  } else if (IS_ITERATOR) {
+    iterator = iterable;
+  } else {
+    iterFn = getIteratorMethod(iterable);
+    if (!iterFn) throw new $TypeError(tryToString(iterable) + ' is not iterable');
+    // optimisation for array iterators
+    if (isArrayIteratorMethod(iterFn)) {
+      for (index = 0, length = lengthOfArrayLike(iterable); length > index; index++) {
+        result = callFn(iterable[index]);
+        if (result && isPrototypeOf(ResultPrototype, result)) return result;
+      } return new Result(false);
+    }
+    iterator = getIterator(iterable, iterFn);
+  }
+
+  next = IS_RECORD ? iterable.next : iterator.next;
+  while (!(step = call(next, iterator)).done) {
+    try {
+      result = callFn(step.value);
+    } catch (error) {
+      iteratorClose(iterator, 'throw', error);
+    }
+    if (typeof result == 'object' && result && isPrototypeOf(ResultPrototype, result)) return result;
+  } return new Result(false);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/iterator-close.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/internals/iterator-close.js ***!
+  \**********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var getMethod = __webpack_require__(/*! ../internals/get-method */ "./node_modules/core-js/internals/get-method.js");
+
+module.exports = function (iterator, kind, value) {
+  var innerResult, innerError;
+  anObject(iterator);
+  try {
+    innerResult = getMethod(iterator, 'return');
+    if (!innerResult) {
+      if (kind === 'throw') throw value;
+      return value;
+    }
+    innerResult = call(innerResult, iterator);
+  } catch (error) {
+    innerError = true;
+    innerResult = error;
+  }
+  if (kind === 'throw') throw value;
+  if (innerError) throw innerResult;
+  anObject(innerResult);
+  return value;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/iterators.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/iterators.js ***!
+  \*****************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+module.exports = {};
 
 
 /***/ }),
@@ -16579,6 +17252,150 @@ var floor = Math.floor;
 module.exports = Math.trunc || function trunc(x) {
   var n = +x;
   return (n > 0 ? floor : ceil)(n);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/microtask.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/internals/microtask.js ***!
+  \*****************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var safeGetBuiltIn = __webpack_require__(/*! ../internals/safe-get-built-in */ "./node_modules/core-js/internals/safe-get-built-in.js");
+var bind = __webpack_require__(/*! ../internals/function-bind-context */ "./node_modules/core-js/internals/function-bind-context.js");
+var macrotask = (__webpack_require__(/*! ../internals/task */ "./node_modules/core-js/internals/task.js").set);
+var Queue = __webpack_require__(/*! ../internals/queue */ "./node_modules/core-js/internals/queue.js");
+var IS_IOS = __webpack_require__(/*! ../internals/environment-is-ios */ "./node_modules/core-js/internals/environment-is-ios.js");
+var IS_IOS_PEBBLE = __webpack_require__(/*! ../internals/environment-is-ios-pebble */ "./node_modules/core-js/internals/environment-is-ios-pebble.js");
+var IS_WEBOS_WEBKIT = __webpack_require__(/*! ../internals/environment-is-webos-webkit */ "./node_modules/core-js/internals/environment-is-webos-webkit.js");
+var IS_NODE = __webpack_require__(/*! ../internals/environment-is-node */ "./node_modules/core-js/internals/environment-is-node.js");
+
+var MutationObserver = globalThis.MutationObserver || globalThis.WebKitMutationObserver;
+var document = globalThis.document;
+var process = globalThis.process;
+var Promise = globalThis.Promise;
+var microtask = safeGetBuiltIn('queueMicrotask');
+var notify, toggle, node, promise, then;
+
+// modern engines have queueMicrotask method
+if (!microtask) {
+  var queue = new Queue();
+
+  var flush = function () {
+    var parent, fn;
+    if (IS_NODE && (parent = process.domain)) parent.exit();
+    while (fn = queue.get()) try {
+      fn();
+    } catch (error) {
+      if (queue.head) notify();
+      throw error;
+    }
+    if (parent) parent.enter();
+  };
+
+  // browsers with MutationObserver, except iOS - https://github.com/zloirock/core-js/issues/339
+  // also except WebOS Webkit https://github.com/zloirock/core-js/issues/898
+  if (!IS_IOS && !IS_NODE && !IS_WEBOS_WEBKIT && MutationObserver && document) {
+    toggle = true;
+    node = document.createTextNode('');
+    new MutationObserver(flush).observe(node, { characterData: true });
+    notify = function () {
+      node.data = toggle = !toggle;
+    };
+  // environments with maybe non-completely correct, but existent Promise
+  } else if (!IS_IOS_PEBBLE && Promise && Promise.resolve) {
+    // Promise.resolve without an argument throws an error in LG WebOS 2
+    promise = Promise.resolve(undefined);
+    // workaround of WebKit ~ iOS Safari 10.1 bug
+    promise.constructor = Promise;
+    then = bind(promise.then, promise);
+    notify = function () {
+      then(flush);
+    };
+  // Node.js without promises
+  } else if (IS_NODE) {
+    notify = function () {
+      process.nextTick(flush);
+    };
+  // for other environments - macrotask based on:
+  // - setImmediate
+  // - MessageChannel
+  // - window.postMessage
+  // - onreadystatechange
+  // - setTimeout
+  } else {
+    // `webpack` dev server bug on IE global methods - use bind(fn, global)
+    macrotask = bind(macrotask, globalThis);
+    notify = function () {
+      macrotask(flush);
+    };
+  }
+
+  microtask = function (fn) {
+    if (!queue.head) notify();
+    queue.add(fn);
+  };
+}
+
+module.exports = microtask;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/native-raw-json.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/internals/native-raw-json.js ***!
+  \***********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+/* eslint-disable es/no-json -- safe */
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+
+module.exports = !fails(function () {
+  var unsafeInt = '9007199254740993';
+  // eslint-disable-next-line es/no-json-rawjson -- feature detection
+  var raw = JSON.rawJSON(unsafeInt);
+  // eslint-disable-next-line es/no-json-israwjson -- feature detection
+  return !JSON.isRawJSON(raw) || JSON.stringify(raw) !== unsafeInt;
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/new-promise-capability.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/new-promise-capability.js ***!
+  \******************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+
+var $TypeError = TypeError;
+
+var PromiseCapability = function (C) {
+  var resolve, reject;
+  this.promise = new C(function ($$resolve, $$reject) {
+    if (resolve !== undefined || reject !== undefined) throw new $TypeError('Bad Promise constructor');
+    resolve = $$resolve;
+    reject = $$reject;
+  });
+  this.resolve = aCallable(resolve);
+  this.reject = aCallable(reject);
+};
+
+// `NewPromiseCapability` abstract operation
+// https://tc39.es/ecma262/#sec-newpromisecapability
+module.exports.f = function (C) {
+  return new PromiseCapability(C);
 };
 
 
@@ -16801,6 +17618,41 @@ exports.f = DESCRIPTORS ? $getOwnPropertyDescriptor : function getOwnPropertyDes
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/object-get-own-property-names-external.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-get-own-property-names-external.js ***!
+  \**********************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+/* eslint-disable es/no-object-getownpropertynames -- safe */
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
+var $getOwnPropertyNames = (__webpack_require__(/*! ../internals/object-get-own-property-names */ "./node_modules/core-js/internals/object-get-own-property-names.js").f);
+var arraySlice = __webpack_require__(/*! ../internals/array-slice */ "./node_modules/core-js/internals/array-slice.js");
+
+var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
+  ? Object.getOwnPropertyNames(window) : [];
+
+var getWindowNames = function (it) {
+  try {
+    return $getOwnPropertyNames(it);
+  } catch (error) {
+    return arraySlice(windowNames);
+  }
+};
+
+// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
+module.exports.f = function getOwnPropertyNames(it) {
+  return windowNames && classof(it) === 'Window'
+    ? getWindowNames(it)
+    : $getOwnPropertyNames(toIndexedObject(it));
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/object-get-own-property-names.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/core-js/internals/object-get-own-property-names.js ***!
@@ -16834,6 +17686,39 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 // eslint-disable-next-line es/no-object-getownpropertysymbols -- safe
 exports.f = Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/object-get-prototype-of.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-get-prototype-of.js ***!
+  \*******************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
+var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "./node_modules/core-js/internals/shared-key.js");
+var CORRECT_PROTOTYPE_GETTER = __webpack_require__(/*! ../internals/correct-prototype-getter */ "./node_modules/core-js/internals/correct-prototype-getter.js");
+
+var IE_PROTO = sharedKey('IE_PROTO');
+var $Object = Object;
+var ObjectPrototype = $Object.prototype;
+
+// `Object.getPrototypeOf` method
+// https://tc39.es/ecma262/#sec-object.getprototypeof
+// eslint-disable-next-line es/no-object-getprototypeof -- safe
+module.exports = CORRECT_PROTOTYPE_GETTER ? $Object.getPrototypeOf : function (O) {
+  var object = toObject(O);
+  if (hasOwn(object, IE_PROTO)) return object[IE_PROTO];
+  var constructor = object.constructor;
+  if (isCallable(constructor) && object instanceof constructor) {
+    return constructor.prototype;
+  } return object instanceof $Object ? ObjectPrototype : null;
+};
 
 
 /***/ }),
@@ -16931,6 +17816,46 @@ exports.f = NASHORN_BUG ? function propertyIsEnumerable(V) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/object-set-prototype-of.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/internals/object-set-prototype-of.js ***!
+  \*******************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+/* eslint-disable no-proto -- safe */
+var uncurryThisAccessor = __webpack_require__(/*! ../internals/function-uncurry-this-accessor */ "./node_modules/core-js/internals/function-uncurry-this-accessor.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+var aPossiblePrototype = __webpack_require__(/*! ../internals/a-possible-prototype */ "./node_modules/core-js/internals/a-possible-prototype.js");
+
+// `Object.setPrototypeOf` method
+// https://tc39.es/ecma262/#sec-object.setprototypeof
+// Works with __proto__ only. Old v8 can't work with null proto objects.
+// eslint-disable-next-line es/no-object-setprototypeof -- safe
+module.exports = Object.setPrototypeOf || ('__proto__' in {} ? function () {
+  var CORRECT_SETTER = false;
+  var test = {};
+  var setter;
+  try {
+    setter = uncurryThisAccessor(Object.prototype, '__proto__', 'set');
+    setter(test, []);
+    CORRECT_SETTER = test instanceof Array;
+  } catch (error) { /* empty */ }
+  return function setPrototypeOf(O, proto) {
+    requireObjectCoercible(O);
+    aPossiblePrototype(proto);
+    if (!isObject(O)) return O;
+    if (CORRECT_SETTER) setter(O, proto);
+    else O.__proto__ = proto;
+    return O;
+  };
+}() : undefined);
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/object-to-string.js":
 /*!************************************************************!*\
   !*** ./node_modules/core-js/internals/object-to-string.js ***!
@@ -17000,6 +17925,259 @@ module.exports = getBuiltIn('Reflect', 'ownKeys') || function ownKeys(it) {
   var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
   return getOwnPropertySymbols ? concat(keys, getOwnPropertySymbols(it)) : keys;
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/parse-json-string.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/parse-json-string.js ***!
+  \*************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+
+var $SyntaxError = SyntaxError;
+var $parseInt = parseInt;
+var fromCharCode = String.fromCharCode;
+var at = uncurryThis(''.charAt);
+var slice = uncurryThis(''.slice);
+var exec = uncurryThis(/./.exec);
+
+var codePoints = {
+  '\\"': '"',
+  '\\\\': '\\',
+  '\\/': '/',
+  '\\b': '\b',
+  '\\f': '\f',
+  '\\n': '\n',
+  '\\r': '\r',
+  '\\t': '\t'
+};
+
+var IS_4_HEX_DIGITS = /^[\da-f]{4}$/i;
+// eslint-disable-next-line regexp/no-control-character -- safe
+var IS_C0_CONTROL_CODE = /^[\u0000-\u001F]$/;
+
+module.exports = function (source, i) {
+  var unterminated = true;
+  var value = '';
+  while (i < source.length) {
+    var chr = at(source, i);
+    if (chr === '\\') {
+      var twoChars = slice(source, i, i + 2);
+      if (hasOwn(codePoints, twoChars)) {
+        value += codePoints[twoChars];
+        i += 2;
+      } else if (twoChars === '\\u') {
+        i += 2;
+        var fourHexDigits = slice(source, i, i + 4);
+        if (!exec(IS_4_HEX_DIGITS, fourHexDigits)) throw new $SyntaxError('Bad Unicode escape at: ' + i);
+        value += fromCharCode($parseInt(fourHexDigits, 16));
+        i += 4;
+      } else throw new $SyntaxError('Unknown escape sequence: "' + twoChars + '"');
+    } else if (chr === '"') {
+      unterminated = false;
+      i++;
+      break;
+    } else {
+      if (exec(IS_C0_CONTROL_CODE, chr)) throw new $SyntaxError('Bad control character in string literal at: ' + i);
+      value += chr;
+      i++;
+    }
+  }
+  if (unterminated) throw new $SyntaxError('Unterminated string at: ' + i);
+  return { value: value, end: i };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/path.js":
+/*!************************************************!*\
+  !*** ./node_modules/core-js/internals/path.js ***!
+  \************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+
+module.exports = globalThis;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/perform.js":
+/*!***************************************************!*\
+  !*** ./node_modules/core-js/internals/perform.js ***!
+  \***************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+module.exports = function (exec) {
+  try {
+    return { error: false, value: exec() };
+  } catch (error) {
+    return { error: true, value: error };
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/promise-constructor-detection.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/core-js/internals/promise-constructor-detection.js ***!
+  \*************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var NativePromiseConstructor = __webpack_require__(/*! ../internals/promise-native-constructor */ "./node_modules/core-js/internals/promise-native-constructor.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var isForced = __webpack_require__(/*! ../internals/is-forced */ "./node_modules/core-js/internals/is-forced.js");
+var inspectSource = __webpack_require__(/*! ../internals/inspect-source */ "./node_modules/core-js/internals/inspect-source.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var ENVIRONMENT = __webpack_require__(/*! ../internals/environment */ "./node_modules/core-js/internals/environment.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var V8_VERSION = __webpack_require__(/*! ../internals/environment-v8-version */ "./node_modules/core-js/internals/environment-v8-version.js");
+
+var NativePromisePrototype = NativePromiseConstructor && NativePromiseConstructor.prototype;
+var SPECIES = wellKnownSymbol('species');
+var SUBCLASSING = false;
+var NATIVE_PROMISE_REJECTION_EVENT = isCallable(globalThis.PromiseRejectionEvent);
+
+var FORCED_PROMISE_CONSTRUCTOR = isForced('Promise', function () {
+  var PROMISE_CONSTRUCTOR_SOURCE = inspectSource(NativePromiseConstructor);
+  var GLOBAL_CORE_JS_PROMISE = PROMISE_CONSTRUCTOR_SOURCE !== String(NativePromiseConstructor);
+  // V8 6.6 (Node 10 and Chrome 66) have a bug with resolving custom thenables
+  // https://bugs.chromium.org/p/chromium/issues/detail?id=830565
+  // We can't detect it synchronously, so just check versions
+  if (!GLOBAL_CORE_JS_PROMISE && V8_VERSION === 66) return true;
+  // We need Promise#{ catch, finally } in the pure version for preventing prototype pollution
+  if (IS_PURE && !(NativePromisePrototype['catch'] && NativePromisePrototype['finally'])) return true;
+  // We can't use @@species feature detection in V8 since it causes
+  // deoptimization and performance degradation
+  // https://github.com/zloirock/core-js/issues/679
+  if (!V8_VERSION || V8_VERSION < 51 || !/native code/.test(PROMISE_CONSTRUCTOR_SOURCE)) {
+    // Detect correctness of subclassing with @@species support
+    var promise = new NativePromiseConstructor(function (resolve) { resolve(1); });
+    var FakePromise = function (exec) {
+      exec(function () { /* empty */ }, function () { /* empty */ });
+    };
+    var constructor = promise.constructor = {};
+    constructor[SPECIES] = FakePromise;
+    SUBCLASSING = promise.then(function () { /* empty */ }) instanceof FakePromise;
+    if (!SUBCLASSING) return true;
+  // Unhandled rejections tracking support, NodeJS Promise without it fails @@species test
+  } return !GLOBAL_CORE_JS_PROMISE && (ENVIRONMENT === 'BROWSER' || ENVIRONMENT === 'DENO') && !NATIVE_PROMISE_REJECTION_EVENT;
+});
+
+module.exports = {
+  CONSTRUCTOR: FORCED_PROMISE_CONSTRUCTOR,
+  REJECTION_EVENT: NATIVE_PROMISE_REJECTION_EVENT,
+  SUBCLASSING: SUBCLASSING
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/promise-native-constructor.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/promise-native-constructor.js ***!
+  \**********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+
+module.exports = globalThis.Promise;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/promise-resolve.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/internals/promise-resolve.js ***!
+  \***********************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var newPromiseCapability = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
+
+module.exports = function (C, x) {
+  anObject(C);
+  if (isObject(x) && x.constructor === C) return x;
+  var promiseCapability = newPromiseCapability.f(C);
+  var resolve = promiseCapability.resolve;
+  resolve(x);
+  return promiseCapability.promise;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/promise-statics-incorrect-iteration.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/core-js/internals/promise-statics-incorrect-iteration.js ***!
+  \*******************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var NativePromiseConstructor = __webpack_require__(/*! ../internals/promise-native-constructor */ "./node_modules/core-js/internals/promise-native-constructor.js");
+var checkCorrectnessOfIteration = __webpack_require__(/*! ../internals/check-correctness-of-iteration */ "./node_modules/core-js/internals/check-correctness-of-iteration.js");
+var FORCED_PROMISE_CONSTRUCTOR = (__webpack_require__(/*! ../internals/promise-constructor-detection */ "./node_modules/core-js/internals/promise-constructor-detection.js").CONSTRUCTOR);
+
+module.exports = FORCED_PROMISE_CONSTRUCTOR || !checkCorrectnessOfIteration(function (iterable) {
+  NativePromiseConstructor.all(iterable).then(undefined, function () { /* empty */ });
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/queue.js":
+/*!*************************************************!*\
+  !*** ./node_modules/core-js/internals/queue.js ***!
+  \*************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+var Queue = function () {
+  this.head = null;
+  this.tail = null;
+};
+
+Queue.prototype = {
+  add: function (item) {
+    var entry = { item: item, next: null };
+    var tail = this.tail;
+    if (tail) tail.next = entry;
+    else this.head = entry;
+    this.tail = entry;
+  },
+  get: function () {
+    var entry = this.head;
+    if (entry) {
+      var next = this.head = entry.next;
+      if (next === null) this.tail = null;
+      return entry.item;
+    }
+  }
+};
+
+module.exports = Queue;
 
 
 /***/ }),
@@ -17387,6 +18565,83 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/safe-get-built-in.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/safe-get-built-in.js ***!
+  \*************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// Avoid NodeJS experimental warning
+module.exports = function (name) {
+  if (!DESCRIPTORS) return globalThis[name];
+  var descriptor = getOwnPropertyDescriptor(globalThis, name);
+  return descriptor && descriptor.value;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/set-species.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/set-species.js ***!
+  \*******************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var defineBuiltInAccessor = __webpack_require__(/*! ../internals/define-built-in-accessor */ "./node_modules/core-js/internals/define-built-in-accessor.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+
+var SPECIES = wellKnownSymbol('species');
+
+module.exports = function (CONSTRUCTOR_NAME) {
+  var Constructor = getBuiltIn(CONSTRUCTOR_NAME);
+
+  if (DESCRIPTORS && Constructor && !Constructor[SPECIES]) {
+    defineBuiltInAccessor(Constructor, SPECIES, {
+      configurable: true,
+      get: function () { return this; }
+    });
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/set-to-string-tag.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/set-to-string-tag.js ***!
+  \*************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var defineProperty = (__webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js").f);
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var TO_STRING_TAG = wellKnownSymbol('toStringTag');
+
+module.exports = function (target, TAG, STATIC) {
+  if (target && !STATIC) target = target.prototype;
+  if (target && !hasOwn(target, TO_STRING_TAG)) {
+    defineProperty(target, TO_STRING_TAG, { configurable: true, value: TAG });
+  }
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/shared-key.js":
 /*!******************************************************!*\
   !*** ./node_modules/core-js/internals/shared-key.js ***!
@@ -17445,6 +18700,32 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "./node_modules
 
 module.exports = function (key, value) {
   return store[key] || (store[key] = value || {});
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/species-constructor.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/internals/species-constructor.js ***!
+  \***************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var aConstructor = __webpack_require__(/*! ../internals/a-constructor */ "./node_modules/core-js/internals/a-constructor.js");
+var isNullOrUndefined = __webpack_require__(/*! ../internals/is-null-or-undefined */ "./node_modules/core-js/internals/is-null-or-undefined.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var SPECIES = wellKnownSymbol('species');
+
+// `SpeciesConstructor` abstract operation
+// https://tc39.es/ecma262/#sec-speciesconstructor
+module.exports = function (O, defaultConstructor) {
+  var C = anObject(O).constructor;
+  var S;
+  return C === undefined || isNullOrUndefined(S = anObject(C)[SPECIES]) ? defaultConstructor : aConstructor(S);
 };
 
 
@@ -17524,6 +18805,182 @@ module.exports = !!Object.getOwnPropertySymbols && !fails(function () {
     // Chrome 38-40 symbols are not inherited from DOM collections prototypes to instances
     !Symbol.sham && V8_VERSION && V8_VERSION < 41;
 });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/symbol-define-to-primitive.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/symbol-define-to-primitive.js ***!
+  \**********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var defineBuiltIn = __webpack_require__(/*! ../internals/define-built-in */ "./node_modules/core-js/internals/define-built-in.js");
+
+module.exports = function () {
+  var Symbol = getBuiltIn('Symbol');
+  var SymbolPrototype = Symbol && Symbol.prototype;
+  var valueOf = SymbolPrototype && SymbolPrototype.valueOf;
+  var TO_PRIMITIVE = wellKnownSymbol('toPrimitive');
+
+  if (SymbolPrototype && !SymbolPrototype[TO_PRIMITIVE]) {
+    // `Symbol.prototype[@@toPrimitive]` method
+    // https://tc39.es/ecma262/#sec-symbol.prototype-@@toprimitive
+    // eslint-disable-next-line no-unused-vars -- required for .length
+    defineBuiltIn(SymbolPrototype, TO_PRIMITIVE, function (hint) {
+      return call(valueOf, this);
+    }, { arity: 1 });
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/symbol-registry-detection.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/internals/symbol-registry-detection.js ***!
+  \*********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/symbol-constructor-detection */ "./node_modules/core-js/internals/symbol-constructor-detection.js");
+
+/* eslint-disable es/no-symbol -- safe */
+module.exports = NATIVE_SYMBOL && !!Symbol['for'] && !!Symbol.keyFor;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/task.js":
+/*!************************************************!*\
+  !*** ./node_modules/core-js/internals/task.js ***!
+  \************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var apply = __webpack_require__(/*! ../internals/function-apply */ "./node_modules/core-js/internals/function-apply.js");
+var bind = __webpack_require__(/*! ../internals/function-bind-context */ "./node_modules/core-js/internals/function-bind-context.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var html = __webpack_require__(/*! ../internals/html */ "./node_modules/core-js/internals/html.js");
+var arraySlice = __webpack_require__(/*! ../internals/array-slice */ "./node_modules/core-js/internals/array-slice.js");
+var createElement = __webpack_require__(/*! ../internals/document-create-element */ "./node_modules/core-js/internals/document-create-element.js");
+var validateArgumentsLength = __webpack_require__(/*! ../internals/validate-arguments-length */ "./node_modules/core-js/internals/validate-arguments-length.js");
+var IS_IOS = __webpack_require__(/*! ../internals/environment-is-ios */ "./node_modules/core-js/internals/environment-is-ios.js");
+var IS_NODE = __webpack_require__(/*! ../internals/environment-is-node */ "./node_modules/core-js/internals/environment-is-node.js");
+
+var set = globalThis.setImmediate;
+var clear = globalThis.clearImmediate;
+var process = globalThis.process;
+var Dispatch = globalThis.Dispatch;
+var Function = globalThis.Function;
+var MessageChannel = globalThis.MessageChannel;
+var String = globalThis.String;
+var counter = 0;
+var queue = {};
+var ONREADYSTATECHANGE = 'onreadystatechange';
+var $location, defer, channel, port;
+
+fails(function () {
+  // Deno throws a ReferenceError on `location` access without `--location` flag
+  $location = globalThis.location;
+});
+
+var run = function (id) {
+  if (hasOwn(queue, id)) {
+    var fn = queue[id];
+    delete queue[id];
+    fn();
+  }
+};
+
+var runner = function (id) {
+  return function () {
+    run(id);
+  };
+};
+
+var eventListener = function (event) {
+  run(event.data);
+};
+
+var globalPostMessageDefer = function (id) {
+  // old engines have not location.origin
+  globalThis.postMessage(String(id), $location.protocol + '//' + $location.host);
+};
+
+// Node.js 0.9+ & IE10+ has setImmediate, otherwise:
+if (!set || !clear) {
+  set = function setImmediate(handler) {
+    validateArgumentsLength(arguments.length, 1);
+    var fn = isCallable(handler) ? handler : Function(handler);
+    var args = arraySlice(arguments, 1);
+    queue[++counter] = function () {
+      apply(fn, undefined, args);
+    };
+    defer(counter);
+    return counter;
+  };
+  clear = function clearImmediate(id) {
+    delete queue[id];
+  };
+  // Node.js 0.8-
+  if (IS_NODE) {
+    defer = function (id) {
+      process.nextTick(runner(id));
+    };
+  // Sphere (JS game engine) Dispatch API
+  } else if (Dispatch && Dispatch.now) {
+    defer = function (id) {
+      Dispatch.now(runner(id));
+    };
+  // Browsers with MessageChannel, includes WebWorkers
+  // except iOS - https://github.com/zloirock/core-js/issues/624
+  } else if (MessageChannel && !IS_IOS) {
+    channel = new MessageChannel();
+    port = channel.port2;
+    channel.port1.onmessage = eventListener;
+    defer = bind(port.postMessage, port);
+  // Browsers with postMessage, skip WebWorkers
+  // IE8 has postMessage, but it's sync & typeof its postMessage is 'object'
+  } else if (
+    globalThis.addEventListener &&
+    isCallable(globalThis.postMessage) &&
+    !globalThis.importScripts &&
+    $location && $location.protocol !== 'file:' &&
+    !fails(globalPostMessageDefer)
+  ) {
+    defer = globalPostMessageDefer;
+    globalThis.addEventListener('message', eventListener, false);
+  // IE8-
+  } else if (ONREADYSTATECHANGE in createElement('script')) {
+    defer = function (id) {
+      html.appendChild(createElement('script'))[ONREADYSTATECHANGE] = function () {
+        html.removeChild(this);
+        run(id);
+      };
+    };
+  // Rest old browsers
+  } else {
+    defer = function (id) {
+      setTimeout(runner(id), 0);
+    };
+  }
+}
+
+module.exports = {
+  set: set,
+  clear: clear
+};
 
 
 /***/ }),
@@ -17817,6 +19274,24 @@ module.exports = DESCRIPTORS && fails(function () {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/validate-arguments-length.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/internals/validate-arguments-length.js ***!
+  \*********************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+var $TypeError = TypeError;
+
+module.exports = function (passed, required) {
+  if (passed < required) throw new $TypeError('Not enough arguments');
+  return passed;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/weak-map-basic-detection.js":
 /*!********************************************************************!*\
   !*** ./node_modules/core-js/internals/weak-map-basic-detection.js ***!
@@ -17831,6 +19306,44 @@ var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_mod
 var WeakMap = globalThis.WeakMap;
 
 module.exports = isCallable(WeakMap) && /native code/.test(String(WeakMap));
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/well-known-symbol-define.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/internals/well-known-symbol-define.js ***!
+  \********************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var path = __webpack_require__(/*! ../internals/path */ "./node_modules/core-js/internals/path.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var wrappedWellKnownSymbolModule = __webpack_require__(/*! ../internals/well-known-symbol-wrapped */ "./node_modules/core-js/internals/well-known-symbol-wrapped.js");
+var defineProperty = (__webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js").f);
+
+module.exports = function (NAME) {
+  var Symbol = path.Symbol || (path.Symbol = {});
+  if (!hasOwn(Symbol, NAME)) defineProperty(Symbol, NAME, {
+    value: wrappedWellKnownSymbolModule.f(NAME)
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/well-known-symbol-wrapped.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/internals/well-known-symbol-wrapped.js ***!
+  \*********************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+exports.f = wellKnownSymbol;
 
 
 /***/ }),
@@ -17865,6 +19378,227 @@ module.exports = function (name) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/modules/es.json.stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.json.stringify.js ***!
+  \***********************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var apply = __webpack_require__(/*! ../internals/function-apply */ "./node_modules/core-js/internals/function-apply.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var isArray = __webpack_require__(/*! ../internals/is-array */ "./node_modules/core-js/internals/is-array.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var isRawJSON = __webpack_require__(/*! ../internals/is-raw-json */ "./node_modules/core-js/internals/is-raw-json.js");
+var isSymbol = __webpack_require__(/*! ../internals/is-symbol */ "./node_modules/core-js/internals/is-symbol.js");
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var arraySlice = __webpack_require__(/*! ../internals/array-slice */ "./node_modules/core-js/internals/array-slice.js");
+var parseJSONString = __webpack_require__(/*! ../internals/parse-json-string */ "./node_modules/core-js/internals/parse-json-string.js");
+var uid = __webpack_require__(/*! ../internals/uid */ "./node_modules/core-js/internals/uid.js");
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/symbol-constructor-detection */ "./node_modules/core-js/internals/symbol-constructor-detection.js");
+var NATIVE_RAW_JSON = __webpack_require__(/*! ../internals/native-raw-json */ "./node_modules/core-js/internals/native-raw-json.js");
+
+var $String = String;
+var $stringify = getBuiltIn('JSON', 'stringify');
+var exec = uncurryThis(/./.exec);
+var charAt = uncurryThis(''.charAt);
+var charCodeAt = uncurryThis(''.charCodeAt);
+var replace = uncurryThis(''.replace);
+var slice = uncurryThis(''.slice);
+var push = uncurryThis([].push);
+var numberToString = uncurryThis(1.1.toString);
+
+var surrogates = /[\uD800-\uDFFF]/g;
+var lowSurrogates = /^[\uD800-\uDBFF]$/;
+var hiSurrogates = /^[\uDC00-\uDFFF]$/;
+
+var MARK = uid();
+var MARK_LENGTH = MARK.length;
+
+var WRONG_SYMBOLS_CONVERSION = !NATIVE_SYMBOL || fails(function () {
+  var symbol = getBuiltIn('Symbol')('stringify detection');
+  // MS Edge converts symbol values to JSON as {}
+  return $stringify([symbol]) !== '[null]'
+    // WebKit converts symbol values to JSON as null
+    || $stringify({ a: symbol }) !== '{}'
+    // V8 throws on boxed symbols
+    || $stringify(Object(symbol)) !== '{}';
+});
+
+// https://github.com/tc39/proposal-well-formed-stringify
+var ILL_FORMED_UNICODE = fails(function () {
+  return $stringify('\uDF06\uD834') !== '"\\udf06\\ud834"'
+    || $stringify('\uDEAD') !== '"\\udead"';
+});
+
+var stringifyWithProperSymbolsConversion = WRONG_SYMBOLS_CONVERSION ? function (it, replacer) {
+  var args = arraySlice(arguments);
+  var $replacer = getReplacerFunction(replacer);
+  if (!isCallable($replacer) && (it === undefined || isSymbol(it))) return; // IE8 returns string on undefined
+  args[1] = function (key, value) {
+    // some old implementations (like WebKit) could pass numbers as keys
+    if (isCallable($replacer)) value = call($replacer, this, $String(key), value);
+    if (!isSymbol(value)) return value;
+  };
+  return apply($stringify, null, args);
+} : $stringify;
+
+var fixIllFormedJSON = function (match, offset, string) {
+  var prev = charAt(string, offset - 1);
+  var next = charAt(string, offset + 1);
+  if ((exec(lowSurrogates, match) && !exec(hiSurrogates, next)) || (exec(hiSurrogates, match) && !exec(lowSurrogates, prev))) {
+    return '\\u' + numberToString(charCodeAt(match, 0), 16);
+  } return match;
+};
+
+var getReplacerFunction = function (replacer) {
+  if (isCallable(replacer)) return replacer;
+  if (!isArray(replacer)) return;
+  var rawLength = replacer.length;
+  var keys = [];
+  for (var i = 0; i < rawLength; i++) {
+    var element = replacer[i];
+    if (typeof element == 'string') push(keys, element);
+    else if (typeof element == 'number' || classof(element) === 'Number' || classof(element) === 'String') push(keys, toString(element));
+  }
+  var keysLength = keys.length;
+  var root = true;
+  return function (key, value) {
+    if (root) {
+      root = false;
+      return value;
+    }
+    if (isArray(this)) return value;
+    for (var j = 0; j < keysLength; j++) if (keys[j] === key) return value;
+  };
+};
+
+// `JSON.stringify` method
+// https://tc39.es/ecma262/#sec-json.stringify
+// https://github.com/tc39/proposal-json-parse-with-source
+if ($stringify) $({ target: 'JSON', stat: true, arity: 3, forced: WRONG_SYMBOLS_CONVERSION || ILL_FORMED_UNICODE || !NATIVE_RAW_JSON }, {
+  stringify: function stringify(text, replacer, space) {
+    var replacerFunction = getReplacerFunction(replacer);
+    var rawStrings = [];
+
+    var json = stringifyWithProperSymbolsConversion(text, function (key, value) {
+      // some old implementations (like WebKit) could pass numbers as keys
+      var v = isCallable(replacerFunction) ? call(replacerFunction, this, $String(key), value) : value;
+      return !NATIVE_RAW_JSON && isRawJSON(v) ? MARK + (push(rawStrings, v.rawJSON) - 1) : v;
+    }, space);
+
+    if (typeof json != 'string') return json;
+
+    if (ILL_FORMED_UNICODE) json = replace(json, surrogates, fixIllFormedJSON);
+
+    if (NATIVE_RAW_JSON) return json;
+
+    var result = '';
+    var length = json.length;
+
+    for (var i = 0; i < length; i++) {
+      var chr = charAt(json, i);
+      if (chr === '"') {
+        var end = parseJSONString(json, ++i).end - 1;
+        var string = slice(json, i, end);
+        result += slice(string, 0, MARK_LENGTH) === MARK
+          ? rawStrings[slice(string, MARK_LENGTH)]
+          : '"' + string + '"';
+        i = end;
+      } else result += chr;
+    }
+
+    return result;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.object.get-own-property-symbols.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.object.get-own-property-symbols.js ***!
+  \****************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/symbol-constructor-detection */ "./node_modules/core-js/internals/symbol-constructor-detection.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "./node_modules/core-js/internals/object-get-own-property-symbols.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
+
+// V8 ~ Chrome 38 and 39 `Object.getOwnPropertySymbols` fails on primitives
+// https://bugs.chromium.org/p/v8/issues/detail?id=3443
+var FORCED = !NATIVE_SYMBOL || fails(function () { getOwnPropertySymbolsModule.f(1); });
+
+// `Object.getOwnPropertySymbols` method
+// https://tc39.es/ecma262/#sec-object.getownpropertysymbols
+$({ target: 'Object', stat: true, forced: FORCED }, {
+  getOwnPropertySymbols: function getOwnPropertySymbols(it) {
+    var $getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+    return $getOwnPropertySymbols ? $getOwnPropertySymbols(toObject(it)) : [];
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.object.get-prototype-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.object.get-prototype-of.js ***!
+  \********************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
+var nativeGetPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ "./node_modules/core-js/internals/object-get-prototype-of.js");
+var CORRECT_PROTOTYPE_GETTER = __webpack_require__(/*! ../internals/correct-prototype-getter */ "./node_modules/core-js/internals/correct-prototype-getter.js");
+
+var FAILS_ON_PRIMITIVES = fails(function () { nativeGetPrototypeOf(1); });
+
+// `Object.getPrototypeOf` method
+// https://tc39.es/ecma262/#sec-object.getprototypeof
+$({ target: 'Object', stat: true, forced: FAILS_ON_PRIMITIVES, sham: !CORRECT_PROTOTYPE_GETTER }, {
+  getPrototypeOf: function getPrototypeOf(it) {
+    return nativeGetPrototypeOf(toObject(it));
+  }
+});
+
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.object.set-prototype-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.object.set-prototype-of.js ***!
+  \********************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var setPrototypeOf = __webpack_require__(/*! ../internals/object-set-prototype-of */ "./node_modules/core-js/internals/object-set-prototype-of.js");
+
+// `Object.setPrototypeOf` method
+// https://tc39.es/ecma262/#sec-object.setprototypeof
+$({ target: 'Object', stat: true }, {
+  setPrototypeOf: setPrototypeOf
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/modules/es.object.to-string.js":
 /*!*************************************************************!*\
   !*** ./node_modules/core-js/modules/es.object.to-string.js ***!
@@ -17882,6 +19616,562 @@ var toString = __webpack_require__(/*! ../internals/object-to-string */ "./node_
 if (!TO_STRING_TAG_SUPPORT) {
   defineBuiltIn(Object.prototype, 'toString', toString, { unsafe: true });
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.all.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.all.js ***!
+  \********************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+var newPromiseCapabilityModule = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
+var perform = __webpack_require__(/*! ../internals/perform */ "./node_modules/core-js/internals/perform.js");
+var iterate = __webpack_require__(/*! ../internals/iterate */ "./node_modules/core-js/internals/iterate.js");
+var PROMISE_STATICS_INCORRECT_ITERATION = __webpack_require__(/*! ../internals/promise-statics-incorrect-iteration */ "./node_modules/core-js/internals/promise-statics-incorrect-iteration.js");
+
+// `Promise.all` method
+// https://tc39.es/ecma262/#sec-promise.all
+$({ target: 'Promise', stat: true, forced: PROMISE_STATICS_INCORRECT_ITERATION }, {
+  all: function all(iterable) {
+    var C = this;
+    var capability = newPromiseCapabilityModule.f(C);
+    var resolve = capability.resolve;
+    var reject = capability.reject;
+    var result = perform(function () {
+      var $promiseResolve = aCallable(C.resolve);
+      var values = [];
+      var counter = 0;
+      var remaining = 1;
+      iterate(iterable, function (promise) {
+        var index = counter++;
+        var alreadyCalled = false;
+        remaining++;
+        call($promiseResolve, C, promise).then(function (value) {
+          if (alreadyCalled) return;
+          alreadyCalled = true;
+          values[index] = value;
+          --remaining || resolve(values);
+        }, reject);
+      });
+      --remaining || resolve(values);
+    });
+    if (result.error) reject(result.value);
+    return capability.promise;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.catch.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.catch.js ***!
+  \**********************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var FORCED_PROMISE_CONSTRUCTOR = (__webpack_require__(/*! ../internals/promise-constructor-detection */ "./node_modules/core-js/internals/promise-constructor-detection.js").CONSTRUCTOR);
+var NativePromiseConstructor = __webpack_require__(/*! ../internals/promise-native-constructor */ "./node_modules/core-js/internals/promise-native-constructor.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var defineBuiltIn = __webpack_require__(/*! ../internals/define-built-in */ "./node_modules/core-js/internals/define-built-in.js");
+
+var NativePromisePrototype = NativePromiseConstructor && NativePromiseConstructor.prototype;
+
+// `Promise.prototype.catch` method
+// https://tc39.es/ecma262/#sec-promise.prototype.catch
+$({ target: 'Promise', proto: true, forced: FORCED_PROMISE_CONSTRUCTOR, real: true }, {
+  'catch': function (onRejected) {
+    return this.then(undefined, onRejected);
+  }
+});
+
+// makes sure that native promise-based APIs `Promise#catch` properly works with patched `Promise#then`
+if (!IS_PURE && isCallable(NativePromiseConstructor)) {
+  var method = getBuiltIn('Promise').prototype['catch'];
+  if (NativePromisePrototype['catch'] !== method) {
+    defineBuiltIn(NativePromisePrototype, 'catch', method, { unsafe: true });
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.constructor.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.constructor.js ***!
+  \****************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var IS_NODE = __webpack_require__(/*! ../internals/environment-is-node */ "./node_modules/core-js/internals/environment-is-node.js");
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var path = __webpack_require__(/*! ../internals/path */ "./node_modules/core-js/internals/path.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var defineBuiltIn = __webpack_require__(/*! ../internals/define-built-in */ "./node_modules/core-js/internals/define-built-in.js");
+var setPrototypeOf = __webpack_require__(/*! ../internals/object-set-prototype-of */ "./node_modules/core-js/internals/object-set-prototype-of.js");
+var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "./node_modules/core-js/internals/set-to-string-tag.js");
+var setSpecies = __webpack_require__(/*! ../internals/set-species */ "./node_modules/core-js/internals/set-species.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "./node_modules/core-js/internals/is-object.js");
+var anInstance = __webpack_require__(/*! ../internals/an-instance */ "./node_modules/core-js/internals/an-instance.js");
+var speciesConstructor = __webpack_require__(/*! ../internals/species-constructor */ "./node_modules/core-js/internals/species-constructor.js");
+var task = (__webpack_require__(/*! ../internals/task */ "./node_modules/core-js/internals/task.js").set);
+var microtask = __webpack_require__(/*! ../internals/microtask */ "./node_modules/core-js/internals/microtask.js");
+var hostReportErrors = __webpack_require__(/*! ../internals/host-report-errors */ "./node_modules/core-js/internals/host-report-errors.js");
+var perform = __webpack_require__(/*! ../internals/perform */ "./node_modules/core-js/internals/perform.js");
+var Queue = __webpack_require__(/*! ../internals/queue */ "./node_modules/core-js/internals/queue.js");
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
+var NativePromiseConstructor = __webpack_require__(/*! ../internals/promise-native-constructor */ "./node_modules/core-js/internals/promise-native-constructor.js");
+var PromiseConstructorDetection = __webpack_require__(/*! ../internals/promise-constructor-detection */ "./node_modules/core-js/internals/promise-constructor-detection.js");
+var newPromiseCapabilityModule = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
+
+var PROMISE = 'Promise';
+var FORCED_PROMISE_CONSTRUCTOR = PromiseConstructorDetection.CONSTRUCTOR;
+var NATIVE_PROMISE_REJECTION_EVENT = PromiseConstructorDetection.REJECTION_EVENT;
+var NATIVE_PROMISE_SUBCLASSING = PromiseConstructorDetection.SUBCLASSING;
+var getInternalPromiseState = InternalStateModule.getterFor(PROMISE);
+var setInternalState = InternalStateModule.set;
+var NativePromisePrototype = NativePromiseConstructor && NativePromiseConstructor.prototype;
+var PromiseConstructor = NativePromiseConstructor;
+var PromisePrototype = NativePromisePrototype;
+var TypeError = globalThis.TypeError;
+var document = globalThis.document;
+var process = globalThis.process;
+var newPromiseCapability = newPromiseCapabilityModule.f;
+var newGenericPromiseCapability = newPromiseCapability;
+
+var DISPATCH_EVENT = !!(document && document.createEvent && globalThis.dispatchEvent);
+var UNHANDLED_REJECTION = 'unhandledrejection';
+var REJECTION_HANDLED = 'rejectionhandled';
+var PENDING = 0;
+var FULFILLED = 1;
+var REJECTED = 2;
+var HANDLED = 1;
+var UNHANDLED = 2;
+
+var Internal, OwnPromiseCapability, PromiseWrapper, nativeThen;
+
+// helpers
+var isThenable = function (it) {
+  var then;
+  return isObject(it) && isCallable(then = it.then) ? then : false;
+};
+
+var callReaction = function (reaction, state) {
+  var value = state.value;
+  var ok = state.state === FULFILLED;
+  var handler = ok ? reaction.ok : reaction.fail;
+  var resolve = reaction.resolve;
+  var reject = reaction.reject;
+  var domain = reaction.domain;
+  var result, then, exited;
+  try {
+    if (handler) {
+      if (!ok) {
+        if (state.rejection === UNHANDLED) onHandleUnhandled(state);
+        state.rejection = HANDLED;
+      }
+      if (handler === true) result = value;
+      else {
+        if (domain) domain.enter();
+        result = handler(value); // can throw
+        if (domain) {
+          domain.exit();
+          exited = true;
+        }
+      }
+      if (result === reaction.promise) {
+        reject(new TypeError('Promise-chain cycle'));
+      } else if (then = isThenable(result)) {
+        call(then, result, resolve, reject);
+      } else resolve(result);
+    } else reject(value);
+  } catch (error) {
+    if (domain && !exited) domain.exit();
+    reject(error);
+  }
+};
+
+var notify = function (state, isReject) {
+  if (state.notified) return;
+  state.notified = true;
+  microtask(function () {
+    var reactions = state.reactions;
+    var reaction;
+    while (reaction = reactions.get()) {
+      callReaction(reaction, state);
+    }
+    state.notified = false;
+    if (isReject && !state.rejection) onUnhandled(state);
+  });
+};
+
+var dispatchEvent = function (name, promise, reason) {
+  var event, handler;
+  if (DISPATCH_EVENT) {
+    event = document.createEvent('Event');
+    event.promise = promise;
+    event.reason = reason;
+    event.initEvent(name, false, true);
+    globalThis.dispatchEvent(event);
+  } else event = { promise: promise, reason: reason };
+  if (!NATIVE_PROMISE_REJECTION_EVENT && (handler = globalThis['on' + name])) handler(event);
+  else if (name === UNHANDLED_REJECTION) hostReportErrors('Unhandled promise rejection', reason);
+};
+
+var onUnhandled = function (state) {
+  call(task, globalThis, function () {
+    var promise = state.facade;
+    var value = state.value;
+    var IS_UNHANDLED = isUnhandled(state);
+    var result;
+    if (IS_UNHANDLED) {
+      result = perform(function () {
+        if (IS_NODE) {
+          process.emit('unhandledRejection', value, promise);
+        } else dispatchEvent(UNHANDLED_REJECTION, promise, value);
+      });
+      // Browsers should not trigger `rejectionHandled` event if it was handled here, NodeJS - should
+      state.rejection = IS_NODE || isUnhandled(state) ? UNHANDLED : HANDLED;
+      if (result.error) throw result.value;
+    }
+  });
+};
+
+var isUnhandled = function (state) {
+  return state.rejection !== HANDLED && !state.parent;
+};
+
+var onHandleUnhandled = function (state) {
+  call(task, globalThis, function () {
+    var promise = state.facade;
+    if (IS_NODE) {
+      process.emit('rejectionHandled', promise);
+    } else dispatchEvent(REJECTION_HANDLED, promise, state.value);
+  });
+};
+
+var bind = function (fn, state, unwrap) {
+  return function (value) {
+    fn(state, value, unwrap);
+  };
+};
+
+var internalReject = function (state, value, unwrap) {
+  if (state.done) return;
+  state.done = true;
+  if (unwrap) state = unwrap;
+  state.value = value;
+  state.state = REJECTED;
+  notify(state, true);
+};
+
+var internalResolve = function (state, value, unwrap) {
+  if (state.done) return;
+  state.done = true;
+  if (unwrap) state = unwrap;
+  try {
+    if (state.facade === value) throw new TypeError("Promise can't be resolved itself");
+    var then = isThenable(value);
+    if (then) {
+      microtask(function () {
+        var wrapper = { done: false };
+        try {
+          call(then, value,
+            bind(internalResolve, wrapper, state),
+            bind(internalReject, wrapper, state)
+          );
+        } catch (error) {
+          internalReject(wrapper, error, state);
+        }
+      });
+    } else {
+      state.value = value;
+      state.state = FULFILLED;
+      notify(state, false);
+    }
+  } catch (error) {
+    internalReject({ done: false }, error, state);
+  }
+};
+
+// constructor polyfill
+if (FORCED_PROMISE_CONSTRUCTOR) {
+  // 25.4.3.1 Promise(executor)
+  PromiseConstructor = function Promise(executor) {
+    anInstance(this, PromisePrototype);
+    aCallable(executor);
+    call(Internal, this);
+    var state = getInternalPromiseState(this);
+    try {
+      executor(bind(internalResolve, state), bind(internalReject, state));
+    } catch (error) {
+      internalReject(state, error);
+    }
+  };
+
+  PromisePrototype = PromiseConstructor.prototype;
+
+  // eslint-disable-next-line no-unused-vars -- required for `.length`
+  Internal = function Promise(executor) {
+    setInternalState(this, {
+      type: PROMISE,
+      done: false,
+      notified: false,
+      parent: false,
+      reactions: new Queue(),
+      rejection: false,
+      state: PENDING,
+      value: null
+    });
+  };
+
+  // `Promise.prototype.then` method
+  // https://tc39.es/ecma262/#sec-promise.prototype.then
+  Internal.prototype = defineBuiltIn(PromisePrototype, 'then', function then(onFulfilled, onRejected) {
+    var state = getInternalPromiseState(this);
+    var reaction = newPromiseCapability(speciesConstructor(this, PromiseConstructor));
+    state.parent = true;
+    reaction.ok = isCallable(onFulfilled) ? onFulfilled : true;
+    reaction.fail = isCallable(onRejected) && onRejected;
+    reaction.domain = IS_NODE ? process.domain : undefined;
+    if (state.state === PENDING) state.reactions.add(reaction);
+    else microtask(function () {
+      callReaction(reaction, state);
+    });
+    return reaction.promise;
+  });
+
+  OwnPromiseCapability = function () {
+    var promise = new Internal();
+    var state = getInternalPromiseState(promise);
+    this.promise = promise;
+    this.resolve = bind(internalResolve, state);
+    this.reject = bind(internalReject, state);
+  };
+
+  newPromiseCapabilityModule.f = newPromiseCapability = function (C) {
+    return C === PromiseConstructor || C === PromiseWrapper
+      ? new OwnPromiseCapability(C)
+      : newGenericPromiseCapability(C);
+  };
+
+  if (!IS_PURE && isCallable(NativePromiseConstructor) && NativePromisePrototype !== Object.prototype) {
+    nativeThen = NativePromisePrototype.then;
+
+    if (!NATIVE_PROMISE_SUBCLASSING) {
+      // make `Promise#then` return a polyfilled `Promise` for native promise-based APIs
+      defineBuiltIn(NativePromisePrototype, 'then', function then(onFulfilled, onRejected) {
+        var that = this;
+        return new PromiseConstructor(function (resolve, reject) {
+          call(nativeThen, that, resolve, reject);
+        }).then(onFulfilled, onRejected);
+      // https://github.com/zloirock/core-js/issues/640
+      }, { unsafe: true });
+    }
+
+    // make `.constructor === Promise` work for native promise-based APIs
+    try {
+      delete NativePromisePrototype.constructor;
+    } catch (error) { /* empty */ }
+
+    // make `instanceof Promise` work for native promise-based APIs
+    if (setPrototypeOf) {
+      setPrototypeOf(NativePromisePrototype, PromisePrototype);
+    }
+  }
+}
+
+// `Promise` constructor
+// https://tc39.es/ecma262/#sec-promise-executor
+$({ global: true, constructor: true, wrap: true, forced: FORCED_PROMISE_CONSTRUCTOR }, {
+  Promise: PromiseConstructor
+});
+
+PromiseWrapper = path.Promise;
+
+setToStringTag(PromiseConstructor, PROMISE, false, true);
+setSpecies(PROMISE);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.finally.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.finally.js ***!
+  \************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var NativePromiseConstructor = __webpack_require__(/*! ../internals/promise-native-constructor */ "./node_modules/core-js/internals/promise-native-constructor.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var speciesConstructor = __webpack_require__(/*! ../internals/species-constructor */ "./node_modules/core-js/internals/species-constructor.js");
+var promiseResolve = __webpack_require__(/*! ../internals/promise-resolve */ "./node_modules/core-js/internals/promise-resolve.js");
+var defineBuiltIn = __webpack_require__(/*! ../internals/define-built-in */ "./node_modules/core-js/internals/define-built-in.js");
+
+var NativePromisePrototype = NativePromiseConstructor && NativePromiseConstructor.prototype;
+
+// Safari bug https://bugs.webkit.org/show_bug.cgi?id=200829
+var NON_GENERIC = !!NativePromiseConstructor && fails(function () {
+  // eslint-disable-next-line unicorn/no-thenable -- required for testing
+  NativePromisePrototype['finally'].call({ then: function () { /* empty */ } }, function () { /* empty */ });
+});
+
+// `Promise.prototype.finally` method
+// https://tc39.es/ecma262/#sec-promise.prototype.finally
+$({ target: 'Promise', proto: true, real: true, forced: NON_GENERIC }, {
+  'finally': function (onFinally) {
+    var C = speciesConstructor(this, getBuiltIn('Promise'));
+    var isFunction = isCallable(onFinally);
+    return this.then(
+      isFunction ? function (x) {
+        return promiseResolve(C, onFinally()).then(function () { return x; });
+      } : onFinally,
+      isFunction ? function (e) {
+        return promiseResolve(C, onFinally()).then(function () { throw e; });
+      } : onFinally
+    );
+  }
+});
+
+// makes sure that native promise-based APIs `Promise#finally` properly works with patched `Promise#then`
+if (!IS_PURE && isCallable(NativePromiseConstructor)) {
+  var method = getBuiltIn('Promise').prototype['finally'];
+  if (NativePromisePrototype['finally'] !== method) {
+    defineBuiltIn(NativePromisePrototype, 'finally', method, { unsafe: true });
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.js":
+/*!****************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.js ***!
+  \****************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+// TODO: Remove this module from `core-js@4` since it's split to modules listed below
+__webpack_require__(/*! ../modules/es.promise.constructor */ "./node_modules/core-js/modules/es.promise.constructor.js");
+__webpack_require__(/*! ../modules/es.promise.all */ "./node_modules/core-js/modules/es.promise.all.js");
+__webpack_require__(/*! ../modules/es.promise.catch */ "./node_modules/core-js/modules/es.promise.catch.js");
+__webpack_require__(/*! ../modules/es.promise.race */ "./node_modules/core-js/modules/es.promise.race.js");
+__webpack_require__(/*! ../modules/es.promise.reject */ "./node_modules/core-js/modules/es.promise.reject.js");
+__webpack_require__(/*! ../modules/es.promise.resolve */ "./node_modules/core-js/modules/es.promise.resolve.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.race.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.race.js ***!
+  \*********************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var aCallable = __webpack_require__(/*! ../internals/a-callable */ "./node_modules/core-js/internals/a-callable.js");
+var newPromiseCapabilityModule = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
+var perform = __webpack_require__(/*! ../internals/perform */ "./node_modules/core-js/internals/perform.js");
+var iterate = __webpack_require__(/*! ../internals/iterate */ "./node_modules/core-js/internals/iterate.js");
+var PROMISE_STATICS_INCORRECT_ITERATION = __webpack_require__(/*! ../internals/promise-statics-incorrect-iteration */ "./node_modules/core-js/internals/promise-statics-incorrect-iteration.js");
+
+// `Promise.race` method
+// https://tc39.es/ecma262/#sec-promise.race
+$({ target: 'Promise', stat: true, forced: PROMISE_STATICS_INCORRECT_ITERATION }, {
+  race: function race(iterable) {
+    var C = this;
+    var capability = newPromiseCapabilityModule.f(C);
+    var reject = capability.reject;
+    var result = perform(function () {
+      var $promiseResolve = aCallable(C.resolve);
+      iterate(iterable, function (promise) {
+        call($promiseResolve, C, promise).then(capability.resolve, reject);
+      });
+    });
+    if (result.error) reject(result.value);
+    return capability.promise;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.reject.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.reject.js ***!
+  \***********************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var newPromiseCapabilityModule = __webpack_require__(/*! ../internals/new-promise-capability */ "./node_modules/core-js/internals/new-promise-capability.js");
+var FORCED_PROMISE_CONSTRUCTOR = (__webpack_require__(/*! ../internals/promise-constructor-detection */ "./node_modules/core-js/internals/promise-constructor-detection.js").CONSTRUCTOR);
+
+// `Promise.reject` method
+// https://tc39.es/ecma262/#sec-promise.reject
+$({ target: 'Promise', stat: true, forced: FORCED_PROMISE_CONSTRUCTOR }, {
+  reject: function reject(r) {
+    var capability = newPromiseCapabilityModule.f(this);
+    var capabilityReject = capability.reject;
+    capabilityReject(r);
+    return capability.promise;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.promise.resolve.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.resolve.js ***!
+  \************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var NativePromiseConstructor = __webpack_require__(/*! ../internals/promise-native-constructor */ "./node_modules/core-js/internals/promise-native-constructor.js");
+var FORCED_PROMISE_CONSTRUCTOR = (__webpack_require__(/*! ../internals/promise-constructor-detection */ "./node_modules/core-js/internals/promise-constructor-detection.js").CONSTRUCTOR);
+var promiseResolve = __webpack_require__(/*! ../internals/promise-resolve */ "./node_modules/core-js/internals/promise-resolve.js");
+
+var PromiseConstructorWrapper = getBuiltIn('Promise');
+var CHECK_WRAPPER = IS_PURE && !FORCED_PROMISE_CONSTRUCTOR;
+
+// `Promise.resolve` method
+// https://tc39.es/ecma262/#sec-promise.resolve
+$({ target: 'Promise', stat: true, forced: IS_PURE || FORCED_PROMISE_CONSTRUCTOR }, {
+  resolve: function resolve(x) {
+    return promiseResolve(CHECK_WRAPPER && this === PromiseConstructorWrapper ? NativePromiseConstructor : this, x);
+  }
+});
 
 
 /***/ }),
@@ -18057,6 +20347,432 @@ fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNa
     }
   ];
 }, !REPLACE_SUPPORTS_NAMED_GROUPS || !REPLACE_KEEPS_$0 || REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.symbol.constructor.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.symbol.constructor.js ***!
+  \***************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var call = __webpack_require__(/*! ../internals/function-call */ "./node_modules/core-js/internals/function-call.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/symbol-constructor-detection */ "./node_modules/core-js/internals/symbol-constructor-detection.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var isPrototypeOf = __webpack_require__(/*! ../internals/object-is-prototype-of */ "./node_modules/core-js/internals/object-is-prototype-of.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "./node_modules/core-js/internals/to-indexed-object.js");
+var toPropertyKey = __webpack_require__(/*! ../internals/to-property-key */ "./node_modules/core-js/internals/to-property-key.js");
+var $toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "./node_modules/core-js/internals/create-property-descriptor.js");
+var nativeObjectCreate = __webpack_require__(/*! ../internals/object-create */ "./node_modules/core-js/internals/object-create.js");
+var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "./node_modules/core-js/internals/object-keys.js");
+var getOwnPropertyNamesModule = __webpack_require__(/*! ../internals/object-get-own-property-names */ "./node_modules/core-js/internals/object-get-own-property-names.js");
+var getOwnPropertyNamesExternal = __webpack_require__(/*! ../internals/object-get-own-property-names-external */ "./node_modules/core-js/internals/object-get-own-property-names-external.js");
+var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "./node_modules/core-js/internals/object-get-own-property-symbols.js");
+var getOwnPropertyDescriptorModule = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "./node_modules/core-js/internals/object-get-own-property-descriptor.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "./node_modules/core-js/internals/object-define-property.js");
+var definePropertiesModule = __webpack_require__(/*! ../internals/object-define-properties */ "./node_modules/core-js/internals/object-define-properties.js");
+var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "./node_modules/core-js/internals/object-property-is-enumerable.js");
+var defineBuiltIn = __webpack_require__(/*! ../internals/define-built-in */ "./node_modules/core-js/internals/define-built-in.js");
+var defineBuiltInAccessor = __webpack_require__(/*! ../internals/define-built-in-accessor */ "./node_modules/core-js/internals/define-built-in-accessor.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "./node_modules/core-js/internals/shared-key.js");
+var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "./node_modules/core-js/internals/hidden-keys.js");
+var uid = __webpack_require__(/*! ../internals/uid */ "./node_modules/core-js/internals/uid.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var wrappedWellKnownSymbolModule = __webpack_require__(/*! ../internals/well-known-symbol-wrapped */ "./node_modules/core-js/internals/well-known-symbol-wrapped.js");
+var defineWellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol-define */ "./node_modules/core-js/internals/well-known-symbol-define.js");
+var defineSymbolToPrimitive = __webpack_require__(/*! ../internals/symbol-define-to-primitive */ "./node_modules/core-js/internals/symbol-define-to-primitive.js");
+var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "./node_modules/core-js/internals/set-to-string-tag.js");
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js");
+var $forEach = (__webpack_require__(/*! ../internals/array-iteration */ "./node_modules/core-js/internals/array-iteration.js").forEach);
+
+var HIDDEN = sharedKey('hidden');
+var SYMBOL = 'Symbol';
+var PROTOTYPE = 'prototype';
+
+var setInternalState = InternalStateModule.set;
+var getInternalState = InternalStateModule.getterFor(SYMBOL);
+
+var ObjectPrototype = Object[PROTOTYPE];
+var $Symbol = globalThis.Symbol;
+var SymbolPrototype = $Symbol && $Symbol[PROTOTYPE];
+var RangeError = globalThis.RangeError;
+var TypeError = globalThis.TypeError;
+var QObject = globalThis.QObject;
+var nativeGetOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
+var nativeDefineProperty = definePropertyModule.f;
+var nativeGetOwnPropertyNames = getOwnPropertyNamesExternal.f;
+var nativePropertyIsEnumerable = propertyIsEnumerableModule.f;
+var push = uncurryThis([].push);
+
+var AllSymbols = shared('symbols');
+var ObjectPrototypeSymbols = shared('op-symbols');
+var WellKnownSymbolsStore = shared('wks');
+
+// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
+var USE_SETTER = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
+
+// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
+var fallbackDefineProperty = function (O, P, Attributes) {
+  var ObjectPrototypeDescriptor = nativeGetOwnPropertyDescriptor(ObjectPrototype, P);
+  if (ObjectPrototypeDescriptor) delete ObjectPrototype[P];
+  nativeDefineProperty(O, P, Attributes);
+  if (ObjectPrototypeDescriptor && O !== ObjectPrototype) {
+    nativeDefineProperty(ObjectPrototype, P, ObjectPrototypeDescriptor);
+  }
+};
+
+var setSymbolDescriptor = DESCRIPTORS && fails(function () {
+  return nativeObjectCreate(nativeDefineProperty({}, 'a', {
+    get: function () { return nativeDefineProperty(this, 'a', { value: 7 }).a; }
+  })).a !== 7;
+}) ? fallbackDefineProperty : nativeDefineProperty;
+
+var wrap = function (tag, description) {
+  var symbol = AllSymbols[tag] = nativeObjectCreate(SymbolPrototype);
+  setInternalState(symbol, {
+    type: SYMBOL,
+    tag: tag,
+    description: description
+  });
+  if (!DESCRIPTORS) symbol.description = description;
+  return symbol;
+};
+
+var $defineProperty = function defineProperty(O, P, Attributes) {
+  if (O === ObjectPrototype) $defineProperty(ObjectPrototypeSymbols, P, Attributes);
+  anObject(O);
+  var key = toPropertyKey(P);
+  anObject(Attributes);
+  if (hasOwn(AllSymbols, key)) {
+    if (!Attributes.enumerable) {
+      if (!hasOwn(O, HIDDEN)) nativeDefineProperty(O, HIDDEN, createPropertyDescriptor(1, nativeObjectCreate(null)));
+      O[HIDDEN][key] = true;
+    } else {
+      if (hasOwn(O, HIDDEN) && O[HIDDEN][key]) O[HIDDEN][key] = false;
+      Attributes = nativeObjectCreate(Attributes, { enumerable: createPropertyDescriptor(0, false) });
+    } return setSymbolDescriptor(O, key, Attributes);
+  } return nativeDefineProperty(O, key, Attributes);
+};
+
+var $defineProperties = function defineProperties(O, Properties) {
+  anObject(O);
+  var properties = toIndexedObject(Properties);
+  var keys = objectKeys(properties).concat($getOwnPropertySymbols(properties));
+  $forEach(keys, function (key) {
+    if (!DESCRIPTORS || call($propertyIsEnumerable, properties, key)) $defineProperty(O, key, properties[key]);
+  });
+  return O;
+};
+
+var $create = function create(O, Properties) {
+  return Properties === undefined ? nativeObjectCreate(O) : $defineProperties(nativeObjectCreate(O), Properties);
+};
+
+var $propertyIsEnumerable = function propertyIsEnumerable(V) {
+  var P = toPropertyKey(V);
+  var enumerable = call(nativePropertyIsEnumerable, this, P);
+  if (this === ObjectPrototype && hasOwn(AllSymbols, P) && !hasOwn(ObjectPrototypeSymbols, P)) return false;
+  return enumerable || !hasOwn(this, P) || !hasOwn(AllSymbols, P) || hasOwn(this, HIDDEN) && this[HIDDEN][P]
+    ? enumerable : true;
+};
+
+var $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(O, P) {
+  var it = toIndexedObject(O);
+  var key = toPropertyKey(P);
+  if (it === ObjectPrototype && hasOwn(AllSymbols, key) && !hasOwn(ObjectPrototypeSymbols, key)) return;
+  var descriptor = nativeGetOwnPropertyDescriptor(it, key);
+  if (descriptor && hasOwn(AllSymbols, key) && !(hasOwn(it, HIDDEN) && it[HIDDEN][key])) {
+    descriptor.enumerable = true;
+  }
+  return descriptor;
+};
+
+var $getOwnPropertyNames = function getOwnPropertyNames(O) {
+  var names = nativeGetOwnPropertyNames(toIndexedObject(O));
+  var result = [];
+  $forEach(names, function (key) {
+    if (!hasOwn(AllSymbols, key) && !hasOwn(hiddenKeys, key)) push(result, key);
+  });
+  return result;
+};
+
+var $getOwnPropertySymbols = function (O) {
+  var IS_OBJECT_PROTOTYPE = O === ObjectPrototype;
+  var names = nativeGetOwnPropertyNames(IS_OBJECT_PROTOTYPE ? ObjectPrototypeSymbols : toIndexedObject(O));
+  var result = [];
+  $forEach(names, function (key) {
+    if (hasOwn(AllSymbols, key) && (!IS_OBJECT_PROTOTYPE || hasOwn(ObjectPrototype, key))) {
+      push(result, AllSymbols[key]);
+    }
+  });
+  return result;
+};
+
+// `Symbol` constructor
+// https://tc39.es/ecma262/#sec-symbol-constructor
+if (!NATIVE_SYMBOL) {
+  $Symbol = function Symbol() {
+    if (isPrototypeOf(SymbolPrototype, this)) throw new TypeError('Symbol is not a constructor');
+    var description = !arguments.length || arguments[0] === undefined ? undefined : $toString(arguments[0]);
+    var tag = uid(description);
+    var setter = function (value) {
+      var $this = this === undefined ? globalThis : this;
+      if ($this === ObjectPrototype) call(setter, ObjectPrototypeSymbols, value);
+      if (hasOwn($this, HIDDEN) && hasOwn($this[HIDDEN], tag)) $this[HIDDEN][tag] = false;
+      var descriptor = createPropertyDescriptor(1, value);
+      try {
+        setSymbolDescriptor($this, tag, descriptor);
+      } catch (error) {
+        if (!(error instanceof RangeError)) throw error;
+        fallbackDefineProperty($this, tag, descriptor);
+      }
+    };
+    if (DESCRIPTORS && USE_SETTER) setSymbolDescriptor(ObjectPrototype, tag, { configurable: true, set: setter });
+    return wrap(tag, description);
+  };
+
+  SymbolPrototype = $Symbol[PROTOTYPE];
+
+  defineBuiltIn(SymbolPrototype, 'toString', function toString() {
+    return getInternalState(this).tag;
+  });
+
+  defineBuiltIn($Symbol, 'withoutSetter', function (description) {
+    return wrap(uid(description), description);
+  });
+
+  propertyIsEnumerableModule.f = $propertyIsEnumerable;
+  definePropertyModule.f = $defineProperty;
+  definePropertiesModule.f = $defineProperties;
+  getOwnPropertyDescriptorModule.f = $getOwnPropertyDescriptor;
+  getOwnPropertyNamesModule.f = getOwnPropertyNamesExternal.f = $getOwnPropertyNames;
+  getOwnPropertySymbolsModule.f = $getOwnPropertySymbols;
+
+  wrappedWellKnownSymbolModule.f = function (name) {
+    return wrap(wellKnownSymbol(name), name);
+  };
+
+  if (DESCRIPTORS) {
+    // https://tc39.es/ecma262/#sec-symbol.prototype.description
+    defineBuiltInAccessor(SymbolPrototype, 'description', {
+      configurable: true,
+      get: function description() {
+        return getInternalState(this).description;
+      }
+    });
+    if (!IS_PURE) {
+      defineBuiltIn(ObjectPrototype, 'propertyIsEnumerable', $propertyIsEnumerable, { unsafe: true });
+    }
+  }
+}
+
+$({ global: true, constructor: true, wrap: true, forced: !NATIVE_SYMBOL, sham: !NATIVE_SYMBOL }, {
+  Symbol: $Symbol
+});
+
+$forEach(objectKeys(WellKnownSymbolsStore), function (name) {
+  defineWellKnownSymbol(name);
+});
+
+$({ target: SYMBOL, stat: true, forced: !NATIVE_SYMBOL }, {
+  useSetter: function () { USE_SETTER = true; },
+  useSimple: function () { USE_SETTER = false; }
+});
+
+$({ target: 'Object', stat: true, forced: !NATIVE_SYMBOL, sham: !DESCRIPTORS }, {
+  // `Object.create` method
+  // https://tc39.es/ecma262/#sec-object.create
+  create: $create,
+  // `Object.defineProperty` method
+  // https://tc39.es/ecma262/#sec-object.defineproperty
+  defineProperty: $defineProperty,
+  // `Object.defineProperties` method
+  // https://tc39.es/ecma262/#sec-object.defineproperties
+  defineProperties: $defineProperties,
+  // `Object.getOwnPropertyDescriptor` method
+  // https://tc39.es/ecma262/#sec-object.getownpropertydescriptors
+  getOwnPropertyDescriptor: $getOwnPropertyDescriptor
+});
+
+$({ target: 'Object', stat: true, forced: !NATIVE_SYMBOL }, {
+  // `Object.getOwnPropertyNames` method
+  // https://tc39.es/ecma262/#sec-object.getownpropertynames
+  getOwnPropertyNames: $getOwnPropertyNames
+});
+
+// `Symbol.prototype[@@toPrimitive]` method
+// https://tc39.es/ecma262/#sec-symbol.prototype-@@toprimitive
+defineSymbolToPrimitive();
+
+// `Symbol.prototype[@@toStringTag]` property
+// https://tc39.es/ecma262/#sec-symbol.prototype-@@tostringtag
+setToStringTag($Symbol, SYMBOL);
+
+hiddenKeys[HIDDEN] = true;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.symbol.description.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.symbol.description.js ***!
+  \***************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+// `Symbol.prototype.description` getter
+// https://tc39.es/ecma262/#sec-symbol.prototype.description
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "./node_modules/core-js/internals/descriptors.js");
+var globalThis = __webpack_require__(/*! ../internals/global-this */ "./node_modules/core-js/internals/global-this.js");
+var uncurryThis = __webpack_require__(/*! ../internals/function-uncurry-this */ "./node_modules/core-js/internals/function-uncurry-this.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
+var isPrototypeOf = __webpack_require__(/*! ../internals/object-is-prototype-of */ "./node_modules/core-js/internals/object-is-prototype-of.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var defineBuiltInAccessor = __webpack_require__(/*! ../internals/define-built-in-accessor */ "./node_modules/core-js/internals/define-built-in-accessor.js");
+var copyConstructorProperties = __webpack_require__(/*! ../internals/copy-constructor-properties */ "./node_modules/core-js/internals/copy-constructor-properties.js");
+
+var NativeSymbol = globalThis.Symbol;
+var SymbolPrototype = NativeSymbol && NativeSymbol.prototype;
+
+if (DESCRIPTORS && isCallable(NativeSymbol) && (!('description' in SymbolPrototype) ||
+  // Safari 12 bug
+  NativeSymbol().description !== undefined
+)) {
+  var EmptyStringDescriptionStore = {};
+  // wrap Symbol constructor for correct work with undefined description
+  var SymbolWrapper = function Symbol() {
+    var description = arguments.length < 1 || arguments[0] === undefined ? undefined : toString(arguments[0]);
+    var result = isPrototypeOf(SymbolPrototype, this)
+      // eslint-disable-next-line sonarjs/inconsistent-function-call -- ok
+      ? new NativeSymbol(description)
+      // in Edge 13, String(Symbol(undefined)) === 'Symbol(undefined)'
+      : description === undefined ? NativeSymbol() : NativeSymbol(description);
+    if (description === '') EmptyStringDescriptionStore[result] = true;
+    return result;
+  };
+
+  copyConstructorProperties(SymbolWrapper, NativeSymbol);
+  SymbolWrapper.prototype = SymbolPrototype;
+  SymbolPrototype.constructor = SymbolWrapper;
+
+  var NATIVE_SYMBOL = String(NativeSymbol('description detection')) === 'Symbol(description detection)';
+  var thisSymbolValue = uncurryThis(SymbolPrototype.valueOf);
+  var symbolDescriptiveString = uncurryThis(SymbolPrototype.toString);
+  var regexp = /^Symbol\((.*)\)[^)]+$/;
+  var replace = uncurryThis(''.replace);
+  var stringSlice = uncurryThis(''.slice);
+
+  defineBuiltInAccessor(SymbolPrototype, 'description', {
+    configurable: true,
+    get: function description() {
+      var symbol = thisSymbolValue(this);
+      if (hasOwn(EmptyStringDescriptionStore, symbol)) return '';
+      var string = symbolDescriptiveString(symbol);
+      var desc = NATIVE_SYMBOL ? stringSlice(string, 7, -1) : replace(string, regexp, '$1');
+      return desc === '' ? undefined : desc;
+    }
+  });
+
+  $({ global: true, constructor: true, forced: true }, {
+    Symbol: SymbolWrapper
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.symbol.for.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/modules/es.symbol.for.js ***!
+  \*******************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var NATIVE_SYMBOL_REGISTRY = __webpack_require__(/*! ../internals/symbol-registry-detection */ "./node_modules/core-js/internals/symbol-registry-detection.js");
+
+var StringToSymbolRegistry = shared('string-to-symbol-registry');
+var SymbolToStringRegistry = shared('symbol-to-string-registry');
+
+// `Symbol.for` method
+// https://tc39.es/ecma262/#sec-symbol.for
+$({ target: 'Symbol', stat: true, forced: !NATIVE_SYMBOL_REGISTRY }, {
+  'for': function (key) {
+    var string = toString(key);
+    if (hasOwn(StringToSymbolRegistry, string)) return StringToSymbolRegistry[string];
+    var symbol = getBuiltIn('Symbol')(string);
+    StringToSymbolRegistry[string] = symbol;
+    SymbolToStringRegistry[symbol] = string;
+    return symbol;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.symbol.js":
+/*!***************************************************!*\
+  !*** ./node_modules/core-js/modules/es.symbol.js ***!
+  \***************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+// TODO: Remove this module from `core-js@4` since it's split to modules listed below
+__webpack_require__(/*! ../modules/es.symbol.constructor */ "./node_modules/core-js/modules/es.symbol.constructor.js");
+__webpack_require__(/*! ../modules/es.symbol.for */ "./node_modules/core-js/modules/es.symbol.for.js");
+__webpack_require__(/*! ../modules/es.symbol.key-for */ "./node_modules/core-js/modules/es.symbol.key-for.js");
+__webpack_require__(/*! ../modules/es.json.stringify */ "./node_modules/core-js/modules/es.json.stringify.js");
+__webpack_require__(/*! ../modules/es.object.get-own-property-symbols */ "./node_modules/core-js/modules/es.object.get-own-property-symbols.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.symbol.key-for.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.symbol.key-for.js ***!
+  \***********************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ "./node_modules/core-js/internals/has-own-property.js");
+var isSymbol = __webpack_require__(/*! ../internals/is-symbol */ "./node_modules/core-js/internals/is-symbol.js");
+var tryToString = __webpack_require__(/*! ../internals/try-to-string */ "./node_modules/core-js/internals/try-to-string.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var NATIVE_SYMBOL_REGISTRY = __webpack_require__(/*! ../internals/symbol-registry-detection */ "./node_modules/core-js/internals/symbol-registry-detection.js");
+
+var SymbolToStringRegistry = shared('symbol-to-string-registry');
+
+// `Symbol.keyFor` method
+// https://tc39.es/ecma262/#sec-symbol.keyfor
+$({ target: 'Symbol', stat: true, forced: !NATIVE_SYMBOL_REGISTRY }, {
+  keyFor: function keyFor(sym) {
+    if (!isSymbol(sym)) throw new TypeError(tryToString(sym) + ' is not a symbol');
+    if (hasOwn(SymbolToStringRegistry, sym)) return SymbolToStringRegistry[sym];
+  }
+});
 
 
 /***/ }),
@@ -18254,6 +20970,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./slider */ "./src/js/slider.js");
 /* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/tabs */ "./src/js/modules/tabs.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
 /// CSS
 
 
@@ -18263,12 +20980,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 window.addEventListener("DOMContentLoaded", function () {
+  "use strict";
+
   (0,_modules_modals__WEBPACK_IMPORTED_MODULE_6__["default"])();
   (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_7__["default"])(".glazing_slider", ".glazing_block", ".glazing_content", "active");
   (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_7__["default"])(".decoration_slider", ".no_click", ".decoration_content > div > div", "after_click");
+  (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_7__["default"])(".balcon_icons", ".balcon_icons_img", ".big_img > img", "do_image_more", "inline-block");
+  (0,_modules_forms__WEBPACK_IMPORTED_MODULE_8__["default"])();
 });
-console.log(1);
 }();
 /******/ })()
 ;

@@ -17,6 +17,18 @@ body {
   display: block;
   color: red;
 }
+.faded {
+  animation-name: faded;
+  animation-duration: 1.5s;
+}
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 a:hover {
   text-decoration: none;
@@ -202,7 +214,7 @@ textarea:focus {
 }
 
 .header .logo_img img {
-  margin-right: 2rem;
+  width: 12vw;
 }
 
 .header .logo p {
@@ -322,6 +334,7 @@ textarea:focus {
 .main {
   padding: 10rem 0;
   background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;
+  background-size: cover;
 }
 
 .main h1 {
@@ -332,7 +345,8 @@ textarea:focus {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #333333;
+  color: #fff;
+  text-shadow: -4px 2px 13px #333;
 }
 
 .main h1 span {
@@ -836,6 +850,9 @@ textarea:focus {
 .footer .logo {
   text-align: center;
 }
+.footer .logo img {
+  width: 12vw;
+}
 
 .footer .contacts {
   padding: 0;
@@ -1089,9 +1106,6 @@ textarea:focus {
   background: url(../img/modal_calc/check.png) center center no-repeat;
 }
 
-.no-background {
-}
-
 .checkbox-custom[id="warm"]::before {
   background: url(../img/modal_calc/check_warm.png) center center no-repeat;
 }
@@ -1132,9 +1146,6 @@ textarea:focus {
 
 /*Media*/
 @media (max-width: 1400px) {
-  .main {
-    background-position: -30rem 0;
-  }
 }
 
 @media (max-width: 1199px) {
