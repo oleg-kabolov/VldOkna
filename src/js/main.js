@@ -17,7 +17,7 @@ import changeModalState from "./modules/changeModalState";
 window.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
-  let deadline = "2026-04-18";
+  let deadline = `2027-04-29`;
 
   let modalState = {};
 
