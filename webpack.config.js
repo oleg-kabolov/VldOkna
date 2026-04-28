@@ -52,6 +52,9 @@ module.exports = {
           isProduction ? MiniCssExtractPlugin.loader : "style-loader",
           "css-loader",
         ],
+        generator: {
+          filename: "assets/styles/[name].[hash][ext]",
+        },
       },
       {
         test: /\.s[ac]ss$/,
