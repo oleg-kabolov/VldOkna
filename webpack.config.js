@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const isProduction = process.env.NODE_ENV === "production";
+const isProduction = "production";
 
 module.exports = {
   entry: "./src/js/main.js",
@@ -111,7 +111,7 @@ module.exports = {
     ...(isProduction
       ? [
           new MiniCssExtractPlugin({
-            filename: "assets/css/style.[contenthash].css",
+            filename: "assets/css/style.main.css",
           }),
         ]
       : []),
