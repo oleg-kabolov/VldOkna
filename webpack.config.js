@@ -111,7 +111,7 @@ module.exports = {
     ...(isProduction
       ? [
           new MiniCssExtractPlugin({
-            filename: "assets/css/style.main.css",
+            filename: "assets/css/style.css",
           }),
         ]
       : []),
